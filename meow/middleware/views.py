@@ -13,7 +13,7 @@ def register_user(request, username, password):
   u.save()
   return [u.username, u.email, u.id]
 
-@jsonrpc_method('meow.listUsers')
+@jsonrpc_method('meow.listUsers',authenticated=True)
 def list_users(request):
   users = User.objects.all()
   result = []
