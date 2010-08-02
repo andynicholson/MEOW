@@ -1,0 +1,46 @@
+10
+
+dir
+140
+http://django-messages.googlecode.com/svn/trunk/django_messages/templates/notification
+http://django-messages.googlecode.com/svn
+
+
+
+2008-10-20T22:33:56.830920Z
+80
+leidel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b6a2a13a-764b-0410-8c04-89e9a283537e
+
+messages_sent
+dir
+
+messages_recovered
+dir
+
+messages_reply_received
+dir
+
+messages_replied
+dir
+
+messages_received
+dir
+
+messages_deleted
+dir
+

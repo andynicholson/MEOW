@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages
+END
+new_message.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/new_message.html
+END
+inbox.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/inbox.html
+END
+outbox.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/outbox.html
+END
+trash.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/trash.html
+END
+compose.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/compose.html
+END
+view.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/view.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/138/trunk/django_messages/templates/django_messages/base.html
+END

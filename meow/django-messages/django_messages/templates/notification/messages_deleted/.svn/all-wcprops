@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_deleted
+END
+full.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_deleted/full.txt
+END
+notice.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_deleted/notice.html
+END

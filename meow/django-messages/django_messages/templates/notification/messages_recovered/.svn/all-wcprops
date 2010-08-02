@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_recovered
+END
+full.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_recovered/full.txt
+END
+notice.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/138/trunk/django_messages/templates/notification/messages_recovered/notice.html
+END

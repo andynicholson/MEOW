@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/120/trunk/docs
+END
+usage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/120/trunk/docs/usage.txt
+END
+install.txt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/91/trunk/docs/install.txt
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/120/trunk/docs/index.txt
+END
+customizing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/120/trunk/docs/customizing.txt
+END
+django-messages.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/119/trunk/docs/django-messages.png
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/119/trunk/docs/README.txt
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/120/trunk/docs/conf.py
+END

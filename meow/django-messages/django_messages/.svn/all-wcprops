@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/140/trunk/django_messages
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/138/trunk/django_messages/admin.py
+END
+management.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/138/trunk/django_messages/management.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/140/trunk/django_messages/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/138/trunk/django_messages/__init__.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/140/trunk/django_messages/utils.py
+END
+signals.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/138/trunk/django_messages/signals.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/140/trunk/django_messages/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/140/trunk/django_messages/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/138/trunk/django_messages/urls.py
+END
+fields.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/138/trunk/django_messages/fields.py
+END
+context_processors.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/138/trunk/django_messages/context_processors.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/138/trunk/django_messages/forms.py
+END
