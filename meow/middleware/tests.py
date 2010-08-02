@@ -40,10 +40,31 @@ class MeowTestCase(WebTest):
 
    def test_add_user(self):
 	self.proxy = ServiceProxy('http://erko.infiniterecursion.com.au/json/')
-	res = self.proxy.meow.register('testuser','plaintextpassword')
-	reply_ =  
+	res = self.proxy.meow.register('andy','plaintextpassword')
+	reply_ = {u'error': {u'code': 500, u'data': None, u'message': u'OtherError: column username is not unique'} }
 	print res
-	assert res['result'] == reply_['result']
+	assert res['error']['message'] == reply_['error']['message']
+
+	res = self.proxy.meow.register('randomuser','plaintextpassword')
+	reply_ = {u'error': None, u'result': [u'randomuser', u'randomuser@meow.infinitecursion.com.au', 6]}
+	print res
+	assert res['error'] == None
+
+
+   def test_delete_user(self):
+	self.proxy = ServiceProxy('http://erko.infiniterecursion.com.au/json/')
+	try:
+		res = self.proxy.meow.deactivate('andy','wrongpassword')
+		## We SHOULD get the IOError
+		assert True == False
+	except IOError, e:
+		print e
+
+	res = self.proxy.meow.deactivate('randomuser','plaintextpassword')
+	reply_ =  {u'error': None, u'result': [u'randomuser', u'randomuser@meow.infinitecursion.com.au', 6]}
+	print res
+	assert res['error'] == None
+
 
 
 

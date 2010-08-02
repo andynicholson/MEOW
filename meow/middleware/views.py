@@ -21,3 +21,9 @@ def list_users(request):
 	result.append([user.username, user.email, user.id])
   return result
 
+@jsonrpc_method('meow.deactivate',authenticated=True)
+def delete_user(request):
+  request.user.delete()
+  return True
+
+
