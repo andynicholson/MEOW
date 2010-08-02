@@ -23,8 +23,15 @@ Another way to test that 1 + 1 is equal to 2.
 True
 """}
 
+#
+# parameters to existing MEOW install
+#
 SERVICE_PROXY_URL = 'http://erko.infiniterecursion.com.au/json/'
 EXISTING_USERNAME = 'andy'
+
+#
+# main test case for MEOW
+#
 class MeowTestCase(WebTest):
    def test_echo_service(self):
 	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
@@ -62,11 +69,17 @@ class MeowTestCase(WebTest):
 
    def test_list_users(self):
 	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
-	#create a user
-	self.proxy.meow.register('randomuser','plaintextpassword')
-	
 
-	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
+	try:
+		res = self.proxy.meow.listUsers('randomuser','doesntexistpassword')
+	        ## We SHOULD get the IOError
+                assert True == False
+        except IOError, e:
+                pass
+
+	#create a test user
+	self.proxy.meow.register('randomuser','plaintextpassword')
+
 	res = self.proxy.meow.listUsers('randomuser','plaintextpassword')
 	# This test is assuming that ONE user has been created already (and ONLY one).
 	# plus this test user. ASSUME ONLY TWO USERS SO FAR!
