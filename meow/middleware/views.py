@@ -16,8 +16,8 @@ def ohce(request, msg):
 # Users
 #
 @jsonrpc_method('meow.registerUser')
-def register_user(request, username, password):
-  u = User.objects.create_user(username, '%s@meow.infinitecursion.com.au'%username, password)
+def register_user(request, username, password, email):
+  u = User.objects.create_user(username, email , password)
   u.save()
   return [u.username, u.email, u.id]
 

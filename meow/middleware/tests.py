@@ -52,13 +52,14 @@ class MeowTestCase(WebTest):
 	# This test is assuming that ONE user has been created already (and ONLY one).
         #Change it to the first django user you created
 	# This test is designed to FAIL at making a new user - ie testing uniqueness constraint
-	res = self.proxy.meow.registerUser(EXISTING_USERNAME,'plaintextpassword')
+	res = self.proxy.meow.registerUser(EXISTING_USERNAME,'plaintextpassword','a@b.c')
 	reply_ = {u'error': {u'code': 500, u'data': None, u'message': u'OtherError: column username is not unique'} }
 	assert res['error']['message'] == reply_['error']['message']
 	#make a new user
-	res = self.proxy.meow.registerUser('randomuser','plaintextpassword')
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 	reply_ = {u'error': None, u'result': [u'randomuser', u'randomuser@meow.infinitecursion.com.au', 6]}
 	assert res['error'] == None
+	assert res['result'][1] == 'intothemist@gmail.com'
 
 
    def test_delete_user(self):
@@ -86,7 +87,7 @@ class MeowTestCase(WebTest):
                 pass
 
 	#create a test user
-	self.proxy.meow.registerUser('randomuser','plaintextpassword')
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 
 	res = self.proxy.meow.listUsers('randomuser','plaintextpassword')
 	# This test is assuming that ONE user has been created already (and ONLY one).
@@ -113,7 +114,7 @@ class MeowTestCase(WebTest):
 		pass
 
 	#create a test user
-	self.proxy.meow.registerUser('randomuser','plaintextpassword')
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 
 
 	#join a group
@@ -139,7 +140,7 @@ class MeowTestCase(WebTest):
 		pass
 
 	#create a test user
-	self.proxy.meow.registerUser('randomuser','plaintextpassword')
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 
 	#leave a group
 	res = self.proxy.meow.leaveGroup('randomuser','plaintextpassword',EXISTING_GROUPNAME)
@@ -162,7 +163,7 @@ class MeowTestCase(WebTest):
                 pass
 
 	#create a test user
-	self.proxy.meow.registerUser('randomuser','plaintextpassword')
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 
 	res = self.proxy.meow.listGroups('randomuser','plaintextpassword')
 	# This test is assuming that ONE group has been created already (and ONLY one).
