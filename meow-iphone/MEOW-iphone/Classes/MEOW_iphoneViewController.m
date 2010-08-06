@@ -29,8 +29,6 @@
 	//[dk2 addCallback:callbackTS(self,doRegistrationFailed:)];
 	[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
 	
-	[arg1 release];
-	[arg2 release];
 }
 
 - (id)doRegistrationCompleted:(id)result {

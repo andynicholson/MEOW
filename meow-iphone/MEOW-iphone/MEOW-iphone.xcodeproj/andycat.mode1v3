@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MEOW_iphoneViewController.m</string>
+								<string>DKDeferred+JSON.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MEOW_iphoneViewController.m</string>
+										<string>DKDeferred+JSON.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>45D32A3E120B9FC4004D31D8</string>
+										<string>45D32A73120BC53B004D31D8</string>
 										<key>history</key>
 										<array>
 											<string>4546E969120826D700BBC3BC</string>
@@ -342,7 +342,8 @@
 											<string>4503D73E12096A90005E9A73</string>
 											<string>4503D73F12096A90005E9A73</string>
 											<string>4503D802120A91DA005E9A73</string>
-											<string>45721340120B9F19007E4C62</string>
+											<string>45D32A6F120BC53B004D31D8</string>
+											<string>45D32A70120BC53B004D31D8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -540,12 +541,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>45D32A49120B9FC4004D31D8</string>
 		<string>45D32A4A120B9FC4004D31D8</string>
 		<string>45D32A4B120B9FC4004D31D8</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>4546E95712081F6000BBC3BC</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW-iphone.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -570,7 +570,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>DKDeferred+JSON.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -587,6 +587,8 @@
 							<string>440pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -887,7 +889,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1241, 681}}</string>
 								<key>RubberWindowFrame</key>
-								<string>132 56 1241 722 0 0 1280 778 </string>
+								<string>35 53 1241 722 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -916,11 +918,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>132 56 1241 722 0 0 1280 778 </string>
+			<string>35 53 1241 722 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
