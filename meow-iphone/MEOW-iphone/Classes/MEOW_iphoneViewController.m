@@ -29,8 +29,6 @@
 	//[dk2 addCallback:callbackTS(self,doRegistrationFailed:)];
 	[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
 	
-	[arg1 release];
-	[arg2 release];
 }
 
 - (id)doRegistrationCompleted:(id)result {
@@ -68,11 +66,13 @@
 	
 }
 
+/*
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
 	[textField resignFirstResponder];
 	return YES;
 	
 }
+*/
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
 	

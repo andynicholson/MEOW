@@ -1,440 +1,0 @@
-TDeferredKit
-v7
-r0
-t302605843.320309
-cCheck dependencies
-cProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch.gch CocoaDeferred_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C469BA60000000000000132
-t1279695782
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/CommonCrypto/CommonDigest.h
-c000000004A11E8210000000000002407
-t1242687521
-s9223
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/CocoaDeferred_Prefix.pch
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m
-c00000000000000000000000000000000
-t2
-s0
-i"DKCallback.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-i"JSON/JSON.h"
-i"DKDeferred.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m
-c00000000000000000000000000000000
-t2
-s0
-i"DKDeferred+JSON.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.h
-c00000000000000000000000000000000
-t2
-s0
-i<UIKit/UIKit.h>
-i"DKDeferred.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m
-c00000000000000000000000000000000
-t2
-s0
-i"DKDeferred+UIKit.h"
-i"UIImage+DKDeferred.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-i"DKCallback.h"
-i"DKMacros.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m
-c00000000000000000000000000000000
-t2
-s0
-i"DKDeferred.h"
-i<CommonCrypto/CommonDigest.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKMacros.h
-c00000000000000000000000000000000
-t2
-s0
-i"DKCallback.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.h
-c00000000000000000000000000000000
-t2
-s0
-i<UIKit/UIKit.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m
-c00000000000000000000000000000000
-t2
-s0
-i"UIImage+DKDeferred.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/JSON.h
-c00000000000000000000000000000000
-t2
-s0
-i"SBJSON.h"
-i"NSObject+SBJSON.h"
-i"NSString+SBJSON.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m
-c00000000000000000000000000000000
-t2
-s0
-i"NSObject+SBJSON.h"
-i"SBJsonWriter.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m
-c00000000000000000000000000000000
-t2
-s0
-i"NSString+SBJSON.h"
-i"SBJsonParser.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-i"SBJsonParser.h"
-i"SBJsonWriter.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m
-c00000000000000000000000000000000
-t2
-s0
-i"SBJSON.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m
-c00000000000000000000000000000000
-t2
-s0
-i"SBJsonBase.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m
-c00000000000000000000000000000000
-t2
-s0
-i"SBJsonParser.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.h
-c00000000000000000000000000000000
-t2
-s0
-i<Foundation/Foundation.h>
-i"SBJsonBase.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m
-c00000000000000000000000000000000
-t2
-s0
-i"SBJsonWriter.h"
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKCallback.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+JSON.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+UIKit.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DeferredKit.LinkFileList
-c000000004C592E930000000000000708
-t1280913043
-s1800
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSObject+SBJSON.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSString+SBJSON.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJSON.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonBase.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonParser.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonWriter.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/UIImage+DKDeferred.o
-t2
-s0
-
-N/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/libDeferredKit.a
-t2
-s0
-
-N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch.gch
-t2
-s0
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302605843#302605843#0(0"0(0#1#0"8624886848#0"0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKCallback.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605726.930582
-e302605727.090900
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKCallback.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m302605726#302605727#0(0"0(0#0#93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m8607197664#2291"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKCallback.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKCallback.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+JSON.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605726.638776
-e302605726.809574
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+JSON.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m302605726#302605726#0(0"0(0#0#98"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m8617103840#2301"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+JSON.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+JSON.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+UIKit.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605726.640349
-e302605726.930452
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+UIKit.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m302605726#302605726#0(0"0(0#0#99"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m8635752096#2303"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred+UIKit.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred+UIKit.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605726.810422
-e302605727.806026
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache initWithDirectory:maxEntries:cullFrequency:]':
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:986: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:989: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache _cull]':
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:1004: warning: 'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache _getNumEntries]':
-o/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:1022: warning: 'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)
-lSLF07#2@101"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m302605726#302605727#0(1760"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache initWithDirectory:maxEntries:cullFrequency:]':/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:986: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:989: warning: 'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache _cull]':/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:1004: warning: 'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m: In function '-[DKDeferredCache _getNumEntries]':/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m:1022: warning: 'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)4(22@222"'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)302605727#173#331#0(6@93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m302600805#986#0#986#0#33"'*' is deprecated (declared at *)0(22@222"'createDirectoryAtPath:attributes:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:168)302605727#504#331#0(6@93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m302600805#989#0#989#0#33"'*' is deprecated (declared at *)0(22@213"'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)302605727#970#323#0(6@93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m302600805#1004#0#1004#0#33"'*' is deprecated (declared at *)0(22@213"'directoryContentsAtPath:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:164)302605727#1437#323#0(6@93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m302600805#1022#0#1022#0#33"'*' is deprecated (declared at *)0(0#0#93"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m8635902560#2291"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/DKDeferred.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DKDeferred.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSObject+SBJSON.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.477660
-e302605727.562119
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSObject+SBJSON.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m302605727#302605727#0(0"0(0#0#91"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m8638419872#2294"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSObject+SBJSON.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSObject+SBJSON.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSString+SBJSON.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.413223
-e302605727.477370
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSString+SBJSON.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m302605727#302605727#0(0"0(0#0#91"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m8639762624#2294"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/NSString+SBJSON.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/NSString+SBJSON.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJSON.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.311778
-e302605727.413100
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJSON.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m302605727#302605727#0(0"0(0#0#82"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m8640042368#2276"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJSON.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJSON.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonBase.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.714442
-e302605727.816877
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonBase.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m302605727#302605727#0(0"0(0#0#86"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m8639875552#2284"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonBase.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonBase.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonParser.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.562240
-e302605727.713974
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonParser.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m302605727#302605727#0(0"0(0#0#88"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m8635539456#2288"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonParser.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonParser.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonWriter.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.806144
-e302605727.949595
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonWriter.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m302605727#302605727#0(0"0(0#0#88"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m8638699456#2288"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/JSON/SBJsonWriter.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/SBJsonWriter.o0#
-
-CCompileC build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/UIImage+DKDeferred.o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605727.091023
-e302605727.311659
-r1
-xCompileC
-xbuild/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/UIImage+DKDeferred.o
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@109"Compile /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m302605727#302605727#0(0"0(0#0#101"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m8636365440#2307"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/Source/DeferredKit/UIImage+DKDeferred.m -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/UIImage+DKDeferred.o0#
-
-CLibtool /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/libDeferredKit.a normal i386
-s302605727.949715
-e302605727.973606
-r1
-xLibtool
-x/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/libDeferredKit.a
-xnormal
-xi386
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@64"Libtool build/Debug-iphonesimulator/libDeferredKit.a normal i386302605727#302605727#0(136"/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8640179744#867"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -filelist /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/Objects-normal/i386/DeferredKit.LinkFileList -ObjC -framework Foundation -framework UIKit -o /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/libDeferredKit.a0#
-
-CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch.gch CocoaDeferred_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302605843.306250
-e302605843.320194
-r0
-xProcessPCH
-x/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch.gch
-xCocoaDeferred_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/CocoaDeferred_Prefix.pch: No such file or directory
-oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
-oi686-apple-darwin10-gcc-4.2.1: no input files
-lSLF07#2@35"Precompile CocoaDeferred_Prefix.pch302605843#302605843#0(395"i686-apple-darwin10-gcc-4.2.1: /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/CocoaDeferred_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1302605843#18446744073709551615#0#0(1@0"0(0#0#86"/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/CocoaDeferred_Prefix.pch8622813504#2125"    cd /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DeferredKit-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/Debug-iphonesimulator/include -ISource -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources/i386 -I/Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/build/CocoaDeferred.build/Debug-iphonesimulator/DeferredKit.build/DerivedSources -c /Users/andycat/src/MEOW/meow-iphone/DeferredKit/CocoaDeferred/CocoaDeferred_Prefix.pch -o /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CocoaDeferred_Prefix-efgkdxgzwdwelqbnhyurcrlnjiiw/CocoaDeferred_Prefix.pch.gch1#
-
