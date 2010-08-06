@@ -27,21 +27,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libDeferredKit.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = DeferredKit;
 		};
 		4503D6FA12096654005E9A73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 229C389C104DE23400CFAA3F /* DeferredTest.app */;
+			remoteGlobalIDString = 229C389C104DE23400CFAA3F;
 			remoteInfo = DeferredTest;
 		};
 		4503D6FF12096680005E9A73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* DeferredKit */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = DeferredKit;
 		};
 /* End PBXContainerItemProxy section */
@@ -268,12 +268,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MEOW_iphone_Prefix.pch;
 				INFOPLIST_FILE = "MEOW_iphone-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "MEOW-iphone";
 			};
 			name = Debug;

@@ -30,15 +30,15 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 1612}}";
-			sepNavSelRange = "{1186, 0}";
-			sepNavVisRange = "{376, 869}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1729}}";
+			sepNavSelRange = "{2084, 0}";
+			sepNavVisRange = "{1702, 604}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 4546E7791208197700BBC3BC /* MEOW-iphone */;
-		activeSDKPreference = iphonesimulator4.0;
+		activeSDKPreference = iphoneos4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* MEOW-iphone */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* MEOW-iphone */,
@@ -46,7 +46,7 @@
 		breakpoints = (
 			4546EA561208372000BBC3BC /* MEOW_iphoneViewController.m:33 */,
 			4503D7D5120A8C92005E9A73 /* MEOW_iphoneViewController.m:54 */,
-			4503D80E120A9318005E9A73 /* MEOW_iphoneViewController.m:72 */,
+			4503D80E120A9318005E9A73 /* MEOW_iphoneViewController.m:74 */,
 		);
 		codeSenseManager = 4546E7861208199900BBC3BC /* Code sense */;
 		executables = (
@@ -97,21 +97,22 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 302605883;
-			PBXWorkspaceStateSaveDate = 302605883;
+			PBXPerProjectTemplateStateSaveDate = 302751534;
+			PBXWorkspaceStateSaveDate = 302751534;
 		};
 		perUserProjectItems = {
-			4503D73912096A90005E9A73 /* PBXTextBookmark */ = 4503D73912096A90005E9A73 /* PBXTextBookmark */;
-			4503D73A12096A90005E9A73 /* PBXTextBookmark */ = 4503D73A12096A90005E9A73 /* PBXTextBookmark */;
-			4503D73B12096A90005E9A73 /* PBXTextBookmark */ = 4503D73B12096A90005E9A73 /* PBXTextBookmark */;
-			4503D73C12096A90005E9A73 /* PBXTextBookmark */ = 4503D73C12096A90005E9A73 /* PBXTextBookmark */;
-			4503D73D12096A90005E9A73 /* PBXTextBookmark */ = 4503D73D12096A90005E9A73 /* PBXTextBookmark */;
-			4503D73E12096A90005E9A73 /* PBXTextBookmark */ = 4503D73E12096A90005E9A73 /* PBXTextBookmark */;
-			4503D73F12096A90005E9A73 /* PBXTextBookmark */ = 4503D73F12096A90005E9A73 /* PBXTextBookmark */;
-			4503D802120A91DA005E9A73 /* PBXTextBookmark */ = 4503D802120A91DA005E9A73 /* PBXTextBookmark */;
-			4503D810120A9325005E9A73 /* PBXTextBookmark */ = 4503D810120A9325005E9A73 /* PBXTextBookmark */;
-			4503D826120B9C51005E9A73 /* PBXTextBookmark */ = 4503D826120B9C51005E9A73 /* PBXTextBookmark */;
-			4546E969120826D700BBC3BC /* PBXTextBookmark */ = 4546E969120826D700BBC3BC /* PBXTextBookmark */;
+			4503D73912096A90005E9A73 = 4503D73912096A90005E9A73 /* PBXTextBookmark */;
+			4503D73A12096A90005E9A73 = 4503D73A12096A90005E9A73 /* PBXTextBookmark */;
+			4503D73B12096A90005E9A73 = 4503D73B12096A90005E9A73 /* PBXTextBookmark */;
+			4503D73C12096A90005E9A73 = 4503D73C12096A90005E9A73 /* PBXTextBookmark */;
+			4503D73D12096A90005E9A73 = 4503D73D12096A90005E9A73 /* PBXTextBookmark */;
+			4503D73E12096A90005E9A73 = 4503D73E12096A90005E9A73 /* PBXTextBookmark */;
+			4503D73F12096A90005E9A73 = 4503D73F12096A90005E9A73 /* PBXTextBookmark */;
+			4503D802120A91DA005E9A73 = 4503D802120A91DA005E9A73 /* PBXTextBookmark */;
+			4503D826120B9C51005E9A73 = 4503D826120B9C51005E9A73 /* PBXTextBookmark */;
+			4546E969120826D700BBC3BC = 4546E969120826D700BBC3BC /* PBXTextBookmark */;
+			45721340120B9F19007E4C62 = 45721340120B9F19007E4C62 /* PBXTextBookmark */;
+			45D32A3E120B9FC4004D31D8 /* PBXTextBookmark */ = 45D32A3E120B9FC4004D31D8 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4546E7851208199900BBC3BC /* Source Control */;
 		userBuildSettings = {
@@ -201,7 +202,7 @@
 		ignoreCount = 0;
 		lineNumber = 54;
 		location = "MEOW-iphone";
-		modificationTime = 302683389.350663;
+		modificationTime = 302756918.581719;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -215,7 +216,7 @@
 		vrLen = 927;
 		vrLoc = 0;
 	};
-	4503D80E120A9318005E9A73 /* MEOW_iphoneViewController.m:72 */ = {
+	4503D80E120A9318005E9A73 /* MEOW_iphoneViewController.m:74 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -225,30 +226,20 @@
 		delayBeforeContinue = 0;
 		fileReference = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */;
 		functionName = "-textFieldShouldEndEditing:";
-		hitCount = 2;
+		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 72;
+		lineNumber = 74;
 		location = "MEOW-iphone";
-		modificationTime = 302683413.222789;
+		modificationTime = 302756918.58183;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
-	};
-	4503D810120A9325005E9A73 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */;
-		name = "MEOW_iphoneViewController.m: 76";
-		rLen = 0;
-		rLoc = 2193;
-		rType = 0;
-		vrLen = 904;
-		vrLoc = 1443;
 	};
 	4503D826120B9C51005E9A73 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */;
 		name = "MEOW_iphoneViewController.m: 85";
 		rLen = 0;
-		rLoc = 2193;
+		rLoc = 2199;
 		rType = 0;
 		vrLen = 1239;
 		vrLoc = 161;
@@ -365,8 +356,28 @@
 		ignoreCount = 0;
 		lineNumber = 33;
 		location = "MEOW-iphone";
-		modificationTime = 302683389.350274;
+		modificationTime = 302756918.58147;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
+	};
+	45721340120B9F19007E4C62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */;
+		name = "MEOW_iphoneViewController.m: 85";
+		rLen = 0;
+		rLoc = 2199;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 774;
+	};
+	45D32A3E120B9FC4004D31D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */;
+		name = "MEOW_iphoneViewController.m: 71";
+		rLen = 0;
+		rLoc = 2028;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 1861;
 	};
 }

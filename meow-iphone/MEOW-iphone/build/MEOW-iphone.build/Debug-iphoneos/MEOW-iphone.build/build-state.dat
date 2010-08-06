@@ -1,7 +1,7 @@
 TMEOW-iphone
 v7
 r0
-t302680565.262330
+t302756908.945274
 cCheck dependencies
 cCpResource build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist MEOW_iphone-Info.plist
@@ -9,22 +9,13 @@ cCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib
 cCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib
 cCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib
 cProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch.gch MEOW_iphone_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch MEOW_iphone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone normal armv6
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone normal armv7
-cCreateUniversalBinary /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal "armv6 armv7"
+cLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal armv6
 cGenerateDSYMFile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
 cProcessProductPackaging "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision
 cTouch /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
@@ -303,15 +294,15 @@ i"MEOW_iphoneAppDelegate.h"
 i"MEOW_iphoneViewController.h"
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.h
-c000000004C57EDFA0000000000000142
-t1280830970
-s322
+c000000004C5A5A26000000000000039F
+t1280989734
+s927
 i<UIKit/UIKit.h>
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m
-c000000004C593DFF0000000000000992
-t1280916991
-s2450
+c000000004C5B7CA70000000000000D72
+t1281064103
+s3442
 i"MEOW_iphoneViewController.h"
 i"DKDeferred+JSON.h"
 
@@ -1368,14 +1359,14 @@ i<Foundation/Foundation.h>
 i"SBJsonBase.h"
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a
-c000000004C59399400000000000AB3C0
-t1280915860
+c000000004C5B671200000000000AB3C0
+t1281058578
 s701376
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib
-c000000004C57FC8D0000000000009601
-t1280834701
-s38401
+c000000004C5A5C9F000000000000AAFE
+t1280990367
+s43774
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch
 c000000004C57E1F700000000000000BF
@@ -1390,11 +1381,11 @@ t1280827895
 s20057
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
-t1280987765
-s442
+t1281064108
+s408
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM
-t1280987763
+t1281064108
 s102
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/.gitignore
@@ -1462,7 +1453,7 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/CatalogViewController.nib
-t1280828986
+t1281058580
 s979
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Changes.md
@@ -1486,7 +1477,7 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist
-t1280987760
+t1281058578
 s751
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/InstallDocumentation.sh
@@ -1510,19 +1501,19 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
-t1280987763
-s357868
+t1281064108
+s184696
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW_iphoneViewController.nib
-t1280835536
-s3464
+t1281058579
+s3938
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MainWindow.nib
-t1280828743
+t1281058579
 s1131
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/PkgInfo
-t1280987760
+t1281058578
 s8
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/README
@@ -1538,7 +1529,7 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist
-t1280828740
+t1281058579
 s485
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Tests-Info.plist
@@ -1610,7 +1601,7 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision
-t1280828748
+t1281058582
 s7244
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/exclude
@@ -1930,7 +1921,7 @@ t2
 s0
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent
-t1280987764
+t1281058582
 s446
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/AbstractTest.o
@@ -1950,11 +1941,11 @@ t1280829374
 s22080
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o
-t1280987762
+t1281058737
 s9060
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o
-t1280987762
+t1281058737
 s42640
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/DataDrivenTest.o
@@ -1970,21 +1961,21 @@ t1280836359
 s35048
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone
-t1280987763
-s177876
+t1281058212
+s184868
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone.LinkFileList
-c000000004C5A52700000000000000365
-t1280987760
+c000000004C5B67B10000000000000365
+t1281058737
 s869
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o
-t1280987762
-s47324
+t1281058737
+s47492
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o
-t1280987762
-s39908
+t1281064107
+s53232
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MaxDepthTest.o
 t2
@@ -2039,7 +2030,7 @@ t1280829375
 s25756
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o
-t1280987762
+t1281058737
 s22268
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/bench.o
@@ -2055,7 +2046,7 @@ t1280835538
 s11360
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o
-t1280987762
+t1281058737
 s6456
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/streamutils.o
@@ -2079,11 +2070,11 @@ t1280829375
 s21832
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o
-t1280987763
+t1281058581
 s8996
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o
-t1280987763
+t1281058581
 s42552
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/DataDrivenTest.o
@@ -2099,21 +2090,21 @@ t1280836359
 s34200
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone
-t1280987763
-s173548
+t1281058212
+s176444
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone.LinkFileList
-c000000004C5A52700000000000000365
-t1280987760
+c000000004C5B67120000000000000365
+t1281058578
 s869
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o
-t1280987762
-s47240
+t1281058581
+s47412
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o
-t1280987762
-s39796
+t1281058581
+s53328
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MaxDepthTest.o
 t2
@@ -2168,7 +2159,7 @@ t1280829376
 s25340
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o
-t1280987763
+t1281058581
 s22024
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/bench.o
@@ -2184,7 +2175,7 @@ t1280835541
 s10148
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o
-t1280987762
+t1281058581
 s6440
 
 N/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/streamutils.o
@@ -2218,7 +2209,7 @@ t1280828747
 s9852464
 
 N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch
-t1280987761
+t1281058581
 s10311216
 
 NMEOW_iphone-Info.plist
@@ -2228,15 +2219,15 @@ s918
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies302680560#302680560#0(0"0(0#1#0"8632581408#0"0#
+lSLF07#2@18"Check dependencies302756907#302756907#0(0"0(0#1#0"8641005920#0"0#
 
 CCodeSign /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
-s302680564.044627
-e302680565.262138
+s302756908.287141
+e302756908.945003
 r1
 xCodeSign
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
-lSLF07#2@45"CodeSign build/Debug-iphoneos/MEOW-iphone.app302680564#302680565#0(0"0(0#0#84"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app8637929024#700"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Noa Peer (593895L9XW)" --resource-rules=/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist --entitlements /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
+lSLF07#2@45"CodeSign build/Debug-iphoneos/MEOW-iphone.app302756908#302756908#0(0"0(0#0#84"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app8641731872#700"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Noa Peer (593895L9XW)" --resource-rules=/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist --entitlements /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/AbstractTest.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/Tests/AbstractTest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2285,8 +2276,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m302522174#302522174#0(0"0(0#0#65"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m8614367456#1917"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-elhvqthzkvesosdnckimfrssfylx/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/Catalog.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.546167
-e302680562.668819
+s302751537.765280
+e302751537.864309
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o
@@ -2295,11 +2286,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m302680562#302680562#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m8633968992#2049"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o0#
+lSLF07#2@78"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m302751537#302751537#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m7162247752870487040#2049"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogEntry.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.586373
-e302680562.801168
+s302751537.766984
+e302751537.896428
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o
@@ -2308,7 +2299,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m302680562#302680562#0(0"0(0#0#79"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m8619970688#2067"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o0#
+lSLF07#2@87"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m302751537#302751537#0(0"0(0#0#79"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m8606641888#2067"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/CatalogViewController.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/DataDrivenTest.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/Tests/DataDrivenTest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2341,8 +2332,8 @@ o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:355: 
 lSLF07#2@81"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529158#302529159#0(1387"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort initWithLocalSocket:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: 'NSStream' may not respond to '+getLocalStreamsToPath:inputStream:outputStream:'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: '...' as arguments.)/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendResult:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:314: warning: missing sentinel in function call/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendError:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:333: warning: missing sentinel in function call/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendMethod:params:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:355: warning: missing sentinel in function call5(22@80"'NSStream' may not respond to '+getLocalStreamsToPath:inputStream:outputStream:'302529159#123#168#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302529159#291#133#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#89#0#89#0#0"0(22@33"Missing sentinel in function call302529159#779#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#314#0#314#0#0"0(22@33"Missing sentinel in function call302529159#1018#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#333#0#333#0#0"0(22@33"Missing sentinel in function call302529159#1265#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#355#0#355#0#0"0(0#0#73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m8635301376#1926"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-elhvqthzkvesosdnckimfrssfylx/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/JSONPort.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.225790
-e302680562.426348
+s302751537.442772
+e302751537.625608
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o
@@ -2351,11 +2342,11 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m302680562#302680562#0(0"0(0#0#80"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m8632336096#2069"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o0#
+lSLF07#2@88"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m302751537#302751537#0(0"0(0#0#80"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m8606404416#2069"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneAppDelegate.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.375153
-e302680562.586249
+s302756907.746537
+e302756907.962992
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o
@@ -2365,11 +2356,13 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: no '-listUsers:' method found
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: (Messages without a matching method signature
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: will be assumed to return 'id' and accept
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: '...' as arguments.)
-lSLF07#2@91"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302680562#302680562#0(668"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: no '-listUsers:' method found/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: '...' as arguments.)2(22@29"No '-listUsers:' method found302680562#141#127#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302609791#24#0#24#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302680562#268#143#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302609791#24#0#24#0#0"0(0#0#83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m8628933056#2075"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o0#
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: no '-registerUser:' method found
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: (Messages without a matching method signature
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: will be assumed to return 'id' and accept
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: '...' as arguments.)
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegistrationCompleted:]':
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:40: warning: unused variable 'resultdict'
+lSLF07#2@91"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302756907#302756907#0(951"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: no '-registerUser:' method found/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: '...' as arguments.)/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegistrationCompleted:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:40: warning: unused variable 'resultdict'3(22@32"No '-registerUser:' method found302756907#141#130#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302756903#27#0#27#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302756907#271#143#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302756903#27#0#27#0#0"0(22@28"Unused variable 'resultdict'302756907#825#126#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302756903#40#0#40#0#19"unused variable '*'0(0#0#83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m8314045422916431872#2075"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW_iphoneViewController.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MaxDepthTest.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/Tests/MaxDepthTest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2553,8 +2546,8 @@ CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-norma
 r0
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.426490
-e302680562.545984
+s302751537.625728
+e302751537.766886
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o
@@ -2568,7 +2561,7 @@ o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warn
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)
-lSLF07#2@77"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302680562#302680562#0(617"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m: In function '-[UserSession connectionDidFinishLoading:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: 'NSString' may not respond to '-JSONValue'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'302680562#129#127#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302680562#256#130#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#0"0(0#0#69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m8642725216#2047"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o0#
+lSLF07#2@77"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302751537#302751537#0(617"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m: In function '-[UserSession connectionDidFinishLoading:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: 'NSString' may not respond to '-JSONValue'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'302751537#129#127#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302751537#256#130#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#0"0(0#0#69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m8606494304#2047"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/UserSession.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/bench.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/bench.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2600,8 +2593,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m302528338#302528338#0(0"0(0#0#74"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m8609364672#1928"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-elhvqthzkvesosdnckimfrssfylx/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/jsunicode.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s302680562.223782
-e302680562.375032
+s302751537.435640
+e302751537.587569
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o
@@ -2610,7 +2603,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m302680562#302680562#0(0"0(0#0#54"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m8643918304#2025"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o0#
+lSLF07#2@62"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m302751537#302751537#0(0"0(0#0#54"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m7162247752870487040#2025"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-dtbgnwlvubzoplehfeeyoozpvvep/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/main.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/streamutils.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/streamutils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s302528338.760640
@@ -2672,8 +2665,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m302522175#302522175#0(0"0(0#0#65"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m8622938784#1917"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-bhkobkukmjdeklbzqbdozpnaxhoj/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Catalog.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/Catalog.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680563.094022
-e302680563.182949
+s302751381.607503
+e302751381.741746
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o
@@ -2682,11 +2675,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m302680563#302680563#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m8611356000#2049"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o0#
+lSLF07#2@78"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m302751381#302751381#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m8608659904#2049"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogEntry.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogEntry.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680563.183056
-e302680563.282886
+s302751381.610165
+e302751381.761019
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o
@@ -2695,7 +2688,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m302680563#302680563#0(0"0(0#0#79"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m8641814368#2067"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o0#
+lSLF07#2@87"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m302751381#302751381#0(0"0(0#0#79"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m8608138624#2067"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/CatalogViewController.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/DataDrivenTest.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/Tests/DataDrivenTest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2728,8 +2721,8 @@ o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:355: 
 lSLF07#2@81"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529159#302529159#0(1387"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort initWithLocalSocket:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: 'NSStream' may not respond to '+getLocalStreamsToPath:inputStream:outputStream:'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:89: warning: '...' as arguments.)/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendResult:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:314: warning: missing sentinel in function call/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendError:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:333: warning: missing sentinel in function call/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m: In function '-[JSONPort sendMethod:params:rid:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m:355: warning: missing sentinel in function call5(22@80"'NSStream' may not respond to '+getLocalStreamsToPath:inputStream:outputStream:'302529159#123#168#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#89#0#89#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302529159#291#133#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#89#0#89#0#0"0(22@33"Missing sentinel in function call302529159#779#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#314#0#314#0#0"0(22@33"Missing sentinel in function call302529159#1018#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#333#0#333#0#0"0(22@33"Missing sentinel in function call302529159#1265#122#0(6@73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m302529143#355#0#355#0#0"0(0#0#73"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m8636712288#1926"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-bhkobkukmjdeklbzqbdozpnaxhoj/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/JSONPort.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/JSONPort.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680562.769615
-e302680562.872945
+s302751381.306072
+e302751381.459380
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o
@@ -2738,11 +2731,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m302680562#302680562#0(0"0(0#0#80"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m8643019776#2069"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o0#
+lSLF07#2@88"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m302751381#302751381#0(0"0(0#0#80"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m8607811872#2069"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneAppDelegate.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneAppDelegate.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680562.873070
-e302680562.986426
+s302751381.411723
+e302751381.610057
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o
@@ -2752,11 +2745,13 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: no '-listUsers:' method found
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: (Messages without a matching method signature
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: will be assumed to return 'id' and accept
-o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: '...' as arguments.)
-lSLF07#2@91"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302680562#302680562#0(668"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: no '-listUsers:' method found/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:24: warning: '...' as arguments.)2(22@29"No '-listUsers:' method found302680562#141#127#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302609791#24#0#24#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302680562#268#143#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302609791#24#0#24#0#0"0(0#0#83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m8608783840#2075"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o0#
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: no '-registerUser:' method found
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: (Messages without a matching method signature
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: will be assumed to return 'id' and accept
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: '...' as arguments.)
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegistrationCompleted:]':
+o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:40: warning: unused variable 'resultdict'
+lSLF07#2@91"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302751381#302751381#0(951"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegister:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: no '-registerUser:' method found/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:27: warning: '...' as arguments.)/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m: In function '-[MEOW_iphoneViewController doRegistrationCompleted:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m:40: warning: unused variable 'resultdict'3(22@32"No '-registerUser:' method found302751381#141#130#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302683338#27#0#27#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302751381#271#143#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302683338#27#0#27#0#0"0(22@28"Unused variable 'resultdict'302751381#825#126#0(6@83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m302683338#40#0#40#0#19"unused variable '*'0(0#0#83"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m8613510816#2075"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/MEOW_iphoneViewController.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW_iphoneViewController.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MaxDepthTest.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/Tests/MaxDepthTest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2940,8 +2935,8 @@ CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-norma
 r0
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680562.986549
-e302680563.093904
+s302751381.459505
+e302751381.607372
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o
@@ -2955,7 +2950,7 @@ o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warn
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept
 o/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)
-lSLF07#2@77"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302680562#302680563#0(617"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m: In function '-[UserSession connectionDidFinishLoading:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: 'NSString' may not respond to '-JSONValue'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'302680563#129#127#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302680563#256#130#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#0"0(0#0#69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m8619408544#2047"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o0#
+lSLF07#2@77"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302751381#302751381#0(617"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m: In function '-[UserSession connectionDidFinishLoading:]':/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: 'NSString' may not respond to '-JSONValue'/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: (Messages without a matching method signature/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: will be assumed to return 'id' and accept/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m:113: warning: '...' as arguments.)2(22@42"'NSString' may not respond to '-JSONValue'302751381#129#127#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302751381#256#130#0(6@69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m302605425#113#0#113#0#0"0(0#0#69"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m8611921024#2047"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/UserSession.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/UserSession.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/bench.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/json-framework/bench.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -2987,8 +2982,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m302528340#302528341#0(0"0(0#0#74"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m8608966720#1928"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-bhkobkukmjdeklbzqbdozpnaxhoj/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/jsunicode.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/jsunicode.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680562.668962
-e302680562.769500
+s302751381.304324
+e302751381.411480
 r1
 xCompileC
 xbuild/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o
@@ -2997,7 +2992,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m302680562#302680562#0(0"0(0#0#54"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m8632603680#2025"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o0#
+lSLF07#2@62"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m302751381#302751381#0(0"0(0#0#54"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m8608089984#2025"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/main.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/main.o0#
 
 CCompileC build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/streamutils.o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/streamutils.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s302528341.666991
@@ -3013,30 +3008,28 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/streamutils.m302528341#302528341#0(0"0(0#0#76"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/streamutils.m8611589760#1932"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-bhkobkukmjdeklbzqbdozpnaxhoj/MEOW_iphone_Prefix.pch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/Source/streamutils.m -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/streamutils.o0#
 
 CCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib
-s302521783.914440
-e302521786.343472
+s302751379.897938
+e302751380.454391
 r1
 xCompileXIB
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@44"CompileXIB Classes/CatalogViewController.xib302521783#302521786#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib7525630620795356160#603"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/CatalogViewController.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+lSLF07#2@44"CompileXIB Classes/CatalogViewController.xib302751379#302751380#0(0"0(0#0#81"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib8611641984#603"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/CatalogViewController.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/CatalogViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
 
 CCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib
-s302528334.564426
-e302528336.651370
+s302751379.004458
+e302751380.033756
 r1
 xCompileXIB
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib
-lSLF07#2@40"CompileXIB MEOW_iphoneViewController.xib302528334#302528336#0(0"0(0#0#77"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib8604114816#603"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW_iphoneViewController.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+lSLF07#2@40"CompileXIB MEOW_iphoneViewController.xib302751379#302751380#0(0"0(0#0#77"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib8603421440#603"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW_iphoneViewController.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphoneViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
 
 CCompileXIB /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib
-s302521540.573586
-e302521543.417478
+s302751379.003113
+e302751379.897687
 r1
 xCompileXIB
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@25"CompileXIB MainWindow.xib302521540#302521543#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib8614554720#573"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MainWindow.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib302751379#302751379#0(0"0(0#0#62"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib8604494496#573"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MainWindow.nib /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
 
 CCopyPlistFile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/JSON-Info.plist Classes/json-framework/JSON-Info.plist
 r0
@@ -3144,13 +3137,13 @@ CCpResource build/Debug-iphoneos/MEOW-iphone.app/RefreshOnlineDocs.sh Classes/js
 r0
 
 CCpResource build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s302521540.503052
-e302521540.573508
+s302751378.925554
+e302751379.002986
 r1
 xCpResource
 xbuild/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist302521540#302521540#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8616354144#502"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist302751378#302751379#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8608169024#502"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
 
 CCpResource build/Debug-iphoneos/MEOW-iphone.app/a.json Classes/json-framework/Tests/Data/rfc4627/a.json
 r0
@@ -3438,52 +3431,72 @@ CCpResource build/Debug-iphoneos/MEOW-iphone.app/update.sample Classes/json-fram
 r0
 
 CCreateUniversalBinary /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal "armv6 armv7"
-s302680563.761377
-e302680563.800420
+s302751012.955088
+e302751013.008564
 r1
 xCreateUniversalBinary
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
 xnormal
 xarmv6 armv7
-lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal "armv6 armv7"302680563#302680563#0(0"0(0#0#59"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/armv6 armv78632852736#586"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone -output /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone0#
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal "armv6 armv7"302751012#302751013#0(0"0(0#0#59"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/armv6 armv78607502944#586"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone -output /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone0#
 
 CGenerateDSYMFile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
-s302680563.800539
-e302680563.990645
+s302756908.109301
+e302756908.283465
 r1
 xGenerateDSYMFile
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
-lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/MEOW-iphone.app.dSYM build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone302680563#302680563#0(0"0(0#0#96"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone8629528288#401"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM0#
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/MEOW-iphone.app.dSYM build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone302756908#302756908#0(0"0(0#0#96"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone8616677088#401"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app.dSYM0#
+
+CLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal armv6
+s302756907.963116
+e302756908.109185
+r1
+xLd
+x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
+xnormal
+xarmv6
+lSLF07#2@101"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone302756907#302756908#0(0"0(0#0#0"8641137664#1015"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone0#
+
+CLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone normal armv7
+s302751381.761130
+e302751381.889254
+r1
+xLd
+x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone
+xnormal
+xarmv7
+lSLF07#2@101"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone302751381#302751381#0(0"0(0#0#0"8613885440#1015"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/MEOW-iphone0#
 
 CLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone normal armv6
-s302680562.801286
-e302680563.633302
+s302751010.609013
+e302751012.821012
 r1
 xLd
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone
 xnormal
 xarmv6
-lSLF07#2@142"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone302680562#302680563#0(0"0(0#0#0"8637891264#1056"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone0#
+lSLF07#2@142"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone302751010#302751012#0(0"0(0#0#0"8606523968#1056"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv6/MEOW-iphone0#
 
 CLd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone normal armv7
-s302680563.283008
-e302680563.761265
+s302751012.518064
+e302751012.954961
 r1
 xLd
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone
 xnormal
 xarmv7
-lSLF07#2@142"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone302680563#302680563#0(0"0(0#0#0"8633001600#1056"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone0#
+lSLF07#2@142"Link /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone302751012#302751012#0(0"0(0#0#0"8607131200#1056"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -filelist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/DeferredKit/CocoaDeferred/build/Debug-iphoneos/libDeferredKit.a -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/Objects-normal/armv7/MEOW-iphone0#
 
 CProcessInfoPlistFile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist MEOW_iphone-Info.plist
-s302680560.090962
-e302680560.095524
+s302751378.926628
+e302751378.945399
 r1
 xProcessInfoPlistFile
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist
 xMEOW_iphone-Info.plist
-lSLF07#2@30"Process MEOW_iphone-Info.plist302680560#302680560#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone-Info.plist8643483296#614"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MEOW_iphone-Info.plist -genpkginfo /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist0#
+lSLF07#2@30"Process MEOW_iphone-Info.plist302751378#302751378#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone-Info.plist8608055008#614"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MEOW_iphone-Info.plist -genpkginfo /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/ResourceRules.plist -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/Info.plist0#
 
 CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-bhkobkukmjdeklbzqbdozpnaxhoj/MEOW_iphone_Prefix.pch.gch MEOW_iphone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 s302521543.493008
@@ -3531,8 +3544,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@33"Precompile MEOW_iphone_Prefix.pch302521543#302521547#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch8613876064#1788"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv6 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch -o /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-elhvqthzkvesosdnckimfrssfylx/MEOW_iphone_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch MEOW_iphone_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s302680560.129592
-e302680562.010948
+s302751380.454534
+e302751381.304161
 r1
 xProcessPCH
 x/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch
@@ -3541,31 +3554,31 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile MEOW_iphone_Prefix.pch302680560#302680562#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch8642946752#1910"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch -o /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch0#
+lSLF07#2@33"Precompile MEOW_iphone_Prefix.pch302751380#302751381#0(0"0(0#0#70"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch8608751104#1910"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-generated-files.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-own-target-headers.hmap -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-all-target-headers.hmap -iquote /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone-project-headers.hmap -F/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/include -IDeferredKit/CocoaDeferred/Source -IDeferredKit/CocoaDeferred/Source/DeferredKit -IDeferredKit/CocoaDeferred/Source/JSON -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources/armv7 -I/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/DerivedSources -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW_iphone_Prefix.pch -o /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MEOW_iphone_Prefix-gsmgbaeaglsfbmhassmtvaqvisfv/MEOW_iphone_Prefix.pch.gch0#
 
 CProcessProductPackaging "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision
-s302521548.432057
-e302521548.433581
+s302751382.027320
+e302751382.128442
 r1
 xProcessProductPackaging
 x/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision
-lSLF07#2@198"ProcessProductPackaging "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision302521548#302521548#0(0"0(0#0#109"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision8615864544#447"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision0#
+lSLF07#2@198"ProcessProductPackaging "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision302751382#302751382#0(0"0(0#0#109"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision8608743328#447"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/andycat/Library/MobileDevice/Provisioning Profiles/43C6CE0F-E9F4-462E-B030-2B8D8719308C.mobileprovision" -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app/embedded.mobileprovision0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent
-s302680563.995241
-e302680564.044522
+s302751382.145004
+e302751382.160128
 r1
 xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent
-lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent302680563#302680564#0(0"0(0#0#122"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent8640764640#462"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent0#
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent302751382#302751382#0(0"0(0#0#122"/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent8607268000#462"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/MEOW-iphone.build/Debug-iphoneos/MEOW-iphone.build/MEOW-iphone.xcent0#
 
 CTouch /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
-s302680563.990915
-e302680563.995131
+s302756908.283720
+e302756908.286954
 r1
 xTouch
 x/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app
-lSLF07#2@90"Touch /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app302680563#302680563#0(0"0(0#0#0"8643208128#286"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
+lSLF07#2@90"Touch /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app302756908#302756908#0(0"0(0#0#0"8642002624#286"    cd /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/build/Debug-iphoneos/MEOW-iphone.app0#
 
