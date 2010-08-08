@@ -1,7 +1,12 @@
-# Create your views here.
+# MEOW
+# Copyright 2010, Andy Nicholson
+# Infinite Recursion Pty Ltd.
+# AGPLv3
 
 from jsonrpc import jsonrpc_method
 from django.contrib.auth.models import User, Group
+from django_messages.models import Message
+
 #
 #
 # Users/ Groups - Built in Django 
@@ -63,5 +68,57 @@ def leave_group(request,group_name):
 	  return True
   return False
 
+#
+# Messages
+#
+@jsonrpc_method('meow.login',authenticated=True)
+def login_and_list_inbox_messages(request):
+   message_list = Message.objects.inbox_for(request.user)
+   return_list=[]
+   for m in message_list:
+	return_list.append([m.subject,m.body,m.sender.id])
+   return return_list
 
+@jsonrpc_method('meow.inbox',authenticated=True)
+def list_inbox_messages(request):
+   message_list = Message.objects.inbox_for(request.user)
+   return_list=[]
+   for m in message_list:
+	return_list.append([m.subject,m.body,m.sender.id])
+   return return_list
+
+
+@jsonrpc_method('meow.outbox',authenticated=True)
+def list_outbox_messages(request):
+   message_list = Message.objects.outbox_for(request.user)
+   return_list=[]
+   for m in message_list:
+	return_list.append([m.subject,m.body,m.sender.id])
+   return return_list
+
+@jsonrpc_method('meow.trash',authenticated=True)
+def list_trash_messages(request):
+   message_list = Message.objects.trash_for(request.user)
+   return_list=[]
+   for m in message_list:
+	return_list.append([m.subject,m.body,m.sender.id])
+   return return_list
+
+@jsonrpc_method('meow.sendMsg',authenticated=True)
+def list_send_message(request,msg_body,msg_subject,msg_receiver):
+   try:
+	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
+	   if len(msg_receiver_user) != 1:
+		return False
+	   msg_receiver_user = msg_receiver_user[0]
+	   msg = Message(
+				sender = request.user,
+				recipient = msg_receiver_user,
+				subject = msg_subject,
+				body = msg_body,
+			    )
+	   msg.save()
+	   return True
+   except:
+	   return False
 
