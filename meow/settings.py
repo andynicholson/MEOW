@@ -107,3 +107,5 @@ logging.basicConfig(
     filemode = 'w',
     format = '%(asctime)s %(levelname)s %(message)s',
 )
+
+DEFAULT_FROM_EMAIL='root@erko.infiniterecursion.com.au'

@@ -94,7 +94,11 @@ class MeowTestCase(WebTest):
 	# This test is assuming that ONE user has been created already (and ONLY one).
 	# plus this test user. ASSUME ONLY TWO USERS SO FAR!
 	#reply_ =  {u'result': [[u'andy', u'andy@infiniterecursion.com.au', 1]], u'jsonrpc': u'1.0', u'id': u'046f03f2-9d77-11df-bc0d-40618697e051', u'error': None}
-	assert len(res['result']) == 2
+	assert len(res['result']) != 0
+
+	# Make this a super-user function only 
+	# XXX make this a test of functions just registered users cant do
+
 
 	#delete test user
 	self.proxy.meow.deactivate('randomuser','plaintextpassword')
