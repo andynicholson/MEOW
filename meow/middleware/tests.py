@@ -27,7 +27,7 @@ True
 #
 # parameters to existing MEOW install under test
 #
-SERVICE_PROXY_URL = 'http://erko.infiniterecursion.com.au/json/'
+SERVICE_PROXY_URL = 'http://meow.infiniterecursion.com.au/json/'
 EXISTING_USERNAME = 'andy'
 EXISTING_GROUPNAME = 'junta'
 TEST_MSG_CONTENT = 'THIS IS THE MESSAGE'
@@ -198,13 +198,14 @@ class MeowTestCase(WebTest):
 
 	##
 	# Add more tests to inbox messages
+	# XXX
 
 	#delete test user
 	self.proxy.meow.deactivate('randomuser','plaintextpassword')
 
-   def test_sendingreceiving_within_messaging(self):
+   def test_sendingreceiving_within_messaging_u2u(self):
 	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
-	# This test is designed to FAIL at logining into the system - ie testing security constraint
+	# This test is designed to FAIL at loging into into the system - ie testing security constraint
 	try:
 		res = self.proxy.meow.login('randomuser','wrongpassword')
 		## We SHOULD get the IOError
@@ -227,6 +228,12 @@ class MeowTestCase(WebTest):
 	assert (len(res['result']) >= 0) == True
 
 
+	# test sending to non-existent user, and see it fail
+	res_send = self.proxy.meow.sendMsg('randomuser','plaintextpassword',TEST_MSG_CONTENT,'subject','123_randomuser_dontexist')
+        assert res_send['error'] == None
+	assert res_send['result'] == False
+	
+
 	#
 	# Test sending message and checking outbox size incr by one
         #
@@ -247,7 +254,8 @@ class MeowTestCase(WebTest):
 	# Send message
 	res_send = self.proxy.meow.sendMsg('randomuser','plaintextpassword',TEST_MSG_CONTENT,'subject','randomuser2')
 	assert res_send['error'] == None
-		
+	assert res_send['result'] == True
+
 
 	# get outbox again
 	res_outbox_after_1 = self.proxy.meow.outbox('randomuser','plaintextpassword')
@@ -279,4 +287,123 @@ class MeowTestCase(WebTest):
 	#delete test user
 	self.proxy.meow.deactivate('randomuser','plaintextpassword')
 	self.proxy.meow.deactivate('randomuser2','plaintextpassword__')
+
+   def test_sendingreceiving_within_messaging_u2g(self):
+	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
+	# This test is designed to FAIL at loging into into the system - ie testing security constraint
+	try:
+		res = self.proxy.meow.login('randomuser','wrongpassword')
+		## We SHOULD get the IOError
+		assert True == False
+	except IOError, e:
+		pass
+
+	#create a test user to send messages
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
+	#create a test user to receive messages
+	res = self.proxy.meow.registerUser('randomuser2','plaintextpassword__','hacker.riot@gmail.com')
+	#create a test user to receive messages
+	res = self.proxy.meow.registerUser('randomuser3','plaintextpassword___','hacker.riot@gmail.com')
+
+	#Login
+	res = self.proxy.meow.login('randomuser','plaintextpassword')
+	assert res['error'] == None
+	assert (len(res['result']) >= 0) == True
+
+	res = self.proxy.meow.login('randomuser2','plaintextpassword__')
+	assert res['error'] == None
+	assert (len(res['result']) >= 0) == True
+
+	res = self.proxy.meow.login('randomuser3','plaintextpassword___')
+	assert res['error'] == None
+	assert (len(res['result']) >= 0) == True
+
+
+	# test sending to non-existent group, and see it fail
+	res_send = self.proxy.meow.sendMsgToGroup('randomuser','plaintextpassword',TEST_MSG_CONTENT,'subject','randomgrp4_dontexist')
+	print res_send
+        assert res_send['error'] == None
+	assert res_send['result'] == False
+	
+
+	#
+	# Test sending message and checking outbox size incr by one
+        #
+
+	# Get inbox
+	# (for send test below)
+	res_inbox_before_2 = self.proxy.meow.inbox('randomuser2','plaintextpassword__')
+	assert res_inbox_before_2['error'] == None
+	assert (len(res_inbox_before_2['result']) >= 0) == True
+
+	# Get inbox
+	# (for send test below)
+	res_inbox_before_3 = self.proxy.meow.inbox('randomuser3','plaintextpassword___')
+	assert res_inbox_before_3['error'] == None
+	assert (len(res_inbox_before_3['result']) >= 0) == True
+
+
+	# Get outbox
+	res_outbox_before_1 = self.proxy.meow.outbox('randomuser','plaintextpassword')
+	assert res_outbox_before_1['error'] == None
+	assert (len(res_outbox_before_1['result']) >= 0) == True
+	print "RandomUser outbox %d " % ( len(res_outbox_before_1['result']) )
+
+	# make sure both first  two users are in group
+	res = self.proxy.meow.joinGroup('randomuser','plaintextpassword',EXISTING_GROUPNAME)
+	res = self.proxy.meow.joinGroup('randomuser2','plaintextpassword__',EXISTING_GROUPNAME)
+
+	# Send message
+	res_send = self.proxy.meow.sendMsgToGroup('randomuser','plaintextpassword',TEST_MSG_CONTENT,'subject group',EXISTING_GROUPNAME)
+	print res_send
+	assert res_send['error'] == None
+	assert res_send['result'] != False
+	group_size = res_send['result']
+
+
+	# get outbox again
+	res_outbox_after_1 = self.proxy.meow.outbox('randomuser','plaintextpassword')
+	assert res_outbox_after_1['error'] == None
+	assert (len(res_outbox_after_1['result']) >= 0) == True
+	print "RandomUser outbox %d " % ( len(res_outbox_after_1['result']) )
+
+
+	# assert outbox is incr number of people in group!
+	assert ( len(res_outbox_before_1['result']) == ( len(res_outbox_after_1['result']) - group_size) )
+
+	#
+	# Test receiving message and checking inbox size incr by one
+	# Third random user should NOT have inbox size incr by one - user wasnt in group
+	
+	# Recieve message
+	# get inbox again
+	res_inbox_after_2 = self.proxy.meow.inbox('randomuser2','plaintextpassword__')
+	assert res_inbox_after_2['error'] == None
+	assert (len(res_inbox_after_2['result']) >= 0) == True
+
+	#XXX
+	# check message content is == TEST_MESSAGE_CONTENT
+
+	# assert inbox is incr 1
+	assert ( len(res_inbox_before_2['result']) == ( len(res_inbox_after_2['result']) - 1) )
+
+	# get inbox again for third user
+	res_inbox_after_3 = self.proxy.meow.inbox('randomuser3','plaintextpassword___')
+	assert res_inbox_after_3['error'] == None
+	assert (len(res_inbox_after_3['result']) >= 0) == True
+
+	#XXX
+	# check message content is == TEST_MESSAGE_CONTENT
+
+	# assert inbox is NOT incr 1
+	# Third user ws NOT in group!
+	assert ( len(res_inbox_before_3['result']) == ( len(res_inbox_after_3['result']) ) )
+
+
+
+	#delete test user
+	self.proxy.meow.deactivate('randomuser','plaintextpassword')
+	self.proxy.meow.deactivate('randomuser2','plaintextpassword__')
+	self.proxy.meow.deactivate('randomuser3','plaintextpassword___')
+
 
