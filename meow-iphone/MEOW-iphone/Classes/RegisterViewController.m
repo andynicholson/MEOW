@@ -1,19 +1,19 @@
 //
-//  MEOW_iphoneViewController.m
+//  RegisterViewController.m
 //  MEOW-iphone
 //
 //  Created by andycat on 3/08/10.
 //  Copyright Infinite Recursion Pty Ltd 2010. All rights reserved.
 //
 
-#import "MEOW_iphoneViewController.h"
+#import "RegisterViewController.h"
 
 #import "DKDeferred+JSON.h"
 
 #define SERVICE_URL @"http://meow.infiniterecursion.com.au/json";
 #define METHOD_NAME @"meow.register"
 
-@implementation MEOW_iphoneViewController
+@implementation RegisterViewController
 
 @synthesize username, password, reg_username, reg_password1, reg_password2, reg_email;
 
@@ -33,7 +33,7 @@
 
 - (id)doRegistrationCompleted:(id)result {
     // do something with result
-	NSLog(@" Completed! %@ " , result );
+	NSLog(@" Rego Completed! %@ " , result );
 	
 	NSDictionary *resultdict = [(NSDictionary*)result objectForKey:@"result"];
 	NSString *message = @"Registration was a success!";				
@@ -48,7 +48,7 @@
 
 - (id)doRegistrationFailed:(NSError *)err {
     // do something with error
-	NSLog(@" FAIL %@ " , err );
+	NSLog(@" FAIL rego %@ " , err );
 	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
 	NSString *errormessage = [errors objectForKey:@"message"];					
 	
@@ -62,9 +62,51 @@
 
 -(IBAction) doLogin:(id)sender {
 	
+	NSString *arg1 = [username text];
+	NSString *arg2 = [password text];
 	
+	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
+	DKDeferred* dk2 = [dk login:array_(arg1,arg2)];
+	[dk2 addCallback:callbackTS(self,doLoginCompleted:)];
+	[dk2 addErrback:callbackTS(self, doLoginFailed:)];
 	
 }
+
+- (id)doLoginCompleted:(id)result {
+    // do something with result
+	NSLog(@" Login Completed! %@ " , result );
+	
+	NSDictionary *resultdict = [(NSDictionary*)result objectForKey:@"result"];
+	NSString *message = @"Login was a success!";				
+	
+	//setup UserSession singleton.
+	//XXX TODO
+	
+	//cache inbox messages sent back.
+	
+	
+	
+	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+	[alertview show];
+	[alertview release];
+	
+    return result;
+}
+
+- (id)doLoginFailed:(NSError *)err {
+    // do something with error
+	NSLog(@" FAIL login %@ " , err );
+	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
+	NSString *errormessage = [errors objectForKey:@"message"];					
+	
+	
+	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops" message:errormessage delegate:self cancelButtonTitle:@"Oh well" otherButtonTitles:NULL];
+	[alertview show];
+	[alertview release];
+	
+    return err;
+}
+
 
 /*
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField {

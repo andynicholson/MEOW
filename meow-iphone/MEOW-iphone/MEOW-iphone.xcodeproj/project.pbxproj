@@ -12,14 +12,17 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2899E5220DE3E06400AC0155 /* MEOW_iphoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MEOW_iphoneViewController.xib */; };
+		2899E5220DE3E06400AC0155 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RegisterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* MEOW_iphoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */; };
+		28D7ACF80DDB3853001CB0EB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */; };
 		4503D6FC1209665D005E9A73 /* libDeferredKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503D6F912096654005E9A73 /* libDeferredKit.a */; };
 		4546E93012081DA200BBC3BC /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546E92A12081DA200BBC3BC /* UserSession.m */; };
 		4546E93112081DA200BBC3BC /* CatalogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546E92C12081DA200BBC3BC /* CatalogEntry.m */; };
 		4546E93212081DA200BBC3BC /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546E92E12081DA200BBC3BC /* CatalogViewController.m */; };
 		4546E93312081DA200BBC3BC /* CatalogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4546E92F12081DA200BBC3BC /* CatalogViewController.xib */; };
+		45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */; };
+		45C5B9BF12268B3E00EB87D8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */; };
+		45C5BA381226972A00EB87D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5BA371226972A00EB87D8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +56,10 @@
 		1D6058910D05DD3D006BFB54 /* MEOW-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MEOW-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* MEOW_iphoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MEOW_iphoneViewController.xib; sourceTree = "<group>"; };
+		2899E5210DE3E06400AC0155 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* MEOW_iphoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_iphoneViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_iphoneViewController.m; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MEOW_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_iphone_Prefix.pch; sourceTree = "<group>"; };
 		4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaDeferred.xcodeproj; path = DeferredKit/CocoaDeferred/CocoaDeferred.xcodeproj; sourceTree = "<group>"; };
@@ -67,6 +70,10 @@
 		4546E92D12081DA200BBC3BC /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
 		4546E92E12081DA200BBC3BC /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
 		4546E92F12081DA200BBC3BC /* CatalogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogViewController.xib; sourceTree = "<group>"; };
+		45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		45C5BA371226972A00EB87D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* MEOW_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MEOW_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +86,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				45C5BA381226972A00EB87D8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +96,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */,
+				45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */,
 				4546E92912081DA200BBC3BC /* UserSession.h */,
 				4546E92A12081DA200BBC3BC /* UserSession.m */,
 				4546E92B12081DA200BBC3BC /* CatalogEntry.h */,
@@ -97,8 +107,8 @@
 				4546E92F12081DA200BBC3BC /* CatalogViewController.xib */,
 				1D3623240D0F684500981E51 /* MEOW_iphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* MEOW_iphoneViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* MEOW_iphoneViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* RegisterViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,6 +124,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				45C5BA18122692E000EB87D8 /* XIBs */,
 				4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -136,8 +147,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2899E5210DE3E06400AC0155 /* MEOW_iphoneViewController.xib */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MEOW_iphone-Info.plist */,
 			);
 			name = Resources;
@@ -149,6 +158,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				45C5BA371226972A00EB87D8 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +170,16 @@
 				4503D6FB12096654005E9A73 /* DeferredTest.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		45C5BA18122692E000EB87D8 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* RegisterViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2899E5220DE3E06400AC0155 /* MEOW_iphoneViewController.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RegisterViewController.xib in Resources */,
 				4546E93312081DA200BBC3BC /* CatalogViewController.xib in Resources */,
+				45C5B9BF12268B3E00EB87D8 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +267,11 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MEOW_iphoneAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* MEOW_iphoneViewController.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RegisterViewController.m in Sources */,
 				4546E93012081DA200BBC3BC /* UserSession.m in Sources */,
 				4546E93112081DA200BBC3BC /* CatalogEntry.m in Sources */,
 				4546E93212081DA200BBC3BC /* CatalogViewController.m in Sources */,
+				45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

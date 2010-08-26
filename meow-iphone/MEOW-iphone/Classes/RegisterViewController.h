@@ -1,5 +1,5 @@
 //
-//  MEOW_iphoneViewController.h
+//  RegisterViewController.h
 //  MEOW-iphone
 //
 //  Created by andycat on 3/08/10.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MEOW_iphoneViewController : UIViewController {
+@interface RegisterViewController : UIViewController {
 
 	//TextFields to hook up username, password,
 	UITextField *username, *password;

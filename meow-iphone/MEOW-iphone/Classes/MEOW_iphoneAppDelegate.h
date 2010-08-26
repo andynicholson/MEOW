@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class MEOW_iphoneViewController;
+@class HomeViewController;
 
 @interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    MEOW_iphoneViewController *viewController;
+    HomeViewController *homeViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet MEOW_iphoneViewController *viewController;
+@property (nonatomic, retain) IBOutlet HomeViewController *homeViewController;
 
 @end
 

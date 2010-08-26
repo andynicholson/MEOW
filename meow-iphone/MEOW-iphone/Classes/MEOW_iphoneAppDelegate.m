@@ -7,12 +7,12 @@
 //
 
 #import "MEOW_iphoneAppDelegate.h"
-#import "MEOW_iphoneViewController.h"
+#import "HomeViewController.h"
 
 @implementation MEOW_iphoneAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize homeViewController;
 
 
 #pragma mark -
@@ -23,7 +23,7 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+    [window addSubview:homeViewController.view];
     [window makeKeyAndVisible];
 
     return YES;
@@ -79,7 +79,7 @@
 
 
 - (void)dealloc {
-    [viewController release];
+    [homeViewController release];
     [window release];
     [super dealloc];
 }
