@@ -11,22 +11,23 @@
 
 @implementation HomeViewController
 
+@synthesize groups;
 
--(IBAction) doRegister:(id)sender {
+-(IBAction) doRegisterScreen:(id)sender {
 	NSLog(@"do Register in homeviewcontroller!");
-	//RegisterViewController *rvc = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
-	//[navController pushViewController:rvc animated:TRUE];
-	//[rvc release];
+	RegisterViewController *rvc = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
+	[self.navigationController pushViewController:rvc animated:TRUE];
+	[rvc release];
 	
 }
 
 
--(IBAction) doLogin:(id)sender {
+-(IBAction) doLoginScreen:(id)sender {
 	NSLog(@"do Login in homeviewcontroller!");
 
-	//RegisterViewController *rvc = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
-	//[navController pushViewController:rvc animated:TRUE];
-	//[rvc release];
+	RegisterViewController *rvc = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
+	[self.navigationController pushViewController:rvc animated:TRUE];
+	[rvc release];
 	
 }
 
@@ -42,12 +43,17 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+	//start with the gruops etc button disabled, until login
+	
+	[groups setEnabled:NO];
+
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

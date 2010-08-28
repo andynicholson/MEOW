@@ -12,11 +12,12 @@
 
 @interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    HomeViewController *homeViewController;
+    
+	IBOutlet UINavigationController*  myNavigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet HomeViewController *homeViewController;
 
+@property (nonatomic, retain) IBOutlet UINavigationController*  myNavigationController;
 @end
 

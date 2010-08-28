@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -283,13 +281,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
 									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 11}, {211, 664}}</string>
+							<string>{{0, 38}, {211, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -308,7 +305,7 @@
 							<real>211</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>39 55 1241 723 0 0 1280 778 </string>
+						<string>15 55 1241 723 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -319,12 +316,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HomeViewController.h</string>
+								<string>HomeViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HomeViewController.h</string>
+										<string>HomeViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>45C5BB3B1226A40A00EB87D8</string>
+										<string>45C5BB9F122747D500EB87D8</string>
 										<key>history</key>
 										<array>
 											<string>4503D73C12096A90005E9A73</string>
@@ -348,10 +347,10 @@
 											<string>45C5BABB12269B3700EB87D8</string>
 											<string>45C5BACE12269C8A00EB87D8</string>
 											<string>45C5BAD712269CF500EB87D8</string>
-											<string>45C5BB061226A17D00EB87D8</string>
-											<string>45C5BB2B1226A39300EB87D8</string>
-											<string>45C5BB391226A40A00EB87D8</string>
-											<string>45C5BB3A1226A40A00EB87D8</string>
+											<string>45C5BB961226B64800EB87D8</string>
+											<string>45C5BB971226B64800EB87D8</string>
+											<string>45C5BB9D122747D500EB87D8</string>
+											<string>45C5BB9E122747D500EB87D8</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,7 +364,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1008, 459}}</string>
 								<key>RubberWindowFrame</key>
-								<string>39 55 1241 723 0 0 1280 778 </string>
+								<string>15 55 1241 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -385,7 +384,7 @@
 								<key>Frame</key>
 								<string>{{0, 464}, {1008, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>39 55 1241 723 0 0 1280 778 </string>
+								<string>15 55 1241 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -549,16 +548,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>45C5BB3C1226A40A00EB87D8</string>
 		<string>45C5B9B61226895400EB87D8</string>
 		<string>45C5B9B71226895400EB87D8</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>4546E95712081F6000BBC3BC</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/MEOW-iphone.xcodeproj</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 	</array>
 	<key>WindowString</key>
-	<string>39 55 1241 723 0 0 1280 778 </string>
+	<string>15 55 1241 723 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -574,12 +572,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MEOW_iphoneAppDelegate.m</string>
+								<string>HomeViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -596,8 +596,6 @@
 							<string>440pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

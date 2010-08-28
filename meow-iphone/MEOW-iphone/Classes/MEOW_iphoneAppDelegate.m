@@ -12,8 +12,7 @@
 @implementation MEOW_iphoneAppDelegate
 
 @synthesize window;
-@synthesize homeViewController;
-
+@synthesize myNavigationController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -23,7 +22,8 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
-    [window addSubview:homeViewController.view];
+    [window addSubview:myNavigationController.view];
+	
     [window makeKeyAndVisible];
 
     return YES;
@@ -79,7 +79,7 @@
 
 
 - (void)dealloc {
-    [homeViewController release];
+    
     [window release];
     [super dealloc];
 }

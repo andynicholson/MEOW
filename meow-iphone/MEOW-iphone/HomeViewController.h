@@ -13,13 +13,16 @@
 
 	UIView *view;
 	
+	UIButton *groups, *contacts, *messages, *about;
+	UIButton *login , *register_btn;
 }
 
 
 @property (nonatomic, retain) IBOutlet UIView *view;
+@property (nonatomic, retain) IBOutlet UIButton *groups;
 
--(IBAction) doRegister:(id)sender;
--(IBAction) doLogin:(id)sender;
+-(IBAction) doRegisterScreen:(id)sender;
+-(IBAction) doLoginScreen:(id)sender;
 
 
 
