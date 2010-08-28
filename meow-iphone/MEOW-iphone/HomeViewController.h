@@ -23,6 +23,10 @@
 
 -(IBAction) doRegisterScreen:(id)sender;
 -(IBAction) doLoginScreen:(id)sender;
+-(IBAction) doMessagesScreen:(id)sender;
+-(IBAction) doContactsScreen:(id)sender;
+-(IBAction) doGroupsScreen:(id)sender;
+-(IBAction) doAboutScreen:(id)sender;
 
 
 

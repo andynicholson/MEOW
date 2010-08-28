@@ -23,6 +23,10 @@
 		45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */; };
 		45C5B9BF12268B3E00EB87D8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */; };
 		45C5BA381226972A00EB87D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5BA371226972A00EB87D8 /* MapKit.framework */; };
+		45D76B951228C0F200003C53 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */; };
+		45D76B961228C0F200003C53 /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D76B941228C0F200003C53 /* MessagesViewController.xib */; };
+		45D76BFC1228F91700003C53 /* MessagesToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */; };
+		45D76BFD1228F91700003C53 /* MessagesToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D76BFB1228F91700003C53 /* MessagesToolBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,12 @@
 		45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		45C5BA371226972A00EB87D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		45D76B921228C0F200003C53 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		45D76B931228C0F200003C53 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		45D76B941228C0F200003C53 /* MessagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessagesViewController.xib; path = Classes/MessagesViewController.xib; sourceTree = "<group>"; };
+		45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesToolBarViewController.h; sourceTree = "<group>"; };
+		45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesToolBarViewController.m; sourceTree = "<group>"; };
+		45D76BFB1228F91700003C53 /* MessagesToolBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessagesToolBarViewController.xib; path = Classes/MessagesToolBarViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MEOW_iphone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MEOW_iphone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +106,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				45D76B921228C0F200003C53 /* MessagesViewController.h */,
+				45D76B931228C0F200003C53 /* MessagesViewController.m */,
 				45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */,
 				45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */,
+				45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */,
+				45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */,
 				4546E92912081DA200BBC3BC /* UserSession.h */,
 				4546E92A12081DA200BBC3BC /* UserSession.m */,
 				4546E92B12081DA200BBC3BC /* CatalogEntry.h */,
@@ -175,6 +189,8 @@
 		45C5BA18122692E000EB87D8 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				45D76B941228C0F200003C53 /* MessagesViewController.xib */,
+				45D76BFB1228F91700003C53 /* MessagesToolBarViewController.xib */,
 				2899E5210DE3E06400AC0155 /* RegisterViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */,
@@ -255,6 +271,8 @@
 				2899E5220DE3E06400AC0155 /* RegisterViewController.xib in Resources */,
 				4546E93312081DA200BBC3BC /* CatalogViewController.xib in Resources */,
 				45C5B9BF12268B3E00EB87D8 /* HomeViewController.xib in Resources */,
+				45D76B961228C0F200003C53 /* MessagesViewController.xib in Resources */,
+				45D76BFD1228F91700003C53 /* MessagesToolBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +290,8 @@
 				4546E93112081DA200BBC3BC /* CatalogEntry.m in Sources */,
 				4546E93212081DA200BBC3BC /* CatalogViewController.m in Sources */,
 				45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */,
+				45D76B951228C0F200003C53 /* MessagesViewController.m in Sources */,
+				45D76BFC1228F91700003C53 /* MessagesToolBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
