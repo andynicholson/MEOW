@@ -7,7 +7,8 @@
 //
 
 #import "MessagesViewController.h"
-
+#import "MEOW_UserMessage.h"
+#import "MEOW_UserState.h"
 
 @implementation MessagesViewController
 
@@ -69,7 +70,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 5;
+	
+    return [[[MEOW_UserState sharedMEOW_UserState] userMessages] count];
 }
 
 
@@ -80,11 +82,21 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Configure the cell...
     
+	MEOW_UserMessage *msg = [[[MEOW_UserState sharedMEOW_UserState] userMessages] objectAtIndex:indexPath.row];
+	
+	
+	NSString *subtitle = [NSString stringWithFormat:@"sent %@" , [msg datetime]];
+	NSString *header = [NSString stringWithFormat:@"%@ from %@" , [msg title], [msg sender]];
+						
+	[cell.textLabel setText:header];
+	[cell.detailTextLabel setText:subtitle];
+	
+	
     return cell;
 }
 

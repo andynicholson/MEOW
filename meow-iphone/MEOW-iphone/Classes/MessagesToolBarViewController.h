@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MessagesViewController.h"
 
 @interface MessagesToolBarViewController : UIViewController {
 
 	UIView *view;
-	UIView *topView;
+	UITableView *topView;
+	
+	MessagesViewController *mvc;
 }
 
 @property (nonatomic,retain) IBOutlet UIView *view;
-@property (nonatomic,retain) IBOutlet UIView *topView;
+@property (nonatomic,retain) IBOutlet UITableView *topView;
 
 @end

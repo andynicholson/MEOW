@@ -12,10 +12,12 @@
 @interface MEOW_UserState : NSObject {
 
 	BOOL _logged_in;
-	NSString *username;
-	NSString *password;
+	NSString *_username;
+	NSString *_password;
 	
 	//Messages
+	//NSArray of MEOW_UserMessage
+	NSMutableArray *_messages;
 	
 	//Groups
 	
@@ -25,6 +27,15 @@
 }
 
 @property (nonatomic, assign) BOOL logged_in;
+@property (nonatomic, retain) NSString *username;
+@property (nonatomic, retain) NSString *password;
+
+//Method used as wrapper to load messages into user's session as recieved from middleware
+//
+-(void) addMessage:(NSString *)body withTitle:(NSString*)title fromSender:(NSString *)sender 
+		atDateTime:(NSString *)datetime withType:(NSString *)type;
+
+-(NSArray *)userMessages;
 
 
 + (MEOW_UserState *)sharedMEOW_UserState;

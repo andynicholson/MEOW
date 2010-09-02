@@ -7,7 +7,6 @@
 //
 
 #import "MessagesToolBarViewController.h"
-#import "MessagesViewController.h"
 
 @implementation MessagesToolBarViewController
 
@@ -20,18 +19,25 @@
 
 		//Add the tableview controller to the view
 		[self setTitle:@"Messaging"];
+		//Messages View Controller
+		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nil];
 	
 	}
     return self;
 }
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+	//NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
+	[mvc.view setFrame:self.topView.frame];
+	[self.topView addSubview:mvc.view];
+	
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -58,7 +64,7 @@
 - (void)dealloc {
     [super dealloc];
 	[topView release];
-	
+	[mvc release];
 }
 
 

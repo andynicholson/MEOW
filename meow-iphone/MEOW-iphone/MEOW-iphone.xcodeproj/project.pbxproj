@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */; };
 		4503D6FC1209665D005E9A73 /* libDeferredKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503D6F912096654005E9A73 /* libDeferredKit.a */; };
 		4575F6BF122FC4FE00723106 /* MEOW_UserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */; };
+		4575F7AB122FE4CA00723106 /* MEOW_UserMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */; };
 		45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */; };
 		45C5B9BF12268B3E00EB87D8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */; };
 		45C5BA381226972A00EB87D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5BA371226972A00EB87D8 /* MapKit.framework */; };
@@ -67,6 +68,8 @@
 		4575F6BD122FC4FE00723106 /* MEOW_UserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_UserState.h; sourceTree = "<group>"; };
 		4575F6BE122FC4FE00723106 /* MEOW_UserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_UserState.m; sourceTree = "<group>"; };
 		4575F6DF122FC94A00723106 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		4575F7A9122FE4CA00723106 /* MEOW_UserMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_UserMessage.h; sourceTree = "<group>"; };
+		4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_UserMessage.m; sourceTree = "<group>"; };
 		45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				4575F6BE122FC4FE00723106 /* MEOW_UserState.m */,
 				1D3623240D0F684500981E51 /* MEOW_iphoneAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */,
+				4575F7A9122FE4CA00723106 /* MEOW_UserMessage.h */,
+				4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				45D76B951228C0F200003C53 /* MessagesViewController.m in Sources */,
 				45D76BFC1228F91700003C53 /* MessagesToolBarViewController.m in Sources */,
 				4575F6BF122FC4FE00723106 /* MEOW_UserState.m in Sources */,
+				4575F7AB122FE4CA00723106 /* MEOW_UserMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
