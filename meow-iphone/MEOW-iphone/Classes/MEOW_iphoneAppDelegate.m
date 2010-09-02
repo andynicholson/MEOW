@@ -8,6 +8,7 @@
 
 #import "MEOW_iphoneAppDelegate.h"
 #import "HomeViewController.h"
+#import "MEOW_UserState.h"
 
 @implementation MEOW_iphoneAppDelegate
 
@@ -26,6 +27,11 @@
 	
     [window makeKeyAndVisible];
 
+	
+	//User starts logged off, obviously
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+	
+	
     return YES;
 }
 

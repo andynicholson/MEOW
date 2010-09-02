@@ -7,8 +7,8 @@
 //
 
 #import "RegisterViewController.h"
-
 #import "DKDeferred+JSON.h"
+#import "MEOW_UserState.h"
 
 #define SERVICE_URL @"http://meow.infiniterecursion.com.au/json";
 #define METHOD_NAME @"meow.register"
@@ -22,6 +22,8 @@
 	NSString *arg1 = [reg_username text];
 	NSString *arg2 = [reg_password1 text];
 	NSString *arg3 = [reg_email text];
+	
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
 	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
 	DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
@@ -65,6 +67,8 @@
 	NSString *arg1 = [username text];
 	NSString *arg2 = [password text];
 	
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+	
 	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
 	DKDeferred* dk2 = [dk login:array_(arg1,arg2)];
 	[dk2 addCallback:callbackTS(self,doLoginCompleted:)];
@@ -80,7 +84,8 @@
 	NSString *message = @"Login was a success!";				
 	
 	//setup UserSession singleton.
-	//XXX TODO
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:TRUE];
+	
 	
 	//cache inbox messages sent back.
 	
@@ -99,6 +104,7 @@
 	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
 	NSString *errormessage = [errors objectForKey:@"message"];					
 	
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops" message:errormessage delegate:self cancelButtonTitle:@"Oh well" otherButtonTitles:NULL];
 	[alertview show];

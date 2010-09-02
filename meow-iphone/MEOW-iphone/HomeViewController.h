@@ -19,7 +19,14 @@
 
 
 @property (nonatomic, retain) IBOutlet UIView *view;
+
 @property (nonatomic, retain) IBOutlet UIButton *groups;
+@property (nonatomic, retain) IBOutlet UIButton *contacts;
+@property (nonatomic, retain) IBOutlet UIButton *messages;
+@property (nonatomic, retain) IBOutlet UIButton *about;
+@property (nonatomic, retain) IBOutlet UIButton *login;
+@property (nonatomic, retain) IBOutlet UIButton *register_btn;
+
 
 -(IBAction) doRegisterScreen:(id)sender;
 -(IBAction) doLoginScreen:(id)sender;

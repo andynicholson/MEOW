@@ -8,16 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
 @class HomeViewController;
 
 @interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     
 	IBOutlet UINavigationController*  myNavigationController;
+
+	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet UINavigationController*  myNavigationController;
+
+
 @end
 

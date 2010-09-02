@@ -9,10 +9,12 @@
 #import "HomeViewController.h"
 #import "RegisterViewController.h"
 #import "MessagesToolBarViewController.h"
+#import "MEOW_UserState.h"
+
 
 @implementation HomeViewController
 
-@synthesize groups;
+@synthesize groups, contacts, about, messages, login, register_btn;
 
 -(IBAction) doRegisterScreen:(id)sender {
 	NSLog(@"do Register in homeviewcontroller!");
@@ -35,22 +37,59 @@
 -(IBAction) doMessagesScreen:(id)sender {
 	NSLog(@"do Messages in homeviewcontroller!");
 	
-	MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
-	[self.navigationController pushViewController:rvc animated:TRUE];
-	[rvc release];
+	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
+		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
+		[self.navigationController pushViewController:rvc animated:TRUE];
+		[rvc release];		
+	} else {
+		NSString *message = @"To retreive your messages, please login first.";	
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Messages" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];	
+	}
+
+	
 	
 }
 
 
 -(IBAction) doContactsScreen:(id)sender {
+	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
+		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
+		[self.navigationController pushViewController:rvc animated:TRUE];
+		[rvc release];		
+	} else {
+		NSString *message = @"To see your online contacts, please login first.";	
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Contacts" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];	
+	}
+	
 	
 	
 }
 -(IBAction) doGroupsScreen:(id)sender {
+	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
+		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
+		[self.navigationController pushViewController:rvc animated:TRUE];
+		[rvc release];		
+	} else {
+		NSString *message = @"To see the list of groups, please login first.";	
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Groups" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];	
+	}
+	
 	
 	
 }
 -(IBAction) doAboutScreen:(id)sender {
+	
+	NSString *message = @"Developed by Andy Nicholson.\n Copyright 2010.\nReleased under the GNU GPL v3. See http://github.com/andycat/MEOW for source code.";	
+	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"About MEOW" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+	[alertview show];
+	[alertview release];	
+	
 	
 }
 
@@ -71,9 +110,11 @@
     [super viewDidLoad];
 
 	//start with the gruops etc button disabled, until login
-	
+	/*
 	[groups setEnabled:NO];
-
+	[messages setEnabled:NO];
+	[contacts setEnabled:NO];
+	 */
 }
 
 
