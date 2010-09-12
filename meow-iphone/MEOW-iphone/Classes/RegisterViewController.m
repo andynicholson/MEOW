@@ -10,8 +10,7 @@
 #import "DKDeferred+JSON.h"
 #import "MEOW_UserState.h"
 
-#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json";
-#define METHOD_NAME @"meow.register"
+#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json"
 
 #define kKeyboardAnimationDuration 0.3
 
@@ -28,7 +27,7 @@
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
-	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
+	id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
 	DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
 	[dk2 addCallback:callbackTS(self,doRegistrationCompleted:)];
 	//[dk2 addCallback:callbackTS(self,doRegistrationFailed:)];
@@ -53,9 +52,10 @@
 
 - (id)doRegistrationFailed:(NSError *)err {
     // do something with error
-	NSLog(@" FAIL rego %@ " , err );
-	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
-	NSString *errormessage = [errors objectForKey:@"message"];					
+	
+	NSDictionary *errors = [err userInfo];
+	NSLog(@" FAIL rego %@ " , errors );
+	NSString *errormessage = [errors objectForKey:@"NSLocalizedDescription"];					
 	
 	
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops" message:errormessage delegate:nil cancelButtonTitle:@"Oh well" otherButtonTitles:NULL];
@@ -72,7 +72,7 @@
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
-	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
+	id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
 	DKDeferred* dk2 = [dk login:array_(arg1,arg2)];
 	[dk2 addCallback:callbackTS(self,doLoginCompleted:)];
 	[dk2 addErrback:callbackTS(self, doLoginFailed:)];
@@ -124,9 +124,10 @@
 
 - (id)doLoginFailed:(NSError *)err {
     // do something with error
-	NSLog(@" FAIL login %@ " , err );
-	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
-	NSString *errormessage = [errors objectForKey:@"message"];					
+	
+	NSDictionary *errors = [err userInfo];
+	NSLog(@" FAIL login %@ " , errors );
+	NSString *errormessage = [errors objectForKey:@"NSLocalizedDescription"];					
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
