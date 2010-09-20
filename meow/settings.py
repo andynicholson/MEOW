@@ -99,3 +99,13 @@ INSTALLED_APPS = (
     # MEOW itself
     'meow.middleware',
 )
+
+import logging
+logging.basicConfig(
+    level = logging.DEBUG,
+    filename = '/tmp/MEOW.log',
+    filemode = 'w',
+    format = '%(asctime)s %(levelname)s %(message)s',
+)
+
+DEFAULT_FROM_EMAIL='root@erko.infiniterecursion.com.au'
