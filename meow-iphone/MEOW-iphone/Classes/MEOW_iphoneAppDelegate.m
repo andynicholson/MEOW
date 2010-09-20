@@ -7,13 +7,13 @@
 //
 
 #import "MEOW_iphoneAppDelegate.h"
-#import "MEOW_iphoneViewController.h"
+#import "HomeViewController.h"
+#import "MEOW_UserState.h"
 
 @implementation MEOW_iphoneAppDelegate
 
 @synthesize window;
-@synthesize viewController;
-
+@synthesize myNavigationController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -23,9 +23,15 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
-    [window addSubview:viewController.view];
+    [window addSubview:myNavigationController.view];
+	
     [window makeKeyAndVisible];
 
+	
+	//User starts logged off, obviously
+	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+	
+	
     return YES;
 }
 
@@ -79,7 +85,7 @@
 
 
 - (void)dealloc {
-    [viewController release];
+    
     [window release];
     [super dealloc];
 }
