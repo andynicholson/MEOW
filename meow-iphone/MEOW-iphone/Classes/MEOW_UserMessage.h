@@ -19,14 +19,14 @@
 	NSString *readat_datetime;
 	NSString *message;
 	NSString *title;
-	NSString *type;
+	int type;
 }
 
 @property (nonatomic, retain) NSString *sender;
 @property (nonatomic, retain) NSString *datetime;
 @property (nonatomic, retain) NSString *message;
 @property (nonatomic, retain) NSString *title;
-@property (nonatomic, retain) NSString *type;
+@property (nonatomic, assign) int type;
 @property (nonatomic, retain) NSString *readat_datetime;
 
 

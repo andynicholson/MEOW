@@ -11,6 +11,7 @@
 
 @implementation MEOW_UserMessage
 
-@synthesize sender, datetime, message, title, type, readat_datetime;
+@synthesize sender, datetime, message, title, readat_datetime;
+@synthesize type;
 
 @end

@@ -90,8 +90,8 @@
 	MEOW_UserMessage *msg = [[[MEOW_UserState sharedMEOW_UserState] userMessages] objectAtIndex:indexPath.row];
 	
 	
-	NSString *subtitle = [NSString stringWithFormat:@"sent %@" , [msg datetime]];
-	NSString *header = [NSString stringWithFormat:@"%@ from %@" , [msg title], [msg sender]];
+	NSString *subtitle = [NSString stringWithFormat:@"sent by %@ on %@" , [msg sender], [msg datetime]];
+	NSString *header = [NSString stringWithFormat:@"%@" , [msg title]];
 						
 	[cell.textLabel setText:header];
 	[cell.detailTextLabel setText:subtitle];

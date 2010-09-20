@@ -18,8 +18,11 @@
 	//Messages
 	//NSArray of MEOW_UserMessage
 	NSMutableArray *_messages;
+	int viewing_message_types;
+	
 	
 	//Groups
+	//XXX
 	
 	//Contacts
 	// Done by XMPP library.
@@ -29,13 +32,20 @@
 @property (nonatomic, assign) BOOL logged_in;
 @property (nonatomic, retain) NSString *username;
 @property (nonatomic, retain) NSString *password;
+@property (nonatomic, assign) int viewing_message_types;
 
 //Method used as wrapper to load messages into user's session as recieved from middleware
 //
 -(void) addMessage:(NSString *)body withTitle:(NSString*)title fromSender:(NSString *)sender 
-		atDateTime:(NSString *)datetime withType:(NSString *)type;
+		atDateTime:(NSString *)datetime withType:(int )type;
 
 -(NSArray *)userMessages;
+
+
+-(NSArray *) publicUserMessages;
+-(NSArray *) privateUserMessages;
+-(NSArray *) groupUserMessages;
+
 
 
 + (MEOW_UserState *)sharedMEOW_UserState;

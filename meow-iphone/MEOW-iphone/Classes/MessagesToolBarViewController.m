@@ -7,10 +7,45 @@
 //
 
 #import "MessagesToolBarViewController.h"
+#import "MEOW_UserMessage.h"
+#import "MEOW_UserState.h"
 
 @implementation MessagesToolBarViewController
 
 @synthesize topView;
+@synthesize newmsg, groups, publicbtn, personal;
+
+
+
+-(void) userWantsPersonalMessaging {
+	
+	[self setTitle:@"Personal Messaging"];
+	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PRIVATE];
+	[[mvc tableView] reloadData];
+}
+
+
+-(void) userWantsPublicMessaging {
+	
+	[self setTitle:@"Public Messaging"];
+	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PUBLIC];
+	[[mvc tableView] reloadData];
+}
+
+
+-(void) userWantsGroupsMessaging {
+	
+	[self setTitle:@"Groups Messaging"];
+	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_GROUP];
+	[[mvc tableView] reloadData];
+}
+
+
+-(void) userWantsToWriteNewMessage {
+	
+	
+	
+}
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -18,7 +53,7 @@
         // Custom initialization
 
 		//Add the tableview controller to the view
-		[self setTitle:@"Messaging"];
+		[self setTitle:@"Personal Messaging"];
 		//Messages View Controller
 		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nil];
 	
@@ -35,6 +70,7 @@
 	//NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
 	[mvc.view setFrame:self.topView.frame];
 	[self.topView addSubview:mvc.view];
+	
 	
 }
 
@@ -64,6 +100,12 @@
 - (void)dealloc {
     [super dealloc];
 	[topView release];
+	
+	[newmsg release];
+	[publicbtn release];
+	[groups	release];
+	[personal release];
+	
 	[mvc release];
 }
 

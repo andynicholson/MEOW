@@ -9,8 +9,9 @@
 #import "RegisterViewController.h"
 #import "DKDeferred+JSON.h"
 #import "MEOW_UserState.h"
+#import "MEOW_UserMessage.h"
 
-#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json"
+#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
 
 #define kKeyboardAnimationDuration 0.3
 
@@ -24,15 +25,31 @@
 	NSString *arg1 = [reg_username text];
 	NSString *arg2 = [reg_password1 text];
 	NSString *arg3 = [reg_email text];
+	NSString *arg4 = [reg_password2 text];
 	
-	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+	if ([arg2 isEqualToString:arg4] == YES) {
+		
+		//ok can register
+		
+		[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+		
+		id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
+		DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
+		[dk2 addCallback:callbackTS(self,doRegistrationCompleted:)];
+		[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
+		
+		
+	} else {
+		
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops!" message:@"Passwords dont match. Please correct this and try to register again." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];
+		
+		
+	}
 	
-	id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
-	DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
-	[dk2 addCallback:callbackTS(self,doRegistrationCompleted:)];
-	//[dk2 addCallback:callbackTS(self,doRegistrationFailed:)];
-	[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
 	
+		
 }
 
 - (id)doRegistrationCompleted:(id)result {
@@ -102,7 +119,7 @@
 		
 		[[MEOW_UserState sharedMEOW_UserState] addMessage:[msg objectAtIndex:1] withTitle:[msg objectAtIndex:0]
 											   fromSender:[msg objectAtIndex:2] atDateTime:[msg objectAtIndex:3]
-												 withType:0];
+												 withType:MSG_PRIVATE];
 		
 	}
 	
@@ -126,7 +143,7 @@
     // do something with error
 	
 	NSDictionary *errors = [err userInfo];
-	NSLog(@" FAIL login %@ " , errors );
+	NSLog(@" FAIL login %@ " , err );
 	NSString *errormessage = [errors objectForKey:@"NSLocalizedDescription"];					
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];

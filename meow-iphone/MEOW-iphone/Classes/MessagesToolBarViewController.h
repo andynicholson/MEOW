@@ -15,9 +15,22 @@
 	UITableView *topView;
 	
 	MessagesViewController *mvc;
+	
+	//Buttons on toolbar
+	UIBarButtonItem *newmsg;
+	UIBarButtonItem *personal;
+	UIBarButtonItem *groups;
+	UIBarButtonItem *publicbtn;
+	
 }
 
 @property (nonatomic,retain) IBOutlet UIView *view;
 @property (nonatomic,retain) IBOutlet UITableView *topView;
+@property (nonatomic,retain) IBOutlet UIBarButtonItem *newmsg, *personal, *groups, *publicbtn;
+
+-(IBAction) userWantsPublicMessaging;
+-(IBAction) userWantsPersonalMessaging;
+-(IBAction) userWantsGroupsMessaging;
+-(IBAction) userWantsToWriteNewMessage;
 
 @end

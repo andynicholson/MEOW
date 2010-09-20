@@ -30,9 +30,11 @@
 	
 	//if NOT logged in
 	if ( ! [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
+		
 		RegisterViewController *rvc = [[RegisterViewController alloc] initWithNibName:@"RegisterViewController" bundle:nil];
 		[self.navigationController pushViewController:rvc animated:TRUE];
 		[rvc release]; 
+		
 	} else {
 		
 		//Simulate logout
@@ -41,6 +43,9 @@
 		[alertview show];
 		[alertview release];	
 		
+		//reset button to original state
+		[login setTitle:@"Login" forState:UIControlStateNormal];
+		[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 		
 	}
 	

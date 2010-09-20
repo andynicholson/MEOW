@@ -18,9 +18,14 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 @synthesize username = _username;
 @synthesize password = _password;
 
+@synthesize viewing_message_types;
+
 -(id) init {
 	if (self = [super init]){
 		_messages = [[NSMutableArray alloc] init];		
+		
+		viewing_message_types = MSG_PRIVATE;
+		
 	}
 	return self;
 	
@@ -28,7 +33,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 
 
 -(void) addMessage:(NSString *)body withTitle:(NSString*)title fromSender:(NSString *)sender 
-		atDateTime:(NSString *)datetime withType:(NSString *)type {
+		atDateTime:(NSString *)datetime withType:(int) type {
 	
 	
 	MEOW_UserMessage *msg = [[MEOW_UserMessage alloc] init];
@@ -37,6 +42,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 	[msg setMessage:body];
 	[msg setSender:sender];
 	[msg setDatetime:datetime];
+	[msg setType:type];
 	
 	[_messages addObject:msg];
 	
@@ -44,18 +50,89 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 	
 }
 
--(NSArray *)userMessages {
+
+/* Return the desired form of user messages
+ *
+ */
+-(NSArray *)userMessages {	
 	
-	NSArray *array = [[_messages copy] autorelease];
-	return array;
+	switch (viewing_message_types) {
+		case MSG_PRIVATE:
+			return [self privateUserMessages];
+			break;
+		
+		case MSG_GROUP:
+			return [self groupUserMessages];
+			break;
+
+		case MSG_PUBLIC:
+			return [self publicUserMessages];
+			break;
+	
+			
+		default:
+			return [self privateUserMessages];
+			break;
+	}
+	
 	
 }
+
+/* Return only public user messages
+ *
+ */
+
+-(NSArray *) publicUserMessages {
+	
+	NSMutableArray *array = [[NSMutableArray alloc] init];
+	
+	for (int i=0; i < [_messages count]; i++) {
+		MEOW_UserMessage *msg = [_messages objectAtIndex:i];
+		if ([msg type] == MSG_PUBLIC) {
+			[array addObject:msg];
+		}
+			
+	}
+	return array;
+
+	
+}
+
+/* Return only group messages
+ *
+ */
+-(NSArray *) groupUserMessages {
+	NSMutableArray *array = [[NSMutableArray alloc] init];
+	for (int i=0; i < [_messages count]; i++) {
+		MEOW_UserMessage *msg = [_messages objectAtIndex:i];
+		if ([msg type] == MSG_GROUP) {
+			[array addObject:msg];
+		}
+		
+	}
+	return array;
+}
+
+/* Return only private user messages
+ *
+ */
+-(NSArray *) privateUserMessages {	
+	NSMutableArray *array = [[NSMutableArray alloc] init];
+	for (int i=0; i < [_messages count]; i++) {
+		MEOW_UserMessage *msg = [_messages objectAtIndex:i];
+		if ([msg type] == MSG_PRIVATE) {
+			[array addObject:msg];
+		}
+		
+	}
+	return array;
+}
+
 
 -(void)dealloc {
 	[super dealloc];
 	[_username release];
-	[_password release];
-	
+	[_password release];	
 	[_messages release];
 	
 }
