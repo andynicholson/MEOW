@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/249/trunk/Roster
+END
+XMPPResourceCoreDataStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/243/trunk/Roster/XMPPResourceCoreDataStorage.m
+END
+XMPPResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/243/trunk/Roster/XMPPResource.h
+END
+XMPPRosterMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/243/trunk/Roster/XMPPRosterMemoryStorage.h
+END
+XMPPUserMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/243/trunk/Roster/XMPPUserMemoryStorage.h
+END
+XMPPRosterMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/243/trunk/Roster/XMPPRosterMemoryStorage.m
+END
+XMPPUserMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/243/trunk/Roster/XMPPUserMemoryStorage.m
+END
+XMPPResourceMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/243/trunk/Roster/XMPPResourceMemoryStorage.h
+END
+XMPPUserCoreDataStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/243/trunk/Roster/XMPPUserCoreDataStorage.h
+END
+XMPPRosterCoreDataStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/243/trunk/Roster/XMPPRosterCoreDataStorage.h
+END
+XMPPRosterPrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/243/trunk/Roster/XMPPRosterPrivate.h
+END
+XMPPResourceMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/243/trunk/Roster/XMPPResourceMemoryStorage.m
+END
+XMPPRosterCoreDataStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/243/trunk/Roster/XMPPRosterCoreDataStorage.m
+END
+XMPPUserCoreDataStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/243/trunk/Roster/XMPPUserCoreDataStorage.m
+END
+XMPPUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/243/trunk/Roster/XMPPUser.h
+END
+XMPPRoster.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/249/trunk/Roster/XMPPRoster.h
+END
+XMPPResourceCoreDataStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/243/trunk/Roster/XMPPResourceCoreDataStorage.h
+END
+XMPPRoster.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/249/trunk/Roster/XMPPRoster.m
+END

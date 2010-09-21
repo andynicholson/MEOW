@@ -1,0 +1,40 @@
+10
+
+dir
+253
+http://xmppframework.googlecode.com/svn/trunk/Vendor
+http://xmppframework.googlecode.com/svn
+
+
+
+2010-09-20T19:54:09.896317Z
+250
+eric.chamberlain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69bd8580-3047-0410-960a-a116b6c96ec9
+
+libidn
+dir
+
+AsyncSocket
+dir
+
+SSCrypto
+dir
+
+KissXML
+dir
+
