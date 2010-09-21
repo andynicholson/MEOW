@@ -11,7 +11,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 1144}}";
 			sepNavSelRange = "{840, 0}";
-			sepNavVisRange = "{48, 1754}";
+			sepNavVisRange = "{48, 1752}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* MEOW-iphone */ = {
@@ -359,6 +359,7 @@
 			450BB7C6124894FF0028F91E /* PBXTextBookmark */ = 450BB7C6124894FF0028F91E /* PBXTextBookmark */;
 			450BB7C7124894FF0028F91E /* PBXTextBookmark */ = 450BB7C7124894FF0028F91E /* PBXTextBookmark */;
 			450BB7C8124894FF0028F91E /* PBXTextBookmark */ = 450BB7C8124894FF0028F91E /* PBXTextBookmark */;
+			450BB7CD1248952D0028F91E /* PBXTextBookmark */ = 450BB7CD1248952D0028F91E /* PBXTextBookmark */;
 			453407B0123CED680055114B = 453407B0123CED680055114B /* PBXTextBookmark */;
 			453407B1123CED680055114B = 453407B1123CED680055114B /* PBXTextBookmark */;
 			453407B2123CED680055114B = 453407B2123CED680055114B /* PBXTextBookmark */;
@@ -942,7 +943,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 18;
-		rLoc = 1558;
+		rLoc = 1500;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 528;
@@ -1663,7 +1664,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 32";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 1081;
 		vrLoc = 424;
@@ -1673,7 +1674,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 780;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 531;
@@ -1703,7 +1704,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 780;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 531;
@@ -1803,7 +1804,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 780;
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 528;
@@ -1813,7 +1814,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 838;
+		rLoc = 780;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 425;
@@ -1843,7 +1844,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 23";
 		rLen = 0;
-		rLoc = 519;
+		rLoc = 461;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 238;
@@ -1873,7 +1874,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 45";
 		rLen = 0;
-		rLoc = 798;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 424;
@@ -1923,7 +1924,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 45";
 		rLen = 0;
-		rLoc = 798;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 0;
@@ -2639,7 +2640,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 44";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 736;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 2666;
@@ -2662,6 +2663,16 @@
 		rLoc = 840;
 		rType = 0;
 		vrLen = 1754;
+		vrLoc = 48;
+	};
+	450BB7CD1248952D0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 840;
+		rType = 0;
+		vrLen = 1752;
 		vrLoc = 48;
 	};
 	453407B0123CED680055114B /* PBXTextBookmark */ = {
@@ -2699,7 +2710,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 49";
 		rLen = 0;
-		rLoc = 2361;
+		rLoc = 2303;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -3161,7 +3172,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 1742}}";
 			sepNavSelRange = "{3055, 0}";
-			sepNavVisRange = "{0, 333}";
+			sepNavVisRange = "{0, 382}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};

@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>450BB7C8124894FF0028F91E</string>
+										<string>450BB7CD1248952D0028F91E</string>
 										<key>history</key>
 										<array>
 											<string>453407B1123CED680055114B</string>
@@ -550,6 +550,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>450BB7CE1248952D0028F91E</string>
 		<string>450BB7C9124894FF0028F91E</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>450BB519124735160028F91E</string>
@@ -576,12 +577,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MessagesToolBarViewController.m</string>
+								<string>MEOW_UserState.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -598,8 +601,6 @@
 							<string>240pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

@@ -15,7 +15,6 @@
 SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 
 @synthesize logged_in = _logged_in;
-@synthesize needsMsgTableRefresh = _needsMsgTableRefresh;
 @synthesize username = _username;
 @synthesize password = _password;
 
