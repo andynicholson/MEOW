@@ -11,6 +11,7 @@
 #import "MEOW_UserState.h"
 #import "DKDeferred+JSON.h"
 #import "MEOW_iphoneAppDelegate.h"
+#import "MessagesToolBarViewController.h"
 
 @implementation MessagesViewController
 
@@ -32,7 +33,11 @@
 	
 	if (! [MEOW_UserState sharedMEOW_UserState].delayTimer) {
 		NSLog(@"Scheduling a auto refresh of inbox every 15 seconds");
+		
+		//timer on the shared object -- calling refreshInbox
+		
 		[MEOW_UserState sharedMEOW_UserState].delayTimer = [NSTimer scheduledTimerWithTimeInterval:15.0 target:self selector:@selector(doRefreshInbox) userInfo:nil repeats:YES];		
+		
 	}
 	
 }
@@ -140,19 +145,23 @@
 
 -(void) doRefreshInbox {
 	NSLog(@" Refresh Inbox Called! " );
+	
+	//NSLog(@"self is %@ table is %@ " , self, [self msgsTable]);
+	
 	id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
 	DKDeferred* dk2 = [dk inbox:array_([MEOW_UserState sharedMEOW_UserState].username, [MEOW_UserState sharedMEOW_UserState].password)];
 	[dk2 addCallback:callbackTS(self,doRefreshCompleted:)];
 	[dk2 addErrback:callbackTS(self, doRefreshFailed:)];
 	
-	
+	//not reliable
+	//[[self msgsTable] reloadData];
 }
 
 
 //JSON-RPC call backs
 
 -(id) doRefreshCompleted:(id) result {
-	NSLog(@" Refresh Inbox Completed! %@ " , result );
+	//NSLog(@" Refresh Inbox Completed! %@  self is %@ table is %@" , result , self, [self msgsTable]);
 	
 	NSArray *resultdict = [(NSDictionary*)result objectForKey:@"result"];
 	
@@ -167,8 +176,7 @@
 		deleting = FALSE;
 	}
 	
-	//update UI
-	[[self msgsTable] reloadData]; 
+	
 	
 	return result;
 }
@@ -281,10 +289,11 @@
 - (void)viewDidUnload {
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
-	
+	NSLog(@" Stopping inbox refresh timers");
 	[[MEOW_UserState sharedMEOW_UserState].delayTimer invalidate];
 	[MEOW_UserState sharedMEOW_UserState].delayTimer = nil;
 	
+		
 }
 
 
@@ -292,6 +301,7 @@
     [super dealloc];
 	[msgsTable release];
 	[indexpathDeleting release];
+	
 }
 
 

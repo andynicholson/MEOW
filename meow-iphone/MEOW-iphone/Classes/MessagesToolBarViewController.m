@@ -14,14 +14,13 @@
 
 @synthesize topView;
 @synthesize newmsg, groups, publicbtn, personal;
-
-
+@synthesize refreshTimer;
 
 -(void) userWantsPersonalMessaging {
 	
 	[self setTitle:@"Personal Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PRIVATE];
-	[[mvc msgsTable] reloadData];
+	[self mvcWantsTableReload];
 }
 
 
@@ -29,7 +28,7 @@
 	
 	[self setTitle:@"Public Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PUBLIC];
-	[[mvc msgsTable] reloadData];
+	[self mvcWantsTableReload];
 }
 
 
@@ -37,7 +36,7 @@
 	
 	[self setTitle:@"Groups Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_GROUP];
-	[[mvc msgsTable] reloadData];
+	[self mvcWantsTableReload];
 }
 
 
@@ -47,6 +46,11 @@
 	
 }
 
+-(void) mvcWantsTableReload {
+	
+	[[mvc msgsTable] reloadData];
+	
+}
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -59,7 +63,8 @@
 		//Messages View Controller
 		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nibBundleOrNil];
 		
-				
+		self.refreshTimer = [NSTimer scheduledTimerWithTimeInterval:7.5 target:self selector:@selector(mvcWantsTableReload) userInfo:nil repeats:YES];		
+							 
 	}
     return self;
 }
@@ -73,8 +78,7 @@
 	//NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
 	[mvc.view setFrame:self.topView.frame];
 	[self.topView addSubview:mvc.view];
-	[mvc setMsgsTable:mvc.view];
-	
+			
 }
 
 
@@ -98,7 +102,8 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
-	
+	[self.refreshTimer invalidate];
+
 }
 
 
@@ -112,6 +117,8 @@
 	[personal release];
 	
 	[mvc release];
+	[refreshTimer release];
+	
 }
 
 

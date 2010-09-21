@@ -33,6 +33,7 @@
 }
 
 @property (nonatomic, assign) BOOL logged_in;
+
 @property (nonatomic, retain) NSString *username;
 @property (nonatomic, retain) NSString *password;
 @property (nonatomic, assign) int viewing_message_types;
