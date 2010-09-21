@@ -61,7 +61,7 @@
 	NSString *message = @"Registration was a success!";				
 	
 	
-	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
 	[alertview show];
 	[alertview release];
 	

@@ -10,7 +10,7 @@
 #import "RegisterViewController.h"
 #import "MessagesToolBarViewController.h"
 #import "MEOW_UserState.h"
-
+#import "ContactsViewController.h"
 
 @implementation HomeViewController
 
@@ -80,6 +80,9 @@
 -(IBAction) doContactsScreen:(id)sender {
 	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
 		
+		ContactsViewController *cvc = [[ContactsViewController alloc] initWithNibName:@"ContactsViewController" bundle:nil];
+		[self.navigationController pushViewController:cvc animated:YES];
+		[cvc release];
 		
 		
 	} else {
