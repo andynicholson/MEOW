@@ -31,7 +31,6 @@
 	//User starts logged off, obviously
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
-	
     return YES;
 }
 

@@ -9,9 +9,10 @@
 #import "RegisterViewController.h"
 #import "DKDeferred+JSON.h"
 #import "MEOW_UserState.h"
+#import "MEOW_UserMessage.h"
+#import "MEOW_iphoneAppDelegate.h"
 
-#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json";
-#define METHOD_NAME @"meow.register"
+
 
 #define kKeyboardAnimationDuration 0.3
 
@@ -25,15 +26,31 @@
 	NSString *arg1 = [reg_username text];
 	NSString *arg2 = [reg_password1 text];
 	NSString *arg3 = [reg_email text];
+	NSString *arg4 = [reg_password2 text];
 	
-	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+	if ([arg2 isEqualToString:arg4] == YES) {
+		
+		//ok can register
+		
+		[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+		
+		id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
+		DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
+		[dk2 addCallback:callbackTS(self,doRegistrationCompleted:)];
+		[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
+		
+		
+	} else {
+		
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops!" message:@"Passwords dont match. Please correct this and try to register again." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];
+		
+		
+	}
 	
-	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
-	DKDeferred* dk2 = [dk registerUser:array_(arg1,arg2,arg3)];
-	[dk2 addCallback:callbackTS(self,doRegistrationCompleted:)];
-	//[dk2 addCallback:callbackTS(self,doRegistrationFailed:)];
-	[dk2 addErrback:callbackTS(self, doRegistrationFailed:)];
 	
+		
 }
 
 - (id)doRegistrationCompleted:(id)result {
@@ -53,9 +70,10 @@
 
 - (id)doRegistrationFailed:(NSError *)err {
     // do something with error
-	NSLog(@" FAIL rego %@ " , err );
-	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
-	NSString *errormessage = [errors objectForKey:@"message"];					
+	
+	NSDictionary *errors = [err userInfo];
+	NSLog(@" FAIL rego %@ " , errors );
+	NSString *errormessage = [errors objectForKey:@"NSLocalizedDescription"];					
 	
 	
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Oops" message:errormessage delegate:nil cancelButtonTitle:@"Oh well" otherButtonTitles:NULL];
@@ -72,7 +90,7 @@
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
-	id dk = [DKDeferred jsonService:@"http://meow.infiniterecursion.com.au/json/" name:@"meow"];
+	id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
 	DKDeferred* dk2 = [dk login:array_(arg1,arg2)];
 	[dk2 addCallback:callbackTS(self,doLoginCompleted:)];
 	[dk2 addErrback:callbackTS(self, doLoginFailed:)];
@@ -91,20 +109,7 @@
 	[[MEOW_UserState sharedMEOW_UserState] setUsername:[username text]];
 	[[MEOW_UserState sharedMEOW_UserState] setPassword:[password text]];
 	
-	//cache inbox messages sent back.
-	NSEnumerator *enumerator = [resultdict objectEnumerator];
-	id anObject;
-	
-	while (anObject = [enumerator nextObject]) {
-		/* code to act on each element as it is returned */
-		NSLog(@"object is %@" , anObject);
-		NSArray *msg = (NSArray *) anObject;
-		
-		[[MEOW_UserState sharedMEOW_UserState] addMessage:[msg objectAtIndex:1] withTitle:[msg objectAtIndex:0]
-											   fromSender:[msg objectAtIndex:2] atDateTime:[msg objectAtIndex:3]
-												 withType:0];
-		
-	}
+	[MEOW_UserState processReturnedInbox:resultdict];
 	
 	//lets pass self as delegate - auto-pop back to home screen on success.
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
@@ -124,9 +129,10 @@
 
 - (id)doLoginFailed:(NSError *)err {
     // do something with error
+	
+	NSDictionary *errors = [err userInfo];
 	NSLog(@" FAIL login %@ " , err );
-	NSDictionary *errors = [[err userInfo] objectForKey:@"error"];
-	NSString *errormessage = [errors objectForKey:@"message"];					
+	NSString *errormessage = [errors objectForKey:@"NSLocalizedDescription"];					
 	
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	

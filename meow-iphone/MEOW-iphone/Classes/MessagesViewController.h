@@ -8,13 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
+@class MessagesToolBarViewController;
 
 @interface MessagesViewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
 
-	UITableView *tableView;
+	IBOutlet UITableView *msgsTable;
+	
+	NSIndexPath *indexpathDeleting;
+	BOOL deleting;
 	
 }
 
-@property (nonatomic, retain) IBOutlet UITableView* tableView;
+@property (nonatomic, retain) IBOutlet UITableView* msgsTable;
+@property (nonatomic, retain) NSIndexPath *indexpathDeleting;
+
+
+
+-(void) doRefreshInbox;
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 
 @end
