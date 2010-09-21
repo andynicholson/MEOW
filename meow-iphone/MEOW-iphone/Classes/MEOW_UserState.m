@@ -20,20 +20,54 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 
 @synthesize viewing_message_types;
 
+@synthesize delayTimer;
+
 -(id) init {
 	if (self = [super init]){
-		_messages = [[NSMutableArray alloc] init];		
-		
-		viewing_message_types = MSG_PRIVATE;
-		
+		[self initialisation];		
 	}
 	return self;
 	
 }
 
 
+-(void) initialisation {
+	
+	if (_messages) {
+		[_messages release];
+	}
+	_messages = [[NSMutableArray alloc] init];		
+	
+	viewing_message_types = MSG_PRIVATE;
+	
+	
+	
+}
+
+
++(void) processReturnedInbox:(NSArray *)resultdict {
+	
+	//cache inbox messages sent back.
+	NSEnumerator *enumerator = [resultdict objectEnumerator];
+	id anObject;
+	
+	while (anObject = [enumerator nextObject]) {
+		/* code to act on each element as it is returned */
+		NSLog(@"object is %@" , anObject);
+		NSArray *msg = (NSArray *) anObject;
+		
+		[[MEOW_UserState sharedMEOW_UserState] addMessage:[msg objectAtIndex:2] withTitle:[msg objectAtIndex:1]
+											   fromSender:[msg objectAtIndex:3] atDateTime:[msg objectAtIndex:4]
+												 withType:MSG_PRIVATE withID:[msg objectAtIndex:0]];
+		
+	}
+	
+	
+}
+
+
 -(void) addMessage:(NSString *)body withTitle:(NSString*)title fromSender:(NSString *)sender 
-		atDateTime:(NSString *)datetime withType:(int) type {
+		atDateTime:(NSString *)datetime withType:(int) type withID:(int) msgid {
 	
 	
 	MEOW_UserMessage *msg = [[MEOW_UserMessage alloc] init];
@@ -42,8 +76,13 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 	[msg setMessage:body];
 	[msg setSender:sender];
 	[msg setDatetime:datetime];
+	//XXX fix this
+	[msg setReadat_datetime:datetime];
+	//set type (private, group, public)
 	[msg setType:type];
+	[msg setMsgid:msgid];
 	
+	//add msg into array
 	[_messages addObject:msg];
 	
 	[msg release];

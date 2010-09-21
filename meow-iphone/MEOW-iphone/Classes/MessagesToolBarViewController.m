@@ -21,7 +21,7 @@
 	
 	[self setTitle:@"Personal Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PRIVATE];
-	[[mvc tableView] reloadData];
+	[[mvc msgsTable] reloadData];
 }
 
 
@@ -29,7 +29,7 @@
 	
 	[self setTitle:@"Public Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_PUBLIC];
-	[[mvc tableView] reloadData];
+	[[mvc msgsTable] reloadData];
 }
 
 
@@ -37,7 +37,7 @@
 	
 	[self setTitle:@"Groups Messaging"];
 	[[MEOW_UserState sharedMEOW_UserState] setViewing_message_types:MSG_GROUP];
-	[[mvc tableView] reloadData];
+	[[mvc msgsTable] reloadData];
 }
 
 
@@ -47,6 +47,8 @@
 	
 }
 
+
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -55,8 +57,9 @@
 		//Add the tableview controller to the view
 		[self setTitle:@"Personal Messaging"];
 		//Messages View Controller
-		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nil];
-	
+		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nibBundleOrNil];
+		
+				
 	}
     return self;
 }
@@ -70,7 +73,7 @@
 	//NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
 	[mvc.view setFrame:self.topView.frame];
 	[self.topView addSubview:mvc.view];
-	
+	[mvc setMsgsTable:mvc.view];
 	
 }
 
@@ -94,6 +97,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+	
+	
 }
 
 

@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 
+#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
+
+
 @class HomeViewController;
 
 @interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate> {

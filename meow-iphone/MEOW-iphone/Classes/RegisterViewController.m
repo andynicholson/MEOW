@@ -10,8 +10,9 @@
 #import "DKDeferred+JSON.h"
 #import "MEOW_UserState.h"
 #import "MEOW_UserMessage.h"
+#import "MEOW_iphoneAppDelegate.h"
 
-#define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
+
 
 #define kKeyboardAnimationDuration 0.3
 
@@ -108,20 +109,7 @@
 	[[MEOW_UserState sharedMEOW_UserState] setUsername:[username text]];
 	[[MEOW_UserState sharedMEOW_UserState] setPassword:[password text]];
 	
-	//cache inbox messages sent back.
-	NSEnumerator *enumerator = [resultdict objectEnumerator];
-	id anObject;
-	
-	while (anObject = [enumerator nextObject]) {
-		/* code to act on each element as it is returned */
-		NSLog(@"object is %@" , anObject);
-		NSArray *msg = (NSArray *) anObject;
-		
-		[[MEOW_UserState sharedMEOW_UserState] addMessage:[msg objectAtIndex:1] withTitle:[msg objectAtIndex:0]
-											   fromSender:[msg objectAtIndex:2] atDateTime:[msg objectAtIndex:3]
-												 withType:MSG_PRIVATE];
-		
-	}
+	[MEOW_UserState processReturnedInbox:resultdict];
 	
 	//lets pass self as delegate - auto-pop back to home screen on success.
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];

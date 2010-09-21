@@ -46,7 +46,11 @@
 		//reset button to original state
 		[login setTitle:@"Login" forState:UIControlStateNormal];
 		[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
+		[[MEOW_UserState sharedMEOW_UserState] initialisation];
 		
+		
+		[register_btn setEnabled:YES];
+		[register_btn setBackgroundColor:[UIColor whiteColor]];
 	}
 	
 }
