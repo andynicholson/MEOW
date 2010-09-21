@@ -11,6 +11,7 @@
 
 #define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
 
+#define kKeyboardAnimationDuration 0.3
 
 @class HomeViewController;
 

@@ -18,6 +18,8 @@
 		4503D6FC1209665D005E9A73 /* libDeferredKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503D6F912096654005E9A73 /* libDeferredKit.a */; };
 		450BB7F51248AC0A0028F91E /* MessageThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */; };
 		450BB7F61248AC0A0028F91E /* MessageThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */; };
+		450BB89B1248D6690028F91E /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BB8991248D6690028F91E /* SendMessageViewController.m */; };
+		450BB89C1248D6690028F91E /* SendMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450BB89A1248D6690028F91E /* SendMessageViewController.xib */; };
 		4575F6BF122FC4FE00723106 /* MEOW_UserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */; };
 		4575F7AB122FE4CA00723106 /* MEOW_UserMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */; };
 		45C5B9BE12268B3E00EB87D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */; };
@@ -70,6 +72,9 @@
 		450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageThreadViewController.h; sourceTree = "<group>"; };
 		450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageThreadViewController.m; sourceTree = "<group>"; };
 		450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageThreadViewController.xib; sourceTree = "<group>"; };
+		450BB8981248D6690028F91E /* SendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMessageViewController.h; path = Classes/SendMessageViewController.h; sourceTree = "<group>"; };
+		450BB8991248D6690028F91E /* SendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMessageViewController.m; path = Classes/SendMessageViewController.m; sourceTree = "<group>"; };
+		450BB89A1248D6690028F91E /* SendMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SendMessageViewController.xib; path = Classes/SendMessageViewController.xib; sourceTree = "<group>"; };
 		4575F6BD122FC4FE00723106 /* MEOW_UserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_UserState.h; sourceTree = "<group>"; };
 		4575F6BE122FC4FE00723106 /* MEOW_UserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_UserState.m; sourceTree = "<group>"; };
 		4575F6DF122FC94A00723106 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
@@ -181,6 +186,8 @@
 		4575F72F122FCE3400723106 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				450BB8981248D6690028F91E /* SendMessageViewController.h */,
+				450BB8991248D6690028F91E /* SendMessageViewController.m */,
 				45D76B921228C0F200003C53 /* MessagesViewController.h */,
 				45D76B931228C0F200003C53 /* MessagesViewController.m */,
 				45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */,
@@ -198,6 +205,7 @@
 		45C5BA18122692E000EB87D8 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				450BB89A1248D6690028F91E /* SendMessageViewController.xib */,
 				450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */,
 				45D76B941228C0F200003C53 /* MessagesViewController.xib */,
 				45D76BFB1228F91700003C53 /* MessagesToolBarViewController.xib */,
@@ -283,6 +291,7 @@
 				45D76B961228C0F200003C53 /* MessagesViewController.xib in Resources */,
 				45D76BFD1228F91700003C53 /* MessagesToolBarViewController.xib in Resources */,
 				450BB7F61248AC0A0028F91E /* MessageThreadViewController.xib in Resources */,
+				450BB89C1248D6690028F91E /* SendMessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +311,7 @@
 				4575F6BF122FC4FE00723106 /* MEOW_UserState.m in Sources */,
 				4575F7AB122FE4CA00723106 /* MEOW_UserMessage.m in Sources */,
 				450BB7F51248AC0A0028F91E /* MessageThreadViewController.m in Sources */,
+				450BB89B1248D6690028F91E /* SendMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

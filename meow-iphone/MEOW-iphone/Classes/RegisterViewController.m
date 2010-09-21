@@ -14,7 +14,7 @@
 
 
 
-#define kKeyboardAnimationDuration 0.3
+
 
 @implementation RegisterViewController
 

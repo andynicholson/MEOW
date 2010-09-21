@@ -11,6 +11,7 @@
 #import "MEOW_UserState.h"
 #import "DKDeferred+JSON.h"
 #import "MEOW_iphoneAppDelegate.h"
+#import "SendMessageViewController.h"
 
 @implementation MessageThreadViewController
 
@@ -18,6 +19,7 @@
 @synthesize threadString;
 @synthesize navController;
 @synthesize msgid;
+@synthesize threadSender;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -71,6 +73,7 @@
 - (void)dealloc {
     [super dealloc];
 	[threadText release];
+	[threadSender release];
 }
 
 
@@ -100,11 +103,18 @@
 		NSEnumerator *enumerator = [thread_worked objectEnumerator];
 		id anObject;
 			
+		[self setThreadSender:@""];
+		
 		while (anObject = [enumerator nextObject]) {
 			/* code to act on each element as it is returned */
 			NSLog(@"object is %@" , anObject);
 			NSArray *msg = (NSArray *) anObject;
-					
+				
+			//find the latest thread sender not the user
+			if ([threadSender isEqualToString:@""] && ! [[msg objectAtIndex:3] isEqualToString:[MEOW_UserState sharedMEOW_UserState].username]) {
+				[self setThreadSender:[msg objectAtIndex:3]];
+			}
+			
 			[threadsStr appendFormat:@"<p><b>%@ %@</b><br/><i>sent by %@ on %@</i></p>" ,[msg objectAtIndex:1], [msg objectAtIndex:2],
 																		[msg objectAtIndex:3], [msg objectAtIndex:4]
 			 ];
@@ -140,5 +150,29 @@
 	
 }
 
+-(IBAction) doReply:(id) sender {
+	
+	NSLog(@"Do Reply!");
+	
+	NSLog(@"Showing send message controller. nav controller %@" , self.navController);
+	SendMessageViewController *sendMsgViewController = [[SendMessageViewController alloc] initWithNibName:@"SendMessageViewController" bundle:nil];
+	[sendMsgViewController setNavController:[self navController]];
+	
+	//set the recipient 
+	[sendMsgViewController setInitialRecipient:[self threadSender]];
+	//set the thread ID
+	[sendMsgViewController setThreadId:msgid];
+	
+	[self.navController pushViewController:sendMsgViewController animated:YES];
+	[sendMsgViewController release];
+	
+	
+	
+}
+
+-(IBAction) doTrash:(id) sender {
+	
+	NSLog(@"Do Trash!");
+}
 
 @end
