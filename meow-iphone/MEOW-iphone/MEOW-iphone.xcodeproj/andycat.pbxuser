@@ -31,8 +31,8 @@
 	28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1545, 3900}}";
-			sepNavSelRange = "{311, 0}";
-			sepNavVisRange = "{221, 1308}";
+			sepNavSelRange = "{2897, 0}";
+			sepNavVisRange = "{2416, 1830}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
@@ -52,12 +52,12 @@
 			458A576A120EA1C0001AD261 /* RegisterViewController.m:94 */,
 			458A577B120EA237001AD261 /* RegisterViewController.m:104 */,
 			45C5BAE412269E7E00EB87D8 /* MEOW_iphoneAppDelegate.m:27 */,
-			4575F746122FD6BF00723106 /* HomeViewController.m:131 */,
+			4575F746122FD6BF00723106 /* HomeViewController.m:134 */,
 			4575F775122FDC4100723106 /* RegisterViewController.m:238 */,
 			4575F78F122FDFDE00723106 /* RegisterViewController.m:212 */,
 			453407D1123CEDFE0055114B /* RegisterViewController.m:133 */,
-			450BB79E12488EF10028F91E /* MessagesToolBarViewController.m:64 */,
-			450BB7A212488F510028F91E /* MessagesToolBarViewController.m:51 */,
+			450BB79E12488EF10028F91E /* MessagesToolBarViewController.m:76 */,
+			450BB8501248C0CB0028F91E /* MessagesViewController.m:277 */,
 		);
 		codeSenseManager = 4546E7861208199900BBC3BC /* Code sense */;
 		executables = (
@@ -96,7 +96,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					756,
+					718,
 					20,
 					48,
 					43,
@@ -360,6 +360,56 @@
 			450BB7C7124894FF0028F91E /* PBXTextBookmark */ = 450BB7C7124894FF0028F91E /* PBXTextBookmark */;
 			450BB7C8124894FF0028F91E /* PBXTextBookmark */ = 450BB7C8124894FF0028F91E /* PBXTextBookmark */;
 			450BB7CD1248952D0028F91E /* PBXTextBookmark */ = 450BB7CD1248952D0028F91E /* PBXTextBookmark */;
+			450BB7D1124897960028F91E /* PBXTextBookmark */ = 450BB7D1124897960028F91E /* PBXTextBookmark */;
+			450BB7D2124897960028F91E /* PBXTextBookmark */ = 450BB7D2124897960028F91E /* PBXTextBookmark */;
+			450BB7D3124897960028F91E /* PBXTextBookmark */ = 450BB7D3124897960028F91E /* PBXTextBookmark */;
+			450BB7D51248984F0028F91E /* PBXTextBookmark */ = 450BB7D51248984F0028F91E /* PBXTextBookmark */;
+			450BB7D61248984F0028F91E /* PBXTextBookmark */ = 450BB7D61248984F0028F91E /* PBXTextBookmark */;
+			450BB7E21248A0C50028F91E /* PBXTextBookmark */ = 450BB7E21248A0C50028F91E /* PBXTextBookmark */;
+			450BB7E31248A0C50028F91E /* PBXTextBookmark */ = 450BB7E31248A0C50028F91E /* PBXTextBookmark */;
+			450BB7E41248A0C50028F91E /* PBXTextBookmark */ = 450BB7E41248A0C50028F91E /* PBXTextBookmark */;
+			450BB7EB1248AA790028F91E /* PBXTextBookmark */ = 450BB7EB1248AA790028F91E /* PBXTextBookmark */;
+			450BB81A1248B10B0028F91E /* PBXTextBookmark */ = 450BB81A1248B10B0028F91E /* PBXTextBookmark */;
+			450BB81B1248B10B0028F91E /* PBXTextBookmark */ = 450BB81B1248B10B0028F91E /* PBXTextBookmark */;
+			450BB81C1248B10B0028F91E /* PBXTextBookmark */ = 450BB81C1248B10B0028F91E /* PBXTextBookmark */;
+			450BB81D1248B10B0028F91E /* PBXTextBookmark */ = 450BB81D1248B10B0028F91E /* PBXTextBookmark */;
+			450BB81E1248B10B0028F91E /* PBXTextBookmark */ = 450BB81E1248B10B0028F91E /* PBXTextBookmark */;
+			450BB81F1248B10B0028F91E /* PBXTextBookmark */ = 450BB81F1248B10B0028F91E /* PBXTextBookmark */;
+			450BB8201248B10B0028F91E /* PBXTextBookmark */ = 450BB8201248B10B0028F91E /* PBXTextBookmark */;
+			450BB8211248B10B0028F91E /* PBXTextBookmark */ = 450BB8211248B10B0028F91E /* PBXTextBookmark */;
+			450BB8221248B10B0028F91E /* PBXTextBookmark */ = 450BB8221248B10B0028F91E /* PBXTextBookmark */;
+			450BB8291248B39E0028F91E /* PBXTextBookmark */ = 450BB8291248B39E0028F91E /* PBXTextBookmark */;
+			450BB82A1248B39E0028F91E /* PBXTextBookmark */ = 450BB82A1248B39E0028F91E /* PBXTextBookmark */;
+			450BB82B1248B39E0028F91E /* PBXTextBookmark */ = 450BB82B1248B39E0028F91E /* PBXTextBookmark */;
+			450BB82C1248B39E0028F91E /* PBXTextBookmark */ = 450BB82C1248B39E0028F91E /* PBXTextBookmark */;
+			450BB82D1248B39E0028F91E /* PBXTextBookmark */ = 450BB82D1248B39E0028F91E /* PBXTextBookmark */;
+			450BB82E1248B39E0028F91E /* PBXTextBookmark */ = 450BB82E1248B39E0028F91E /* PBXTextBookmark */;
+			450BB82F1248B39E0028F91E /* PBXTextBookmark */ = 450BB82F1248B39E0028F91E /* PBXTextBookmark */;
+			450BB8301248B39E0028F91E /* PBXTextBookmark */ = 450BB8301248B39E0028F91E /* PBXTextBookmark */;
+			450BB83B1248BAB40028F91E /* PBXTextBookmark */ = 450BB83B1248BAB40028F91E /* PBXTextBookmark */;
+			450BB83C1248BAB40028F91E /* PBXTextBookmark */ = 450BB83C1248BAB40028F91E /* PBXTextBookmark */;
+			450BB83D1248BAB40028F91E /* PBXTextBookmark */ = 450BB83D1248BAB40028F91E /* PBXTextBookmark */;
+			450BB83E1248BAB40028F91E /* PBXTextBookmark */ = 450BB83E1248BAB40028F91E /* PBXTextBookmark */;
+			450BB83F1248BAB40028F91E /* PBXTextBookmark */ = 450BB83F1248BAB40028F91E /* PBXTextBookmark */;
+			450BB8401248BAB40028F91E /* PBXTextBookmark */ = 450BB8401248BAB40028F91E /* PBXTextBookmark */;
+			450BB8411248BAB40028F91E /* PBXTextBookmark */ = 450BB8411248BAB40028F91E /* PBXTextBookmark */;
+			450BB8421248BAB40028F91E /* PBXTextBookmark */ = 450BB8421248BAB40028F91E /* PBXTextBookmark */;
+			450BB87B1248C6D10028F91E /* PBXTextBookmark */ = 450BB87B1248C6D10028F91E /* PBXTextBookmark */;
+			450BB87C1248C6D10028F91E /* PBXTextBookmark */ = 450BB87C1248C6D10028F91E /* PBXTextBookmark */;
+			450BB87D1248C6D10028F91E /* PBXTextBookmark */ = 450BB87D1248C6D10028F91E /* PBXTextBookmark */;
+			450BB87E1248C6D10028F91E /* PBXTextBookmark */ = 450BB87E1248C6D10028F91E /* PBXTextBookmark */;
+			450BB87F1248C6D10028F91E /* PBXTextBookmark */ = 450BB87F1248C6D10028F91E /* PBXTextBookmark */;
+			450BB8801248C6D10028F91E /* PBXTextBookmark */ = 450BB8801248C6D10028F91E /* PBXTextBookmark */;
+			450BB8811248C6D10028F91E /* PBXTextBookmark */ = 450BB8811248C6D10028F91E /* PBXTextBookmark */;
+			450BB8821248C6D10028F91E /* PBXTextBookmark */ = 450BB8821248C6D10028F91E /* PBXTextBookmark */;
+			450BB8831248C6D10028F91E /* PBXTextBookmark */ = 450BB8831248C6D10028F91E /* PBXTextBookmark */;
+			450BB8841248C6D10028F91E /* PBXTextBookmark */ = 450BB8841248C6D10028F91E /* PBXTextBookmark */;
+			450BB8881248C7750028F91E /* PBXTextBookmark */ = 450BB8881248C7750028F91E /* PBXTextBookmark */;
+			450BB8891248C7750028F91E /* PBXTextBookmark */ = 450BB8891248C7750028F91E /* PBXTextBookmark */;
+			450BB88A1248C7750028F91E /* PBXTextBookmark */ = 450BB88A1248C7750028F91E /* PBXTextBookmark */;
+			450BB8941248C8630028F91E /* PBXTextBookmark */ = 450BB8941248C8630028F91E /* PBXTextBookmark */;
+			450BB8951248C8630028F91E /* PBXTextBookmark */ = 450BB8951248C8630028F91E /* PBXTextBookmark */;
+			450BB8961248C8630028F91E /* PBXTextBookmark */ = 450BB8961248C8630028F91E /* PBXTextBookmark */;
 			453407B0123CED680055114B = 453407B0123CED680055114B /* PBXTextBookmark */;
 			453407B1123CED680055114B = 453407B1123CED680055114B /* PBXTextBookmark */;
 			453407B2123CED680055114B = 453407B2123CED680055114B /* PBXTextBookmark */;
@@ -399,7 +449,7 @@
 		ignoreCount = 0;
 		lineNumber = 74;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.89149;
+		modificationTime = 306759778.619714;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -417,7 +467,7 @@
 		ignoreCount = 0;
 		lineNumber = 150;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.893275;
+		modificationTime = 306759778.622245;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -595,7 +645,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 89";
 		rLen = 0;
-		rLoc = 2669;
+		rLoc = 2693;
 		rType = 0;
 		vrLen = 1003;
 		vrLoc = 291;
@@ -605,7 +655,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 30";
 		rLen = 0;
-		rLoc = 730;
+		rLoc = 772;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 0;
@@ -615,7 +665,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 15";
 		rLen = 0;
-		rLoc = 1095;
+		rLoc = 1576;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 0;
@@ -625,7 +675,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 43";
 		rLen = 0;
-		rLoc = 2183;
+		rLoc = 2755;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 255;
@@ -645,7 +695,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 28";
 		rLen = 0;
-		rLoc = 636;
+		rLoc = 678;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 0;
@@ -655,7 +705,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 43";
 		rLen = 0;
-		rLoc = 2183;
+		rLoc = 2755;
 		rType = 0;
 		vrLen = 1589;
 		vrLoc = 255;
@@ -665,7 +715,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 29";
 		rLen = 0;
-		rLoc = 1846;
+		rLoc = 2318;
 		rType = 0;
 		vrLen = 1589;
 		vrLoc = 255;
@@ -685,7 +735,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 43";
 		rLen = 0;
-		rLoc = 2183;
+		rLoc = 2755;
 		rType = 0;
 		vrLen = 1550;
 		vrLoc = 255;
@@ -705,7 +755,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 41";
 		rLen = 0;
-		rLoc = 1011;
+		rLoc = 1492;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 165;
@@ -725,7 +775,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 39";
 		rLen = 26;
-		rLoc = 979;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 58;
@@ -735,7 +785,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 33";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 1011;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 0;
@@ -745,7 +795,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 34";
 		rLen = 0;
-		rLoc = 940;
+		rLoc = 1051;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 0;
@@ -765,7 +815,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 37";
 		rLen = 0;
-		rLoc = 978;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 0;
@@ -775,7 +825,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 39";
 		rLen = 26;
-		rLoc = 979;
+		rLoc = 1046;
 		rType = 0;
 		vrLen = 1037;
 		vrLoc = 58;
@@ -785,7 +835,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 20";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 516;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 55;
@@ -805,7 +855,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 20";
 		rLen = 0;
-		rLoc = 449;
+		rLoc = 516;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 0;
@@ -815,7 +865,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 17";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 0;
@@ -835,7 +885,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 37";
 		rLen = 0;
-		rLoc = 978;
+		rLoc = 1089;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 0;
@@ -845,7 +895,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 34";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 1023;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -883,7 +933,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 34";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 1023;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -893,7 +943,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 22";
 		rLen = 0;
-		rLoc = 487;
+		rLoc = 554;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 0;
@@ -943,7 +993,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 18;
-		rLoc = 1500;
+		rLoc = 1502;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 528;
@@ -973,7 +1023,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 20";
 		rLen = 0;
-		rLoc = 537;
+		rLoc = 579;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1003,7 +1053,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 119";
 		rLen = 0;
-		rLoc = 3635;
+		rLoc = 3659;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 2445;
@@ -1013,7 +1063,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 117";
 		rLen = 0;
-		rLoc = 3477;
+		rLoc = 3501;
 		rType = 0;
 		vrLen = 1407;
 		vrLoc = 2445;
@@ -1043,7 +1093,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 20";
 		rLen = 0;
-		rLoc = 537;
+		rLoc = 579;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1073,7 +1123,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5260;
+		rLoc = 5287;
 		rType = 0;
 		vrLen = 1553;
 		vrLoc = 2866;
@@ -1083,7 +1133,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5260;
+		rLoc = 5287;
 		rType = 0;
 		vrLen = 1553;
 		vrLoc = 2866;
@@ -1113,7 +1163,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 20";
 		rLen = 0;
-		rLoc = 537;
+		rLoc = 579;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1143,7 +1193,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5260;
+		rLoc = 5287;
 		rType = 0;
 		vrLen = 1353;
 		vrLoc = 2620;
@@ -1153,7 +1203,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 120";
 		rLen = 0;
-		rLoc = 3750;
+		rLoc = 3774;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 2622;
@@ -1203,7 +1253,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 118";
 		rLen = 10;
-		rLoc = 3656;
+		rLoc = 3680;
 		rType = 0;
 		vrLen = 1370;
 		vrLoc = 2601;
@@ -1213,7 +1263,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 152";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1677;
 		vrLoc = 3237;
@@ -1284,7 +1334,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 124";
 		rLen = 0;
-		rLoc = 3748;
+		rLoc = 3772;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 2621;
@@ -1294,7 +1344,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 117";
 		rLen = 0;
-		rLoc = 3510;
+		rLoc = 3534;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 2621;
@@ -1334,7 +1384,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 145";
 		rLen = 0;
-		rLoc = 5673;
+		rLoc = 5700;
 		rType = 0;
 		vrLen = 1596;
 		vrLoc = 2866;
@@ -1344,7 +1394,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 145";
 		rLen = 0;
-		rLoc = 5673;
+		rLoc = 5700;
 		rType = 0;
 		vrLen = 1384;
 		vrLoc = 2601;
@@ -1404,7 +1454,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 131";
 		rLen = 0;
-		rLoc = 5169;
+		rLoc = 5196;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 2779;
@@ -1414,7 +1464,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 157";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 3347;
@@ -1434,7 +1484,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5236;
+		rLoc = 5263;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 3417;
@@ -1444,7 +1494,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5236;
+		rLoc = 5263;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 3073;
@@ -1454,7 +1504,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 160";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 3347;
@@ -1464,7 +1514,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 159";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1613;
 		vrLoc = 4486;
@@ -1474,7 +1524,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 133";
 		rLen = 0;
-		rLoc = 5236;
+		rLoc = 5263;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 3073;
@@ -1494,7 +1544,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 20";
 		rLen = 0;
-		rLoc = 517;
+		rLoc = 559;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -1504,7 +1554,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 132";
 		rLen = 0;
-		rLoc = 5238;
+		rLoc = 5265;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 3184;
@@ -1514,7 +1564,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 156";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 3678;
@@ -1534,7 +1584,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 137";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1724;
 		vrLoc = 2868;
@@ -1544,7 +1594,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 156";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1631;
 		vrLoc = 3678;
@@ -1564,7 +1614,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 137";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 2868;
@@ -1574,7 +1624,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 156";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1631;
 		vrLoc = 3678;
@@ -1594,7 +1644,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 137";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1721;
 		vrLoc = 2868;
@@ -1634,7 +1684,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 150";
 		rLen = 0;
-		rLoc = 4961;
+		rLoc = 4988;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 3297;
@@ -1674,7 +1724,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 780;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 531;
@@ -1694,7 +1744,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 173";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1518;
 		vrLoc = 2341;
@@ -1704,7 +1754,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 780;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 531;
@@ -1714,7 +1764,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 17";
 		rLen = 0;
-		rLoc = 409;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 495;
 		vrLoc = 0;
@@ -1724,7 +1774,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 199";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1516;
 		vrLoc = 1360;
@@ -1734,7 +1784,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 134";
 		rLen = 0;
-		rLoc = 4961;
+		rLoc = 4988;
 		rType = 0;
 		vrLen = 1524;
 		vrLoc = 2730;
@@ -1754,7 +1804,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 184";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 2557;
@@ -1774,7 +1824,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 24";
 		rLen = 0;
-		rLoc = 761;
+		rLoc = 871;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -1784,7 +1834,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 217";
 		rLen = 0;
-		rLoc = 6344;
+		rLoc = 6372;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 1037;
@@ -1804,7 +1854,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 780;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 1123;
 		vrLoc = 528;
@@ -1814,7 +1864,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 46";
 		rLen = 0;
-		rLoc = 780;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 425;
@@ -1834,7 +1884,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 188";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 4699;
@@ -1864,7 +1914,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 188";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 4699;
@@ -1884,7 +1934,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 217";
 		rLen = 0;
-		rLoc = 6344;
+		rLoc = 6372;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 1076;
@@ -1894,7 +1944,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 279";
 		rLen = 0;
-		rLoc = 8433;
+		rLoc = 8684;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 6720;
@@ -1914,7 +1964,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 190";
 		rLen = 0;
-		rLoc = 5262;
+		rLoc = 5289;
 		rType = 0;
 		vrLen = 1651;
 		vrLoc = 4830;
@@ -1944,7 +1994,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 207";
 		rLen = 0;
-		rLoc = 5737;
+		rLoc = 5765;
 		rType = 0;
 		vrLen = 1058;
 		vrLoc = 355;
@@ -1954,7 +2004,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 33";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1135;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 370;
@@ -1974,7 +2024,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 33";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1135;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 354;
@@ -1984,7 +2034,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 24";
 		rLen = 0;
-		rLoc = 761;
+		rLoc = 871;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -1994,7 +2044,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 109";
 		rLen = 0;
-		rLoc = 2960;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 3709;
@@ -2004,7 +2054,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 170";
 		rLen = 0;
-		rLoc = 4961;
+		rLoc = 4988;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 3903;
@@ -2024,7 +2074,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 37";
 		rLen = 0;
-		rLoc = 1112;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 4572;
@@ -2034,7 +2084,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 42";
 		rLen = 0;
-		rLoc = 1116;
+		rLoc = 1140;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 355;
@@ -2044,7 +2094,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 24";
 		rLen = 0;
-		rLoc = 761;
+		rLoc = 871;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -2074,7 +2124,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 37";
 		rLen = 0;
-		rLoc = 1112;
+		rLoc = 1136;
 		rType = 0;
 		vrLen = 1173;
 		vrLoc = 87;
@@ -2084,7 +2134,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 34";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 1023;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -2094,7 +2144,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 22";
 		rLen = 0;
-		rLoc = 487;
+		rLoc = 554;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 1593;
@@ -2104,7 +2154,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 26";
 		rLen = 0;
-		rLoc = 670;
+		rLoc = 780;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 0;
@@ -2114,7 +2164,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 246";
 		rLen = 0;
-		rLoc = 7124;
+		rLoc = 7152;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 4018;
@@ -2124,7 +2174,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 246";
 		rLen = 0;
-		rLoc = 7124;
+		rLoc = 7152;
 		rType = 0;
 		vrLen = 1582;
 		vrLoc = 1367;
@@ -2134,7 +2184,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 150";
 		rLen = 0;
-		rLoc = 4961;
+		rLoc = 4988;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 51;
@@ -2154,7 +2204,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 19";
 		rLen = 0;
-		rLoc = 439;
+		rLoc = 437;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 0;
@@ -2164,7 +2214,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 27";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 0;
@@ -2174,7 +2224,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 27";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 0;
@@ -2194,7 +2244,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 150";
 		rLen = 0;
-		rLoc = 4961;
+		rLoc = 4988;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 51;
@@ -2204,7 +2254,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 19";
 		rLen = 0;
-		rLoc = 439;
+		rLoc = 437;
 		rType = 0;
 		vrLen = 1485;
 		vrLoc = 4631;
@@ -2214,7 +2264,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 27";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 870;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 0;
@@ -2244,7 +2294,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 9;
-		rLoc = 8480;
+		rLoc = 8731;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 4086;
@@ -2254,7 +2304,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 20";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 516;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 0;
@@ -2264,7 +2314,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 19";
 		rLen = 0;
-		rLoc = 439;
+		rLoc = 437;
 		rType = 0;
 		vrLen = 1368;
 		vrLoc = 1589;
@@ -2274,7 +2324,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 0;
-		rLoc = 8489;
+		rLoc = 8740;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 6951;
@@ -2284,7 +2334,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 0;
-		rLoc = 8489;
+		rLoc = 8740;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 4016;
@@ -2304,7 +2354,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 0;
-		rLoc = 8489;
+		rLoc = 8740;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 6903;
@@ -2314,7 +2364,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 0;
-		rLoc = 8489;
+		rLoc = 8740;
 		rType = 0;
 		vrLen = 1057;
 		vrLoc = 4016;
@@ -2394,7 +2444,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 185";
 		rLen = 0;
-		rLoc = 5075;
+		rLoc = 5102;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 250;
@@ -2404,7 +2454,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 59";
 		rLen = 0;
-		rLoc = 1815;
+		rLoc = 2293;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 0;
@@ -2414,7 +2464,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 59";
 		rLen = 0;
-		rLoc = 1815;
+		rLoc = 2293;
 		rType = 0;
 		vrLen = 1241;
 		vrLoc = 162;
@@ -2434,7 +2484,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 293";
 		rLen = 0;
-		rLoc = 8489;
+		rLoc = 8740;
 		rType = 0;
 		vrLen = 1253;
 		vrLoc = 4211;
@@ -2454,7 +2504,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 36";
 		rLen = 0;
-		rLoc = 971;
+		rLoc = 1082;
 		rType = 0;
 		vrLen = 897;
 		vrLoc = 0;
@@ -2474,7 +2524,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 14";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 312;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 159;
@@ -2484,7 +2534,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 65";
 		rLen = 0;
-		rLoc = 1665;
+		rLoc = 2146;
 		rType = 0;
 		vrLen = 1455;
 		vrLoc = 992;
@@ -2494,7 +2544,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 65";
 		rLen = 0;
-		rLoc = 1665;
+		rLoc = 2146;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 1421;
@@ -2514,12 +2564,12 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 173";
 		rLen = 0;
-		rLoc = 4834;
+		rLoc = 4861;
 		rType = 0;
 		vrLen = 1118;
 		vrLoc = 3968;
 	};
-	450BB79E12488EF10028F91E /* MessagesToolBarViewController.m:64 */ = {
+	450BB79E12488EF10028F91E /* MessagesToolBarViewController.m:76 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -2529,31 +2579,13 @@
 		delayBeforeContinue = 0;
 		fileReference = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		functionName = "-initWithNibName:bundle:";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 64;
+		lineNumber = 76;
 		location = "MEOW-iphone";
-		modificationTime = 306746411.195481;
+		modificationTime = 306759778.673965;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	450BB7A212488F510028F91E /* MessagesToolBarViewController.m:51 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
-		functionName = "-mvcWantsTableReload";
-		hitCount = 5;
-		ignoreCount = 0;
-		lineNumber = 51;
-		location = "MEOW-iphone";
-		modificationTime = 306746478.599958;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 2;
 	};
 	450BB7BE124894FF0028F91E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2590,7 +2622,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 24";
 		rLen = 0;
-		rLoc = 538;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 0;
@@ -2600,7 +2632,7 @@
 		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
 		name = "MessagesToolBarViewController.h: 34";
 		rLen = 0;
-		rLoc = 785;
+		rLoc = 896;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 0;
@@ -2610,7 +2642,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 120";
 		rLen = 0;
-		rLoc = 3048;
+		rLoc = 3664;
 		rType = 0;
 		vrLen = 1428;
 		vrLoc = 753;
@@ -2620,7 +2652,7 @@
 		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
 		name = "MessagesViewController.m: 149";
 		rLen = 0;
-		rLoc = 3822;
+		rLoc = 3846;
 		rType = 0;
 		vrLen = 1662;
 		vrLoc = 2087;
@@ -2675,6 +2707,538 @@
 		vrLen = 1752;
 		vrLoc = 48;
 	};
+	450BB7D1124897960028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 840;
+		rType = 0;
+		vrLen = 1752;
+		vrLoc = 48;
+	};
+	450BB7D2124897960028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 120";
+		rLen = 0;
+		rLoc = 3664;
+		rType = 0;
+		vrLen = 1350;
+		vrLoc = 753;
+	};
+	450BB7D3124897960028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 82";
+		rLen = 0;
+		rLoc = 2753;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 1010;
+	};
+	450BB7D51248984F0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 82";
+		rLen = 0;
+		rLoc = 2753;
+		rType = 0;
+		vrLen = 1341;
+		vrLoc = 488;
+	};
+	450BB7D61248984F0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 167";
+		rLen = 0;
+		rLoc = 4269;
+		rType = 0;
+		vrLen = 1333;
+		vrLoc = 4078;
+	};
+	450BB7E21248A0C50028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 83";
+		rLen = 0;
+		rLoc = 2700;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 1012;
+	};
+	450BB7E31248A0C50028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 321";
+		rLen = 0;
+		rLoc = 8096;
+		rType = 0;
+		vrLen = 1384;
+		vrLoc = 5437;
+	};
+	450BB7E41248A0C50028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 240";
+		rLen = 0;
+		rLoc = 5764;
+		rType = 0;
+		vrLen = 1506;
+		vrLoc = 5777;
+	};
+	450BB7EB1248AA790028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 240";
+		rLen = 0;
+		rLoc = 5764;
+		rType = 0;
+		vrLen = 1140;
+		vrLoc = 5051;
+	};
+	450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {896, 622}}";
+			sepNavSelRange = "{414, 0}";
+			sepNavVisRange = "{0, 632}";
+		};
+	};
+	450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 2028}}";
+			sepNavSelRange = "{2341, 0}";
+			sepNavVisRange = "{1918, 612}";
+		};
+	};
+	450BB81A1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */;
+		name = "MessageThreadViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	450BB81B1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 20";
+		rLen = 0;
+		rLoc = 829;
+		rType = 0;
+		vrLen = 1229;
+		vrLoc = 250;
+	};
+	450BB81C1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */;
+		name = "RegisterViewController.m: 105";
+		rLen = 0;
+		rLoc = 2897;
+		rType = 0;
+		vrLen = 1830;
+		vrLoc = 2416;
+	};
+	450BB81D1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */;
+		name = "HomeViewController.m: 46";
+		rLen = 0;
+		rLoc = 1383;
+		rType = 0;
+		vrLen = 1913;
+		vrLoc = 1710;
+	};
+	450BB81E1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 313";
+		rLen = 0;
+		rLoc = 7574;
+		rType = 0;
+		vrLen = 1757;
+		vrLoc = 8084;
+	};
+	450BB81F1248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
+		name = "MessagesViewController.h: 24";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 0;
+	};
+	450BB8201248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
+		name = "MessagesToolBarViewController.h: 34";
+		rLen = 0;
+		rLoc = 896;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 0;
+	};
+	450BB8211248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 68";
+		rLen = 0;
+		rLoc = 2296;
+		rType = 0;
+		vrLen = 1526;
+		vrLoc = 1014;
+	};
+	450BB8221248B10B0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 81";
+		rLen = 8;
+		rLoc = 2676;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 1332;
+	};
+	450BB8291248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
+		name = "MessagesViewController.h: 24";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 767;
+		vrLoc = 0;
+	};
+	450BB82A1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */;
+		name = "MessageThreadViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	450BB82B1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 20";
+		rLen = 0;
+		rLoc = 829;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 251;
+	};
+	450BB82C1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
+		name = "MessagesToolBarViewController.h: 36";
+		rLen = 0;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 0;
+	};
+	450BB82D1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */;
+		name = "HomeViewController.m: 96";
+		rLen = 0;
+		rLoc = 2925;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 1505;
+	};
+	450BB82E1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 313";
+		rLen = 520;
+		rLoc = 7575;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 8323;
+	};
+	450BB82F1248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 83";
+		rLen = 0;
+		rLoc = 2596;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 1438;
+	};
+	450BB8301248B39E0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 54";
+		rLen = 0;
+		rLoc = 1491;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 436;
+	};
+	450BB83B1248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
+		name = "MessagesViewController.h: 26";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	450BB83C1248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 96";
+		rLen = 0;
+		rLoc = 2800;
+		rType = 0;
+		vrLen = 1347;
+		vrLoc = 665;
+	};
+	450BB83D1248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */;
+		name = "MessagesToolBarViewController.h: 36";
+		rLen = 68;
+		rLoc = 827;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 0;
+	};
+	450BB83E1248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */;
+		name = "HomeViewController.m: 96";
+		rLen = 0;
+		rLoc = 2925;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 1104;
+	};
+	450BB83F1248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */;
+		name = "MessageThreadViewController.h: 20";
+		rLen = 0;
+		rLoc = 427;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	450BB8401248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 60";
+		rLen = 0;
+		rLoc = 1878;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 160;
+	};
+	450BB8411248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 313";
+		rLen = 0;
+		rLoc = 7639;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 8110;
+	};
+	450BB8421248BAB40028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 313";
+		rLen = 0;
+		rLoc = 7639;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 8110;
+	};
+	450BB8501248C0CB0028F91E /* MessagesViewController.m:277 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		functionName = "-tableView:didSelectRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 277;
+		location = "MEOW-iphone";
+		modificationTime = 306759778.680896;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	450BB87B1248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */;
+		name = "HomeViewController.m: 65";
+		rLen = 0;
+		rLoc = 2029;
+		rType = 0;
+		vrLen = 1654;
+		vrLoc = 863;
+	};
+	450BB87C1248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4575F7A9122FE4CA00723106 /* MEOW_UserMessage.h */;
+		name = "MEOW_UserMessage.h: 33";
+		rLen = 0;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	450BB87D1248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */;
+		name = "MEOW_UserMessage.m: 10";
+		rLen = 0;
+		rLoc = 181;
+		rType = 0;
+		vrLen = 313;
+		vrLoc = 0;
+	};
+	450BB87E1248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
+		name = "MessagesViewController.h: 27";
+		rLen = 0;
+		rLoc = 649;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	450BB87F1248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */;
+		name = "MessageThreadViewController.h: 27";
+		rLen = 0;
+		rLoc = 626;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 0;
+	};
+	450BB8801248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
+		name = "MEOW_UserState.m: 48";
+		rLen = 0;
+		rLoc = 743;
+		rType = 0;
+		vrLen = 1195;
+		vrLoc = 601;
+	};
+	450BB8811248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 10";
+		rLen = 119;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 1435;
+		vrLoc = 1915;
+	};
+	450BB8821248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
+		name = "MessagesToolBarViewController.m: 74";
+		rLen = 38;
+		rLoc = 1973;
+		rType = 0;
+		vrLen = 1604;
+		vrLoc = 1491;
+	};
+	450BB8831248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 111";
+		rLen = 0;
+		rLoc = 3469;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 2205;
+	};
+	450BB8841248C6D10028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 106";
+		rLen = 0;
+		rLoc = 2997;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 2386;
+	};
+	450BB8881248C7750028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */;
+		name = "MessageThreadViewController.h: 21";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 0;
+	};
+	450BB8891248C7750028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 106";
+		rLen = 0;
+		rLoc = 2997;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 2386;
+	};
+	450BB88A1248C7750028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 106";
+		rLen = 0;
+		rLoc = 2997;
+		rType = 0;
+		vrLen = 1624;
+		vrLoc = 2319;
+	};
+	450BB8941248C8630028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */;
+		name = "MessageThreadViewController.m: 42";
+		rLen = 0;
+		rLoc = 1114;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 856;
+	};
+	450BB8951248C8630028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 10";
+		rLen = 119;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 1502;
+		vrLoc = 1847;
+	};
+	450BB8961248C8630028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 45D76B931228C0F200003C53 /* MessagesViewController.m */;
+		name = "MessagesViewController.m: 10";
+		rLen = 119;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 7158;
+	};
 	453407B0123CED680055114B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 45CFFCB41230869E0088C854 /* DKDeferred.m */;
@@ -2710,7 +3274,7 @@
 		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
 		name = "MEOW_UserState.m: 49";
 		rLen = 0;
-		rLoc = 2303;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -2770,7 +3334,7 @@
 		fRef = 45D76B921228C0F200003C53 /* MessagesViewController.h */;
 		name = "MessagesViewController.h: 17";
 		rLen = 0;
-		rLoc = 412;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 0;
@@ -2790,7 +3354,7 @@
 		fRef = 45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */;
 		name = "HomeViewController.m: 62";
 		rLen = 0;
-		rLoc = 2331;
+		rLoc = 2406;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 0;
@@ -2810,7 +3374,7 @@
 		fRef = 45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */;
 		name = "MessagesToolBarViewController.m: 34";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 0;
@@ -2829,7 +3393,7 @@
 		ignoreCount = 0;
 		lineNumber = 133;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.907559;
+		modificationTime = 306759778.671106;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2890,7 +3454,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -2959,7 +3523,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.878116;
+		modificationTime = 306759778.616246;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2972,9 +3536,9 @@
 	};
 	4575F6BE122FC4FE00723106 /* MEOW_UserState.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {934, 2353}}";
-			sepNavSelRange = "{794, 0}";
-			sepNavVisRange = "{2666, 779}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 2184}}";
+			sepNavSelRange = "{743, 0}";
+			sepNavVisRange = "{601, 1195}";
 		};
 	};
 	4575F6DF122FC94A00723106 /* SynthesizeSingleton.h */ = {
@@ -2984,7 +3548,7 @@
 			sepNavVisRange = "{0, 1097}";
 		};
 	};
-	4575F746122FD6BF00723106 /* HomeViewController.m:131 */ = {
+	4575F746122FD6BF00723106 /* HomeViewController.m:134 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -2996,9 +3560,9 @@
 		functionName = "-viewWillAppear:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 131;
+		lineNumber = 134;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.900744;
+		modificationTime = 306759778.642358;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3016,7 +3580,7 @@
 		ignoreCount = 0;
 		lineNumber = 238;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.903249;
+		modificationTime = 306759778.645266;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3034,20 +3598,20 @@
 		ignoreCount = 0;
 		lineNumber = 212;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.905305;
+		modificationTime = 306759778.668421;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
 	4575F7A9122FE4CA00723106 /* MEOW_UserMessage.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {890, 622}}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 622}}";
 			sepNavSelRange = "{756, 0}";
 			sepNavVisRange = "{0, 764}";
 		};
 	};
 	4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {890, 622}}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 622}}";
 			sepNavSelRange = "{181, 0}";
 			sepNavVisRange = "{0, 313}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
@@ -3067,7 +3631,7 @@
 		ignoreCount = 0;
 		lineNumber = 94;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.895088;
+		modificationTime = 306759778.625759;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3085,7 +3649,7 @@
 		ignoreCount = 0;
 		lineNumber = 104;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.896734;
+		modificationTime = 306759778.628278;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3098,9 +3662,9 @@
 	};
 	45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 2509}}";
-			sepNavSelRange = "{5691, 0}";
-			sepNavVisRange = "{5504, 192}";
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 2522}}";
+			sepNavSelRange = "{5329, 0}";
+			sepNavVisRange = "{5140, 194}";
 		};
 	};
 	45C5BAE412269E7E00EB87D8 /* MEOW_iphoneAppDelegate.m:27 */ = {
@@ -3117,7 +3681,7 @@
 		ignoreCount = 0;
 		lineNumber = 27;
 		location = "MEOW-iphone";
-		modificationTime = 306746373.898406;
+		modificationTime = 306759778.638568;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -3147,32 +3711,31 @@
 	};
 	45D76B921228C0F200003C53 /* MessagesViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {934, 645}}";
-			sepNavSelRange = "{538, 0}";
-			sepNavVisRange = "{0, 767}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 622}}";
+			sepNavSelRange = "{649, 0}";
+			sepNavVisRange = "{0, 877}";
 		};
 	};
 	45D76B931228C0F200003C53 /* MessagesViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{7522, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{7573, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{7623, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 8542}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1300, 4134}}";
-			sepNavSelRange = "{3822, 0}";
-			sepNavVisRange = "{2087, 1662}";
+			sepNavIntBoundsRect = "{{0, 0}, {1300, 4303}}";
+			sepNavSelRange = "{194, 119}";
+			sepNavVisRange = "{7158, 1550}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
 	45D76BF91228F91700003C53 /* MessagesToolBarViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {934, 622}}";
-			sepNavSelRange = "{785, 0}";
-			sepNavVisRange = "{0, 978}";
+			sepNavIntBoundsRect = "{{0, 0}, {896, 622}}";
+			sepNavSelRange = "{827, 68}";
+			sepNavVisRange = "{0, 1089}";
 		};
 	};
 	45D76BFA1228F91700003C53 /* MessagesToolBarViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 1742}}";
-			sepNavSelRange = "{3055, 0}";
-			sepNavVisRange = "{0, 382}";
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 1690}}";
+			sepNavSelRange = "{2296, 0}";
+			sepNavVisRange = "{1083, 809}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};

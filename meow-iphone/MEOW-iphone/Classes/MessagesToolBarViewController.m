@@ -9,12 +9,14 @@
 #import "MessagesToolBarViewController.h"
 #import "MEOW_UserMessage.h"
 #import "MEOW_UserState.h"
+#import "MessageThreadViewController.h"
 
 @implementation MessagesToolBarViewController
 
 @synthesize topView;
 @synthesize newmsg, groups, publicbtn, personal;
 @synthesize refreshTimer;
+@synthesize navController;
 
 -(void) userWantsPersonalMessaging {
 	
@@ -43,6 +45,16 @@
 -(void) userWantsToWriteNewMessage {
 	
 	
+	/*
+	NSLog(@"Showing thread controller. nav controller %@" , self.navController);
+	MessageThreadViewController *detailViewController = [[MessageThreadViewController alloc] initWithNibName:@"MessageThreadViewController" bundle:nil];
+	// ...
+	// Pass the selected object to the new view controller.
+	[self.navController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
+	*/
+	
+	
 	
 }
 
@@ -62,9 +74,8 @@
 		[self setTitle:@"Personal Messaging"];
 		//Messages View Controller
 		mvc = [[MessagesViewController alloc] initWithNibName:@"MessagesViewController" bundle:nibBundleOrNil];
-		
 		self.refreshTimer = [NSTimer scheduledTimerWithTimeInterval:7.5 target:self selector:@selector(mvcWantsTableReload) userInfo:nil repeats:YES];		
-							 
+		
 	}
     return self;
 }
@@ -75,10 +86,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	//NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
-	[mvc.view setFrame:self.topView.frame];
+	NSLog(@" frame size of tableview in mvc is %f %f" , mvc.view.frame.size.width, mvc.view.frame.size.height);
+	//set to 416 
+	CGRect tableviewRect= CGRectMake(0.0, 0.0, mvc.view.frame.size.width, 416);
+	[mvc.view setFrame:tableviewRect];
+	 //add to view
 	[self.topView addSubview:mvc.view];
-			
+	[mvc setNavController:[self navController]];
+
 }
 
 
@@ -118,7 +133,7 @@
 	
 	[mvc release];
 	[refreshTimer release];
-	
+	[navController release];
 }
 
 

@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -252,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>224</real>
+								<real>262</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -279,13 +281,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>24</integer>
-									<integer>19</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {224, 664}}</string>
+							<string>{{0, 0}, {262, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -297,11 +299,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {241, 682}}</string>
+						<string>{{0, 0}, {279, 682}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>224</real>
+							<real>262</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>42 54 1241 723 0 0 1280 778 </string>
@@ -309,20 +311,18 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>241pt</string>
+					<string>279pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MEOW_iphoneAppDelegate.m</string>
+								<string>MessagesViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,29 +330,31 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MEOW_iphoneAppDelegate.m</string>
+										<string>MessagesViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>450BB7CD1248952D0028F91E</string>
+										<string>450BB8961248C8630028F91E</string>
 										<key>history</key>
 										<array>
 											<string>453407B1123CED680055114B</string>
 											<string>453407B2123CED680055114B</string>
-											<string>450BB6AE1247C3B80028F91E</string>
-											<string>450BB6AF1247C3B80028F91E</string>
 											<string>450BB74F1247E2580028F91E</string>
 											<string>450BB77A124884C60028F91E</string>
 											<string>450BB7BE124894FF0028F91E</string>
-											<string>450BB7BF124894FF0028F91E</string>
-											<string>450BB7C0124894FF0028F91E</string>
-											<string>450BB7C1124894FF0028F91E</string>
-											<string>450BB7C2124894FF0028F91E</string>
-											<string>450BB7C3124894FF0028F91E</string>
-											<string>450BB7C4124894FF0028F91E</string>
 											<string>450BB7C5124894FF0028F91E</string>
-											<string>450BB7C6124894FF0028F91E</string>
-											<string>450BB7C7124894FF0028F91E</string>
+											<string>450BB7D1124897960028F91E</string>
+											<string>450BB81C1248B10B0028F91E</string>
+											<string>450BB83D1248BAB40028F91E</string>
+											<string>450BB87B1248C6D10028F91E</string>
+											<string>450BB87C1248C6D10028F91E</string>
+											<string>450BB87D1248C6D10028F91E</string>
+											<string>450BB87E1248C6D10028F91E</string>
+											<string>450BB8801248C6D10028F91E</string>
+											<string>450BB8821248C6D10028F91E</string>
+											<string>450BB8881248C7750028F91E</string>
+											<string>450BB8941248C8630028F91E</string>
+											<string>450BB8951248C8630028F91E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,7 +366,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {995, 677}}</string>
+								<string>{{0, 0}, {957, 677}}</string>
 								<key>RubberWindowFrame</key>
 								<string>42 54 1241 723 0 0 1280 778 </string>
 							</dict>
@@ -384,7 +386,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 682}, {995, 0}}</string>
+								<string>{{0, 682}, {957, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>42 54 1241 723 0 0 1280 778 </string>
 							</dict>
@@ -395,7 +397,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>995pt</string>
+					<string>957pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -550,7 +552,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>450BB7CE1248952D0028F91E</string>
+		<string>450BB8971248C8630028F91E</string>
 		<string>450BB7C9124894FF0028F91E</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>450BB519124735160028F91E</string>
@@ -584,7 +586,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MEOW_UserState.m</string>
+								<string>MessageThreadViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
