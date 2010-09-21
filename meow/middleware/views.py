@@ -170,6 +170,32 @@ def list_send_message(request,msg_body,msg_subject,msg_receiver):
 	logging.error('meow.sendMsg got exception')
 	return False
 
+@jsonrpc_method('meow.sendMsgReply',authenticated=True)
+def list_send_message(request,msg_body,msg_subject,msg_receiver,parent_id):
+   try:
+	   logging.debug('start meow.sendMsgReply with %s %s %s %d ' %  (msg_body,msg_subject,msg_receiver, parent_id))
+	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
+	   if len(msg_receiver_user) != 1:
+		return False
+	   msg_receiver_user = msg_receiver_user[0]
+	   logging.debug(" MSG %s %s %s %s  %d" % (request.user, msg_receiver_user, msg_subject, msg_body,parent_id))
+	   msg = Message(
+				sender = request.user,
+				recipient = msg_receiver_user,
+				subject = msg_subject,
+				body = msg_body,
+			    )
+	   parent_msg_obj = Message.objects.filter(id=parent_id)
+	   if (len(parent_msg_obj)!=1):
+		return False
+	   msg.parent_msg=parent_msg_obj[0]
+	   msg.save()
+	   return True
+   except:
+	logging.error('meow.sendMsgReply got exception')
+	return False
+
+
 @jsonrpc_method('meow.sendMsgToGroup',authenticated=True)
 def list_send_message_to_group(request,msg_body,msg_subject,grp_receiver):
 	#find group - if doesnt exist , return False
@@ -196,9 +222,15 @@ def list_send_message_to_group(request,msg_body,msg_subject,grp_receiver):
 def get_parents(msgid, ancestor_list):
 	parents=Message.objects.filter(recipient_deleted_at__isnull=True, id=msgid)	
 	for p in parents:
+		children=Message.objects.filter(recipient_deleted_at__isnull=True, parent_msg=p)
+		for c in children:
+			ancestor_list.append([c.id,c.subject,c.body,c.sender.username,c.sent_at,c.read_at])
+		#recurse if we have a parent
 		if (not p.parent_msg is None):
 			ancestor_list=get_parents(p.parent_msg.id,ancestor_list)
-		ancestor_list.append([p.id,p.subject,p.body,p.sender.username,p.sent_at,p.read_at])
+		else:
+			ancestor_list.append([p.id,p.subject,p.body,p.sender.username,p.sent_at,p.read_at])
+		
 	return ancestor_list
 
 @jsonrpc_method('meow.getThread',authenticated=True)
