@@ -45,6 +45,8 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 }
 
 
+
+
 +(void) processReturnedInbox:(NSArray *)resultdict {
 	
 	//cache inbox messages sent back.

@@ -17,11 +17,13 @@
 	NSIndexPath *indexpathDeleting;
 	BOOL deleting;
 	
+	UINavigationController *navController;
+	
 }
 
 @property (nonatomic, retain) IBOutlet UITableView* msgsTable;
 @property (nonatomic, retain) NSIndexPath *indexpathDeleting;
-
+@property (nonatomic, retain) UINavigationController *navController;
 
 
 -(void) doRefreshInbox;

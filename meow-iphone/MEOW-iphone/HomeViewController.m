@@ -59,9 +59,12 @@
 	NSLog(@"do Messages in homeviewcontroller!");
 	
 	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
-		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
-		[self.navigationController pushViewController:rvc animated:TRUE];
-		[rvc release];		
+		MessagesToolBarViewController *mtbvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
+		[mtbvc setNavController:self.navigationController];
+		
+		//show it
+		[self.navigationController pushViewController:mtbvc animated:TRUE];
+		[mtbvc release];		
 	} else {
 		NSString *message = @"To retreive your messages, please login first.";	
 		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Messages" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
@@ -76,9 +79,9 @@
 
 -(IBAction) doContactsScreen:(id)sender {
 	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
-		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
-		[self.navigationController pushViewController:rvc animated:TRUE];
-		[rvc release];		
+		
+		
+		
 	} else {
 		NSString *message = @"To see your online contacts, please login first.";	
 		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Contacts" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
@@ -91,9 +94,9 @@
 }
 -(IBAction) doGroupsScreen:(id)sender {
 	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
-		MessagesToolBarViewController *rvc = [[MessagesToolBarViewController alloc] initWithNibName:@"MessagesToolBarViewController" bundle:nil];
-		[self.navigationController pushViewController:rvc animated:TRUE];
-		[rvc release];		
+		
+	
+		
 	} else {
 		NSString *message = @"To see the list of groups, please login first.";	
 		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Groups" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];

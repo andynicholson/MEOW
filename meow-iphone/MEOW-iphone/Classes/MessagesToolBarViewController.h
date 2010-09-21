@@ -25,12 +25,15 @@
 	
 	NSTimer *refreshTimer;
 	
+	UINavigationController *navController;
+	
 }
 
 @property (nonatomic,retain) IBOutlet UIView *view;
 @property (nonatomic,retain) IBOutlet UITableView *topView;
 @property (nonatomic,retain) IBOutlet UIBarButtonItem *newmsg, *personal, *groups, *publicbtn;
 @property (nonatomic, retain) NSTimer *refreshTimer;
+@property (nonatomic, retain) UINavigationController *navController;
 
 -(IBAction) userWantsPublicMessaging;
 -(IBAction) userWantsPersonalMessaging;

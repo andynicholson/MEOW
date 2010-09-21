@@ -11,7 +11,7 @@
 #import "MEOW_UserState.h"
 #import "DKDeferred+JSON.h"
 #import "MEOW_iphoneAppDelegate.h"
-#import "MessagesToolBarViewController.h"
+#import "MessageThreadViewController.h"
 
 @implementation MessagesViewController
 
@@ -21,7 +21,7 @@
 
 @synthesize msgsTable;
 @synthesize indexpathDeleting;
-
+@synthesize navController;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -158,6 +158,9 @@
 }
 
 
+
+
+
 //JSON-RPC call backs
 
 -(id) doRefreshCompleted:(id) result {
@@ -219,6 +222,7 @@
 }
 
 
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -266,13 +270,19 @@
 	NSLog(@" Wants to see thread %@" , [msg msgid]);
 	
 	
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	
+	//push view controller etc
+	NSLog(@"Showing thread controller. nav controller %@" , self.navController);
+	MessageThreadViewController *threadViewController = [[MessageThreadViewController alloc] initWithNibName:@"MessageThreadViewController" bundle:nil];
+	[threadViewController setThreadString:@"Thread loading..."];
+	[threadViewController setNavController:[self navigationController]];
+	[threadViewController setMsgid:[msg msgid]];
+	
+	[self.navController pushViewController:threadViewController animated:YES];
+	[threadViewController release];
+	
+	
+	
 }
 
 
@@ -301,6 +311,7 @@
     [super dealloc];
 	[msgsTable release];
 	[indexpathDeleting release];
+	[navController release];
 	
 }
 
