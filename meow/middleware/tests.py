@@ -59,6 +59,7 @@ class MeowTestCase(WebTest):
 	#make a new user
 	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
 	reply_ = {u'error': None, u'result': [u'randomuser', u'randomuser@meow.infinitecursion.com.au', 6]}
+	print res
 	assert res['error'] == None
 	assert res['result'][1] == 'intothemist@gmail.com'
 
@@ -325,7 +326,7 @@ class MeowTestCase(WebTest):
 
 	# test sending to non-existent group, and see it fail
 	res_send = self.proxy.meow.sendMsgToGroup('randomuser','plaintextpassword',TEST_MSG_CONTENT,'subject','randomgrp4_dontexist')
-	print res_send
+	#print res_send
         assert res_send['error'] == None
 	assert res_send['result'] == False
 	
@@ -351,7 +352,7 @@ class MeowTestCase(WebTest):
 	res_outbox_before_1 = self.proxy.meow.outbox('randomuser','plaintextpassword')
 	assert res_outbox_before_1['error'] == None
 	assert (len(res_outbox_before_1['result']) >= 0) == True
-	print "RandomUser outbox %d " % ( len(res_outbox_before_1['result']) )
+	#print "RandomUser outbox %d " % ( len(res_outbox_before_1['result']) )
 
 	# make sure both first  two users are in group
 	res = self.proxy.meow.joinGroup('randomuser','plaintextpassword',EXISTING_GROUPNAME)
@@ -369,7 +370,7 @@ class MeowTestCase(WebTest):
 	res_outbox_after_1 = self.proxy.meow.outbox('randomuser','plaintextpassword')
 	assert res_outbox_after_1['error'] == None
 	assert (len(res_outbox_after_1['result']) >= 0) == True
-	print "RandomUser outbox %d " % ( len(res_outbox_after_1['result']) )
+	#print "RandomUser outbox %d " % ( len(res_outbox_after_1['result']) )
 
 
 	# assert outbox is incr number of people in group!
@@ -409,5 +410,37 @@ class MeowTestCase(WebTest):
 	self.proxy.meow.deactivate('randomuser','plaintextpassword')
 	self.proxy.meow.deactivate('randomuser2','plaintextpassword__')
 	self.proxy.meow.deactivate('randomuser3','plaintextpassword___')
+
+#
+# Threads
+#
+
+   def test_get_thread(self):
+	self.proxy = ServiceProxy(SERVICE_PROXY_URL)
+
+	try:
+		res = self.proxy.meow.listUsers('randomuser','doesntexistpassword')
+	        ## We SHOULD get the IOError
+                assert True == False
+        except IOError, e:
+                pass
+
+	#create a test user
+	res = self.proxy.meow.registerUser('randomuser','plaintextpassword','intothemist@gmail.com')
+
+	res = self.proxy.meow.getThread('randomuser','plaintextpassword', '32')
+	# This test is assuming that ONE user has been created already (and ONLY one).
+	# plus this test user. ASSUME ONLY TWO USERS SO FAR!
+	#reply_ =  {u'result': [[u'andy', u'andy@infiniterecursion.com.au', 1]], u'jsonrpc': u'1.0', u'id': u'046f03f2-9d77-11df-bc0d-40618697e051', u'error': None}
+	assert len(res['result']) != 0
+	print " result from getThread"
+	print res
+
+	# Make this a super-user function only 
+	# XXX make this a test of functions just registered users cant do
+
+
+	#delete test user
+	self.proxy.meow.deactivate('randomuser','plaintextpassword')
 
 
