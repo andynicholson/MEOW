@@ -14,11 +14,11 @@ import logging
 # Users/ Groups - Built in Django 
 # Messaging - Django messages 
 	# User to User messaging
-	#TODO
 	# User to Group messaging
-	# binary messages, for u2u and u2g
 
 # TODO
+
+# binary messages, for u2u and u2g
 # Locations - ? GeoDjango?
 
 
@@ -82,6 +82,7 @@ def leave_group(request,group_name):
 #
 @jsonrpc_method('meow.login',authenticated=True)
 def login_and_list_inbox_messages(request):
+   logging.debug(' user %s has logged in !' % request.user)
    message_list = Message.objects.inbox_for(request.user)
    return_list=[]
    for m in message_list:
@@ -91,21 +92,24 @@ def login_and_list_inbox_messages(request):
 		m.read_at = now
 		m.save()
 
-	return_list.append([m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
+	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
    return return_list
 
 @jsonrpc_method('meow.inbox',authenticated=True)
 def list_inbox_messages(request):
    message_list = Message.objects.inbox_for(request.user)
    return_list=[]
+   logging.debug('User %s inbox' % request.user)
    for m in message_list:
 	# mark the time 'read_at' as now
 	if m.read_at is None:
 		now = datetime.datetime.now()
 		m.read_at = now
 		m.save()
-	return_list.append([m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
+	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
+	logging.debug('message %s ' % m)
 
+   logging.debug('end inbox')
    return return_list
 
 @jsonrpc_method('meow.outbox',authenticated=True)
@@ -113,7 +117,7 @@ def list_outbox_messages(request):
    message_list = Message.objects.outbox_for(request.user)
    return_list=[]
    for m in message_list:
-	return_list.append([m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
+	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
    return return_list
 
 @jsonrpc_method('meow.trash',authenticated=True)
@@ -121,8 +125,29 @@ def list_trash_messages(request):
    message_list = Message.objects.trash_for(request.user)
    return_list=[]
    for m in message_list:
-	return_list.append([m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
+	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
    return return_list
+
+@jsonrpc_method('meow.deleteMsg',authenticated=True)
+def list_delete_msg(request, msgid):
+  #see django-messages 'views.py' delete method
+  logging.debug('deleting msg id %s' % msgid)
+  message=Message.objects.all().filter(id=msgid)
+  if len(message) != 1:
+	return False
+  deleted=False
+  now = datetime.datetime.now()
+  if message[0].sender == request.user:
+        message[0].sender_deleted_at = now
+        deleted = True
+  if message[0].recipient == request.user:
+        message[0].recipient_deleted_at = now
+        deleted = True
+  if deleted:
+        message[0].save()
+	return True
+  return False
+ 
 
 @jsonrpc_method('meow.sendMsg',authenticated=True)
 def list_send_message(request,msg_body,msg_subject,msg_receiver):
@@ -163,3 +188,27 @@ def list_send_message_to_group(request,msg_body,msg_subject,grp_receiver):
 		else:
 			sent = sent + 1
 	return sent
+
+#
+# Threads
+#
+
+def get_parents(msgid, ancestor_list):
+	parents=Message.objects.filter(recipient_deleted_at__isnull=True, id=msgid)	
+	for p in parents:
+		if (not p.parent_msg is None):
+			ancestor_list=get_parents(p.parent_msg.id,ancestor_list)
+		ancestor_list.append([p.id,p.subject,p.body,p.sender.username,p.sent_at,p.read_at])
+	return ancestor_list
+
+@jsonrpc_method('meow.getThread',authenticated=True)
+def list_get_thread(request,msg_id):
+   try:
+	   logging.debug('start meow.getThread with %s ' %  (msg_id))
+	   return get_parents(msg_id,[])
+
+   except:
+	logging.error('meow.getThread got exception')
+	return  []
+
+
