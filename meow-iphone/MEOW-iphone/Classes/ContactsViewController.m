@@ -72,7 +72,7 @@
 		                                                               managedObjectContext:[self managedObjectContext]
 		                                                                 sectionNameKeyPath:@"sectionNum"
 		                                                                          cacheName:nil];
-		[fetchedResultsController setSafeDelegate:self];
+		fetchedResultsController.safeDelegate = self;
 		
 		[sd1 release];
 		[sd2 release];
@@ -92,6 +92,12 @@
 {
 	[[self tableView] reloadData];
 }
+
+- (void)controllerDidMakeUnsafeChanges:(NSFetchedResultsController *)controller
+{
+	[self.tableView reloadData];
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark UITableView

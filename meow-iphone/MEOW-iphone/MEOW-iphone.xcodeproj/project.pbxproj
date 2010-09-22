@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RegisterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */; };
+		4502E7B71249836400FCEA9A /* XMPPRoster.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4502E7B61249836400FCEA9A /* XMPPRoster.xcdatamodel */; };
 		4503D6FC1209665D005E9A73 /* libDeferredKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503D6F912096654005E9A73 /* libDeferredKit.a */; };
 		450BB7F51248AC0A0028F91E /* MessageThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */; };
 		450BB7F61248AC0A0028F91E /* MessageThreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */; };
@@ -41,7 +42,6 @@
 		450BBA251248FD940028F91E /* XMPPReconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA011248FD940028F91E /* XMPPReconnect.m */; };
 		450BBA261248FD940028F91E /* XMPPModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA031248FD940028F91E /* XMPPModule.m */; };
 		450BBA271248FD940028F91E /* XMPPRoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA061248FD940028F91E /* XMPPRoster.m */; };
-		450BBA281248FD940028F91E /* XMPPRoster.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA0C1248FD940028F91E /* XMPPRoster.xcdatamodel */; };
 		450BBA291248FD940028F91E /* XMPPRosterCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA0E1248FD940028F91E /* XMPPRosterCoreDataStorage.m */; };
 		450BBA2A1248FD940028F91E /* XMPPUserCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA101248FD940028F91E /* XMPPUserCoreDataStorage.m */; };
 		450BBA2B1248FD940028F91E /* XMPPResourceCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 450BBA121248FD940028F91E /* XMPPResourceCoreDataStorage.m */; };
@@ -96,16 +96,17 @@
 		1D6058910D05DD3D006BFB54 /* MEOW-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MEOW-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E5210DE3E06400AC0155 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		2899E5210DE3E06400AC0155 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = Classes/RegisterViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Classes/RegisterViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Classes/RegisterViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MEOW_iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_iphone_Prefix.pch; sourceTree = "<group>"; };
+		4502E7B61249836400FCEA9A /* XMPPRoster.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = XMPPRoster.xcdatamodel; sourceTree = "<group>"; };
 		4503D6EF12096654005E9A73 /* CocoaDeferred.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaDeferred.xcodeproj; path = DeferredKit/CocoaDeferred/CocoaDeferred.xcodeproj; sourceTree = "<group>"; };
-		450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageThreadViewController.h; sourceTree = "<group>"; };
-		450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageThreadViewController.m; sourceTree = "<group>"; };
-		450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageThreadViewController.xib; sourceTree = "<group>"; };
+		450BB7F21248AC0A0028F91E /* MessageThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageThreadViewController.h; path = Classes/MessageThreadViewController.h; sourceTree = "<group>"; };
+		450BB7F31248AC0A0028F91E /* MessageThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageThreadViewController.m; path = Classes/MessageThreadViewController.m; sourceTree = "<group>"; };
+		450BB7F41248AC0A0028F91E /* MessageThreadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageThreadViewController.xib; path = Classes/MessageThreadViewController.xib; sourceTree = "<group>"; };
 		450BB8981248D6690028F91E /* SendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMessageViewController.h; path = Classes/SendMessageViewController.h; sourceTree = "<group>"; };
 		450BB8991248D6690028F91E /* SendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMessageViewController.m; path = Classes/SendMessageViewController.m; sourceTree = "<group>"; };
 		450BB89A1248D6690028F91E /* SendMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SendMessageViewController.xib; path = Classes/SendMessageViewController.xib; sourceTree = "<group>"; };
@@ -160,7 +161,6 @@
 		450BBA071248FD940028F91E /* XMPPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPUser.h; sourceTree = "<group>"; };
 		450BBA081248FD940028F91E /* XMPPResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPResource.h; sourceTree = "<group>"; };
 		450BBA0A1248FD940028F91E /* XMPPRosterPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPRosterPrivate.h; sourceTree = "<group>"; };
-		450BBA0C1248FD940028F91E /* XMPPRoster.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = XMPPRoster.xcdatamodel; sourceTree = "<group>"; };
 		450BBA0D1248FD940028F91E /* XMPPRosterCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPRosterCoreDataStorage.h; sourceTree = "<group>"; };
 		450BBA0E1248FD940028F91E /* XMPPRosterCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPRosterCoreDataStorage.m; sourceTree = "<group>"; };
 		450BBA0F1248FD940028F91E /* XMPPUserCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPUserCoreDataStorage.h; sourceTree = "<group>"; };
@@ -173,19 +173,19 @@
 		450BBB47124902E80028F91E /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		450BBB49124903140028F91E /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		450BBB4B124903600028F91E /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidn.a; path = "/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/libidn/libidn.a"; sourceTree = "<absolute>"; };
-		450BBB691249059B0028F91E /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
-		450BBB6A1249059B0028F91E /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
-		450BBB77124906690028F91E /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
-		450BBBE6124911DC0028F91E /* SafeFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeFetchedResultsController.m; sourceTree = "<group>"; };
-		450BBBE7124911DC0028F91E /* SafeFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeFetchedResultsController.h; sourceTree = "<group>"; };
+		450BBB691249059B0028F91E /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = Classes/ContactsViewController.h; sourceTree = "<group>"; };
+		450BBB6A1249059B0028F91E /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = Classes/ContactsViewController.m; sourceTree = "<group>"; };
+		450BBB77124906690028F91E /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactsViewController.xib; path = Classes/ContactsViewController.xib; sourceTree = "<group>"; };
+		450BBBE6124911DC0028F91E /* SafeFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SafeFetchedResultsController.m; path = Classes/SafeFetchedResultsController.m; sourceTree = "<group>"; };
+		450BBBE7124911DC0028F91E /* SafeFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SafeFetchedResultsController.h; path = Classes/SafeFetchedResultsController.h; sourceTree = "<group>"; };
 		4575F6BD122FC4FE00723106 /* MEOW_UserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_UserState.h; sourceTree = "<group>"; };
 		4575F6BE122FC4FE00723106 /* MEOW_UserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_UserState.m; sourceTree = "<group>"; };
 		4575F6DF122FC94A00723106 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		4575F7A9122FE4CA00723106 /* MEOW_UserMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOW_UserMessage.h; sourceTree = "<group>"; };
 		4575F7AA122FE4CA00723106 /* MEOW_UserMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOW_UserMessage.m; sourceTree = "<group>"; };
-		45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		45C5B9BB12268B3E00EB87D8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
+		45C5B9BC12268B3E00EB87D8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
+		45C5B9BD12268B3E00EB87D8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Classes/HomeViewController.xib; sourceTree = "<group>"; };
 		45C5BA371226972A00EB87D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		45D76B921228C0F200003C53 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesViewController.h; path = Classes/MessagesViewController.h; sourceTree = "<group>"; };
 		45D76B931228C0F200003C53 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesViewController.m; path = Classes/MessagesViewController.m; sourceTree = "<group>"; };
@@ -309,6 +309,7 @@
 				450BB9CD1248FD930028F91E /* Vendor */,
 			);
 			name = XMPP;
+			path = Classes/XMPP;
 			sourceTree = "<group>";
 		};
 		450BB9CD1248FD930028F91E /* Vendor */ = {
@@ -449,7 +450,7 @@
 		450BBA0B1248FD940028F91E /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				450BBA0C1248FD940028F91E /* XMPPRoster.xcdatamodel */,
+				4502E7B61249836400FCEA9A /* XMPPRoster.xcdatamodel */,
 				450BBA0D1248FD940028F91E /* XMPPRosterCoreDataStorage.h */,
 				450BBA0E1248FD940028F91E /* XMPPRosterCoreDataStorage.m */,
 				450BBA0F1248FD940028F91E /* XMPPUserCoreDataStorage.h */,
@@ -616,12 +617,12 @@
 				450BBA251248FD940028F91E /* XMPPReconnect.m in Sources */,
 				450BBA261248FD940028F91E /* XMPPModule.m in Sources */,
 				450BBA271248FD940028F91E /* XMPPRoster.m in Sources */,
-				450BBA281248FD940028F91E /* XMPPRoster.xcdatamodel in Sources */,
 				450BBA291248FD940028F91E /* XMPPRosterCoreDataStorage.m in Sources */,
 				450BBA2A1248FD940028F91E /* XMPPUserCoreDataStorage.m in Sources */,
 				450BBA2B1248FD940028F91E /* XMPPResourceCoreDataStorage.m in Sources */,
 				450BBB6B1249059B0028F91E /* ContactsViewController.m in Sources */,
 				450BBBE8124911DC0028F91E /* SafeFetchedResultsController.m in Sources */,
+				4502E7B71249836400FCEA9A /* XMPPRoster.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

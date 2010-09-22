@@ -134,7 +134,7 @@
 	
 	[mvc release];
 	[refreshTimer release];
-	[navController release];
+	//[navController release];
 }
 
 
