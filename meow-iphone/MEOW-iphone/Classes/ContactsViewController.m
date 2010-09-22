@@ -14,6 +14,8 @@
 {
 	[super viewDidLoad];
 	
+	[self setTitle:@"Contacts"];
+	
 	// Uncomment the following line to display an Edit button in the navigation bar for this view controller.
 	// self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -72,7 +74,7 @@
 		                                                               managedObjectContext:[self managedObjectContext]
 		                                                                 sectionNameKeyPath:@"sectionNum"
 		                                                                          cacheName:nil];
-		fetchedResultsController.safeDelegate = self;
+		fetchedResultsController.safeDelegate = [self retain];
 		
 		[sd1 release];
 		[sd2 release];
@@ -158,6 +160,33 @@
 	
 	return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+	
+	XMPPUserCoreDataStorage *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+	
+	
+	NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
+	[body setStringValue:@"Hi!"];
+	
+	NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
+    [message addAttributeWithName:@"type" stringValue:@"chat"];
+	[message addAttributeWithName:@"to" stringValue:[user.jid full]];
+	
+	[message addChild:body];
+	
+	
+	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	
+	[delegate.xmppStream sendElement:message];
+	
+	
+}
+
+
+
+
 
 - (void)dealloc
 {

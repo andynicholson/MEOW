@@ -111,6 +111,10 @@
 	
 	[MEOW_UserState processReturnedInbox:resultdict];
 	
+	//kick off the XMPP init in the delegate!
+	
+	[[MEOW_UserState sharedMEOW_UserState] 	kickOffXMPPInit];
+	
 	//lets pass self as delegate - auto-pop back to home screen on success.
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
 	[alertview show];

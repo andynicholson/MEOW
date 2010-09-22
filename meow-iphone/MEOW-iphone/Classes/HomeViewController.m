@@ -15,6 +15,7 @@
 @implementation HomeViewController
 
 @synthesize groups, contacts, about, messages, login, register_btn;
+@synthesize welcomeMsg;
 
 -(IBAction) doRegisterScreen:(id)sender {
 	NSLog(@"do Register in homeviewcontroller!");
@@ -139,6 +140,11 @@
 		
 		[register_btn setEnabled:NO];
 		[register_btn setBackgroundColor:[UIColor grayColor]];
+		
+		NSString *welcomeMsgCustom = [NSString stringWithFormat:@"Welcome %@", [MEOW_UserState sharedMEOW_UserState].username];
+		
+		[welcomeMsg setText:welcomeMsgCustom];
+		
 	} else {
 		[login setTitle:@"Login" forState:UIControlStateNormal];
 		
@@ -182,6 +188,16 @@
 
 - (void)dealloc {
     [super dealloc];
+	[welcomeMsg release];
+	[groups release];
+	
+	[contacts release];
+	[about release];
+	[messages release];
+	[login release];
+	[register_btn release];
+	
+	
 }
 
 

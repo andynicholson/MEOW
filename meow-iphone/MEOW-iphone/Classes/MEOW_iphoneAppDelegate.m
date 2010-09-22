@@ -35,7 +35,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-	[self xmppInit];
+
 	
     // Add the view controller's view to the window and display.
     [window addSubview:myNavigationController.view];
@@ -66,8 +66,11 @@
 	[xmppStream setHostPort:5222];
 	
 	// Replace me with the proper JID and password
-	[xmppStream setMyJID:[XMPPJID jidWithString:@"intothemist@gmail.com/iPhoneTestMEOW"]];
-	password = @"revolution0";
+	NSString *userJID = [NSString stringWithFormat:@"%@/iPhoneTestMEOW" , [MEOW_UserState sharedMEOW_UserState].username];
+	[xmppStream setMyJID:[XMPPJID jidWithString:userJID]];
+	password = [MEOW_UserState sharedMEOW_UserState].password;
+	
+	NSLog(@" Logging into XMPP with userJID %@ " , userJID);
 	
 	// You may need to alter these settings depending on the server you're connecting to
 	allowSelfSignedCertificates = NO;

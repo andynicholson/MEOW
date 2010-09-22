@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>450BBBD312490E460028F91E</string>
+						<string>4502E7BF1249844900FCEA9A</string>
 						<key>history</key>
 						<array>
-							<string>450BBB921249079C0028F91E</string>
+							<string>450BBBD312490E460028F91E</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>390 -30 1239 722 0 0 1280 778 </string>
+				<string>41 56 1239 722 0 0 1280 778 </string>
 			</dict>
 		</dict>
 	</array>
@@ -308,8 +308,8 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>DC1F98001152CAF300138A8F</string>
-								<string>DC84BBA0124409CE0055A459</string>
-								<string>DC1F98031152CB0C00138A8F</string>
+								<string>DC1F98041152CB1100138A8F</string>
+								<string>DC1F985B1152CC0200138A8F</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
@@ -322,8 +322,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>21</integer>
-									<integer>8</integer>
+									<integer>12</integer>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -348,7 +348,7 @@
 							<real>230</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>39 55 1241 723 0 0 1280 778 </string>
+						<string>353 55 1241 723 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -364,7 +364,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RootViewController.m</string>
+								<string>XMPPMessage.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -372,17 +372,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RootViewController.m</string>
+										<string>XMPPMessage.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>450BBBD012490E460028F91E</string>
+										<string>4502E7BC1249844900FCEA9A</string>
 										<key>history</key>
 										<array>
 											<string>450BBB8B1249079C0028F91E</string>
 											<string>450BBB8C1249079C0028F91E</string>
 											<string>450BBBCF12490E460028F91E</string>
-											<string>450BBB8D1249079C0028F91E</string>
+											<string>4502E7BA1249844900FCEA9A</string>
+											<string>4502E7BB1249844900FCEA9A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,14 +395,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {989, 484}}</string>
+								<string>{{0, 0}, {989, 478}}</string>
 								<key>RubberWindowFrame</key>
-								<string>39 55 1241 723 0 0 1280 778 </string>
+								<string>353 55 1241 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>484pt</string>
+							<string>478pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -414,14 +415,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 489}, {989, 193}}</string>
+								<string>{{0, 483}, {989, 199}}</string>
 								<key>RubberWindowFrame</key>
-								<string>39 55 1241 723 0 0 1280 778 </string>
+								<string>353 55 1241 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>193pt</string>
+							<string>199pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -440,9 +441,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>450BBBD112490E460028F91E</string>
+				<string>4502E7BD1249844900FCEA9A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>450BBBD212490E460028F91E</string>
+				<string>4502E7BE1249844900FCEA9A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -580,13 +581,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>450BB9A31248FCF00028F91E</string>
 		<string>450BBB901249079C0028F91E</string>
 		<string>/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/iPhoneXMPP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>39 55 1241 723 0 0 1280 778 </string>
+	<string>353 55 1241 723 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -663,7 +663,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>450BB9A31248FCF00028F91E</string>
-				<string>450BBBD412490E460028F91E</string>
+				<string>4502E7C01249844900FCEA9A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

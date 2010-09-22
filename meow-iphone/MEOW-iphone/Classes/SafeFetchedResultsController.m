@@ -1,6 +1,6 @@
 #import "SafeFetchedResultsController.h"
 
-#define DEBUG NO
+#define DEBUG YES
 
 // The NSFetchedResultsController class has one major flaw.
 // It will incorrectly flag moved objects as simple updates in the face or inserts or deletions.

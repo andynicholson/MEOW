@@ -9,6 +9,7 @@
 #import "MEOW_UserState.h"
 #import "MEOW_UserMessage.h"
 #import "SynthesizeSingleton.h"
+#import "MEOW_iphoneAppDelegate.h"
 
 @implementation MEOW_UserState
 
@@ -45,7 +46,14 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 }
 
 
-
+-(void) kickOffXMPPInit {
+	
+	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	
+	[delegate xmppInit];
+	
+	
+}
 
 +(void) processReturnedInbox:(NSArray *)resultdict {
 	

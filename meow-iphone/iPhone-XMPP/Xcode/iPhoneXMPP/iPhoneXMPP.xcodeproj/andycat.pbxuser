@@ -12,8 +12,8 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 2600}}";
 			sepNavSelRange = "{892, 0}";
-			sepNavVisRange = "{1659, 1840}";
-			sepNavWindowFrame = "{{390, -86}, {1239, 778}}";
+			sepNavVisRange = "{1659, 1837}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* iPhoneXMPP */ = {
@@ -39,9 +39,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {928, 2093}}";
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2262}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{4099, 810}";
+			sepNavVisRange = "{4034, 875}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -98,16 +98,17 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306776289;
-			PBXWorkspaceStateSaveDate = 306776289;
+			PBXPerProjectTemplateStateSaveDate = 306807577;
+			PBXWorkspaceStateSaveDate = 306807577;
 		};
 		perUserProjectItems = {
+			4502E7BA1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BA1249844900FCEA9A /* PBXTextBookmark */;
+			4502E7BB1249844900FCEA9A /* PBXBookmark */ = 4502E7BB1249844900FCEA9A /* PBXBookmark */;
+			4502E7BC1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BC1249844900FCEA9A /* PBXTextBookmark */;
+			4502E7BF1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BF1249844900FCEA9A /* PBXTextBookmark */;
 			450BBB8B1249079C0028F91E /* PBXTextBookmark */ = 450BBB8B1249079C0028F91E /* PBXTextBookmark */;
 			450BBB8C1249079C0028F91E /* PBXTextBookmark */ = 450BBB8C1249079C0028F91E /* PBXTextBookmark */;
-			450BBB8D1249079C0028F91E /* PBXTextBookmark */ = 450BBB8D1249079C0028F91E /* PBXTextBookmark */;
-			450BBB921249079C0028F91E /* PBXTextBookmark */ = 450BBB921249079C0028F91E /* PBXTextBookmark */;
 			450BBBCF12490E460028F91E /* PBXTextBookmark */ = 450BBBCF12490E460028F91E /* PBXTextBookmark */;
-			450BBBD012490E460028F91E /* PBXTextBookmark */ = 450BBBD012490E460028F91E /* PBXTextBookmark */;
 			450BBBD312490E460028F91E /* PBXTextBookmark */ = 450BBBD312490E460028F91E /* PBXTextBookmark */;
 		};
 		sourceControlManager = 450BB9961248FBEA0028F91E /* Source Control */;
@@ -121,6 +122,40 @@
 			sepNavVisRange = "{0, 365}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
+	};
+	4502E7BA1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 4034;
+	};
+	4502E7BB1249844900FCEA9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DC84BBD012440A8E0055A459 /* XMPPMessage.m */;
+	};
+	4502E7BC1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC84BBD012440A8E0055A459 /* XMPPMessage.m */;
+		name = "XMPPMessage.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 0;
+	};
+	4502E7BF1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
+		name = "iPhoneXMPPAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1837;
+		vrLoc = 1659;
 	};
 	450BB9841248FB990028F91E /* iPhoneXMPP */ = {
 		isa = PBXExecutable;
@@ -184,26 +219,6 @@
 		vrLen = 212;
 		vrLoc = 0;
 	};
-	450BBB8D1249079C0028F91E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 989;
-		vrLoc = 0;
-	};
-	450BBB921249079C0028F91E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
-		name = "iPhoneXMPPAppDelegate.m: 20";
-		rLen = 989;
-		rLoc = 399;
-		rType = 0;
-		vrLen = 1441;
-		vrLoc = 193;
-	};
 	450BBBCF12490E460028F91E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
@@ -213,16 +228,6 @@
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 1659;
-	};
-	450BBBD012490E460028F91E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 810;
-		vrLoc = 4099;
 	};
 	450BBBD312490E460028F91E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -236,9 +241,9 @@
 	};
 	DC84BBD012440A8E0055A459 /* XMPPMessage.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 1443}}";
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1404}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1470}";
+			sepNavVisRange = "{0, 1150}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};

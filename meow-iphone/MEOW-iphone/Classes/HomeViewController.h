@@ -15,6 +15,8 @@
 	
 	UIButton *groups, *contacts, *messages, *about;
 	UIButton *login , *register_btn;
+	
+	UILabel *welcomeMsg;
 }
 
 
@@ -26,6 +28,8 @@
 @property (nonatomic, retain) IBOutlet UIButton *about;
 @property (nonatomic, retain) IBOutlet UIButton *login;
 @property (nonatomic, retain) IBOutlet UIButton *register_btn;
+
+@property (nonatomic, retain) IBOutlet UILabel *welcomeMsg;
 
 
 -(IBAction) doRegisterScreen:(id)sender;
