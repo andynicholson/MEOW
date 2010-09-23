@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "XMPPRoom.h"
 
 #define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
 
@@ -21,7 +22,7 @@
 @class XMPPRosterCoreDataStorage;
 
 
-@interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate> {
+@interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate, XMPPRoomDelegate> {
     UIWindow *window;
     
 	IBOutlet UINavigationController*  myNavigationController;

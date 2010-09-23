@@ -10,7 +10,10 @@
 #import "MEOW_iphoneAppDelegate.h"
 #import "HomeViewController.h"
 #import "MEOW_UserState.h"
+
+
 #import "XMPP.h"
+#import "XMPPRoom.h"
 #import "XMPPRosterCoreDataStorage.h"
 
 #import <CFNetwork/CFNetwork.h>
@@ -62,11 +65,13 @@
 	
 	// Replace me with the proper domain and port.
 	// The example below is setup for a typical google talk account.
-	[xmppStream setHostName:@"talk.google.com"];
+	//[xmppStream setHostName:@"talk.google.com"];
+	
+	[xmppStream setHostName:@"erko.infiniterecursion.com.au"];
 	[xmppStream setHostPort:5222];
 	
 	// Replace me with the proper JID and password
-	NSString *userJID = [NSString stringWithFormat:@"%@/iPhoneTestMEOW" , [MEOW_UserState sharedMEOW_UserState].username];
+	NSString *userJID = [NSString stringWithFormat:@"%@@erko.infiniterecursion.com.au/MEOWiOS" , [MEOW_UserState sharedMEOW_UserState].username];
 	[xmppStream setMyJID:[XMPPJID jidWithString:userJID]];
 	password = [MEOW_UserState sharedMEOW_UserState].password;
 	
@@ -136,6 +141,8 @@
 
 - (void)dealloc {
     
+	[self goOffline];
+	
 	[xmppStream removeDelegate:self];
 	[xmppRoster removeDelegate:self];
 	
@@ -171,7 +178,11 @@
 {
 	NSXMLElement *presence = [NSXMLElement elementWithName:@"presence"];
 	
-	[[self xmppStream] sendElement:presence];
+	[[self xmppStream] sendElement:presence]; 
+	
+	NSLog(@" ONLINE! " );
+	
+	[self joinDefaultRoom];
 }
 
 - (void)goOffline
@@ -180,6 +191,20 @@
 	[presence addAttributeWithName:@"type" stringValue:@"unavailable"];
 	
 	[[self xmppStream] sendElement:presence];
+	
+	NSLog(@" OFFLINE! " );
+}
+
+
+-(void) joinDefaultRoom {
+	
+	
+	XMPPRoom *defaultroom = [[XMPPRoom alloc] initWithStream:[self xmppStream] roomName:@"chatone@conference.erko.infiniterecursion.com.au" nickName:[MEOW_UserState sharedMEOW_UserState].username];
+	
+	[defaultroom setDelegate:self];
+	
+	[defaultroom joinRoom];
+	
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -266,6 +291,8 @@
 {
 	NSLog(@"---------- xmppStream:didReceiveIQ: ----------");
 	
+	NSLog(@" Iq is %@", iq);
+	
 	return NO;
 }
 
@@ -291,6 +318,7 @@
 - (void)xmppStream:(XMPPStream *)sender didReceiveError:(id)error
 {
 	NSLog(@"---------- xmppStream:didReceiveError: ----------");
+	NSLog(@" error is %@ ", error);
 }
 
 - (void)xmppStreamDidDisconnect:(XMPPStream *)sender
@@ -302,6 +330,35 @@
 		NSLog(@"Unable to connect to server. Check xmppStream.hostName");
 	}
 }
+
+//XMPPRoom delegate methods
+
+- (void)xmppRoom:(XMPPRoom *)room didCreate:(BOOL)success {
+	 
+	 
+ }
+
+- (void)xmppRoom:(XMPPRoom *)room didEnter:(BOOL)enter {
+	
+	NSLog(@"Entered room %@  success ? %d ", [room roomName], enter);
+	
+}
+
+- (void)xmppRoom:(XMPPRoom *)room didLeave:(BOOL)leave {
+	
+}
+
+
+- (void)xmppRoom:(XMPPRoom *)room didReceiveMessage:(NSString *)message fromNick:(NSString *)nick {
+	
+	NSLog(@"RECV room  %@  message %@ from nick %@ ", [room roomName], message, nick);
+}
+
+- (void)xmppRoom:(XMPPRoom *)room didChangeOccupants:(NSDictionary *)occupants {
+	
+	
+}
+
 
 
 @end

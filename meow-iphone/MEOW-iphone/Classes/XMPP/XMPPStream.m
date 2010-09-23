@@ -1358,6 +1358,13 @@ enum XMPPStreamFlags
 		}
 	}
 	
+	// ANDYCAT
+	// for dev:
+	[settings setObject:[NSNumber numberWithBool:NO]
+				 forKey:(NSString *)kCFStreamSSLValidatesCertificateChain];
+	
+	//end ANDYCAT
+	
 	[asyncSocket startTLS:settings];
 	
 	// Note: We don't need to wait for asyncSocket to complete TLS negotiation.
