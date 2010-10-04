@@ -1,7 +1,11 @@
 ''' MEOW
+
  Copyright 2010, Andy Nicholson
+
  Infinite Recursion Pty Ltd.
+
  Covered by the AGPLv3
+
  see http://www.gnu.org/licenses/agpl-3.0.html
 
 
@@ -33,6 +37,7 @@ def ohce(request, msg):
       JSON-RPC view : meow.echoService
 
       Returns a fixed string 'ECHO ' + the message passed in
+
       Doesnt require authentication
   '''
   return "ECHO %s" % msg
@@ -46,6 +51,8 @@ def register_user(request, username, password, email):
 	JSON-RPC view : meow.registerUser
 
 	Returns a JSON encoded array of the new username, email and ID
+
+	Doesnt require authentication
   '''
   u = User.objects.create_user(username, email , password)
   u.save()
@@ -57,6 +64,7 @@ def list_users(request):
 	JSON-RPC view : meow.listUsers
 	
 	Returns a JSON encoded list of usernames, emails, and IDs of all users
+	
 	Requires authentication to call this function.
   '''
   users = User.objects.all()
@@ -71,6 +79,7 @@ def delete_user(request):
         JSON-RPC view : meow.deactivate
         
         Returns True, if the currently authenticated user is successfully deleted.
+
 	Requires authentication to call this function.
   '''
   request.user.delete()
@@ -81,6 +90,14 @@ def delete_user(request):
 #
 @jsonrpc_method('meow.joinGroup',authenticated=True)
 def join_group(request, group_name):
+  '''
+        JSON-RPC view : meow.joinGroup
+        
+        Returns True, if the currently authenticated user is successfully added to the named group, else False
+
+	Requires authentication to call this function.
+  '''
+ 
   g=Group.objects.all().filter(name=group_name)
   if len(g) > 0:
 	request.user.groups.add(g[0])
@@ -90,6 +107,14 @@ def join_group(request, group_name):
 
 @jsonrpc_method('meow.listGroups',authenticated=True)
 def list_groups(request):
+  '''
+        JSON-RPC view : meow.listGroups
+        
+        Returns an JSON encoded array of all group names
+
+	Requires authentication to call this function.
+  '''
+ 
   grps = Group.objects.all()
   result = []
   for  g in grps:
@@ -98,6 +123,14 @@ def list_groups(request):
 
 @jsonrpc_method('meow.leaveGroup',authenticated=True)
 def leave_group(request,group_name):
+  '''
+        JSON-RPC view : meow.leaveGroup
+        
+        Returns True, if the currently authenticated user is successfully removed from the named gruop, else False
+
+	Requires authentication to call this function.
+  '''
+ 
   g=Group.objects.all().filter(name=group_name)
   if len(g) > 0:
 	  request.user.groups.remove(g[0])
@@ -110,10 +143,20 @@ def leave_group(request,group_name):
 #
 @jsonrpc_method('meow.login',authenticated=True)
 def login_and_list_inbox_messages(request):
-   logging.debug(' user %s has logged in !' % request.user)
-   message_list = Message.objects.inbox_for(request.user)
-   return_list=[]
-   for m in message_list:
+  '''
+        JSON-RPC view : meow.login
+        
+        Returns:
+		If login is successful it returns the equalivent of calling the JSON-RPC view : meow.inbox
+		If login is not success, returns False
+
+	Requires authentication to call this function.
+  '''
+ 
+  logging.debug(' user %s has logged in !' % request.user)
+  message_list = Message.objects.inbox_for(request.user)
+  return_list=[]
+  for m in message_list:
 	# mark the time 'read_at' as now
 	if m.read_at is None:
 		now = datetime.datetime.now()
@@ -121,14 +164,23 @@ def login_and_list_inbox_messages(request):
 		m.save()
 
 	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
-   return return_list
+  return return_list
 
 @jsonrpc_method('meow.inbox',authenticated=True)
 def list_inbox_messages(request):
-   message_list = Message.objects.inbox_for(request.user)
-   return_list=[]
-   logging.debug('User %s inbox' % request.user)
-   for m in message_list:
+  '''
+        JSON-RPC view : meow.inbox
+        
+        Returns an JSON encoded array of the user's inbox.
+	inbox format is [m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at]
+
+	Requires authentication to call this function.
+  '''
+ 
+  message_list = Message.objects.inbox_for(request.user)
+  return_list=[]
+  logging.debug('User %s inbox' % request.user)
+  for m in message_list:
 	# mark the time 'read_at' as now
 	if m.read_at is None:
 		now = datetime.datetime.now()
@@ -137,27 +189,52 @@ def list_inbox_messages(request):
 	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
 	logging.debug('message %s ' % m)
 
-   logging.debug('end inbox')
-   return return_list
+  logging.debug('end inbox')
+  return return_list
 
 @jsonrpc_method('meow.outbox',authenticated=True)
 def list_outbox_messages(request):
-   message_list = Message.objects.outbox_for(request.user)
-   return_list=[]
-   for m in message_list:
+  '''
+        JSON-RPC view : meow.outbox
+        
+        Returns an JSON encoded array of the user's outbox.
+
+	Requires authentication to call this function.
+  '''
+ 
+  message_list = Message.objects.outbox_for(request.user)
+  return_list=[]
+  for m in message_list:
 	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
-   return return_list
+  return return_list
 
 @jsonrpc_method('meow.trash',authenticated=True)
 def list_trash_messages(request):
-   message_list = Message.objects.trash_for(request.user)
-   return_list=[]
-   for m in message_list:
+  '''
+        JSON-RPC view : meow.trash
+        
+        Returns an JSON encoded array of the user's trash
+
+	Requires authentication to call this function.
+  '''
+ 
+  message_list = Message.objects.trash_for(request.user)
+  return_list=[]
+  for m in message_list:
 	return_list.append([m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at])
-   return return_list
+  return return_list
 
 @jsonrpc_method('meow.deleteMsg',authenticated=True)
-def list_delete_msg(request, msgid):
+def delete_msg(request, msgid):
+  '''
+        JSON-RPC view : meow.deleteMsg
+        
+        Returns True, if the currently authenticated user is successfully deleted the given message id 'msgid'.
+		else False
+
+	Requires authentication to call this function.
+  '''
+ 
   #see django-messages 'views.py' delete method
   logging.debug('deleting msg id %s' % msgid)
   message=Message.objects.all().filter(id=msgid)
@@ -179,7 +256,18 @@ def list_delete_msg(request, msgid):
 
 @jsonrpc_method('meow.sendMsg',authenticated=True)
 def send_message(request,msg_body,msg_subject,msg_receiver):
-   try:
+  '''
+        JSON-RPC view : meow.sendMsg
+        
+        Returns True, if the currently authenticated user is successful in sending the message.
+
+	Inbound parameters: test string 'msg_body' & 'msg_subject'. text string 'msg_receiver' shld
+	be username of MEOW user.
+
+	Requires authentication to call this function.
+  '''
+ 
+  try:
 	   logging.debug('start meow.sendMsg with %s %s %s ' %  (msg_body,msg_subject,msg_receiver))
 	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
 	   if len(msg_receiver_user) != 1:
@@ -194,13 +282,24 @@ def send_message(request,msg_body,msg_subject,msg_receiver):
 			    )
 	   msg.save()
 	   return True
-   except:
+  except:
 	logging.error('meow.sendMsg got exception')
 	return False
 
 @jsonrpc_method('meow.sendMsgReply',authenticated=True)
 def send_reply(request,msg_body,msg_subject,msg_receiver,parent_id):
-   try:
+  '''
+        JSON-RPC view : meow.sendMsgReply
+        
+        Returns True, if the currently authenticated user is successful in sending the reply message.
+	
+	Inbound parameters: test string 'msg_body' & 'msg_subject'. text string 'msg_receiver' shld
+        be username of MEOW user, 'parent_id' shld be the msg id of an existing mesage.
+
+	Requires authentication to call this function.
+  '''
+ 
+  try:
 	   logging.debug('start meow.sendMsgReply with %s %s %s %d ' %  (msg_body,msg_subject,msg_receiver, parent_id))
 	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
 	   if len(msg_receiver_user) != 1:
@@ -219,36 +318,55 @@ def send_reply(request,msg_body,msg_subject,msg_receiver,parent_id):
 	   msg.parent_msg=parent_msg_obj[0]
 	   msg.save()
 	   return True
-   except:
+  except:
 	logging.error('meow.sendMsgReply got exception')
 	return False
 
 
 @jsonrpc_method('meow.sendMsgToGroup',authenticated=True)
 def send_message_to_group(request,msg_body,msg_subject,grp_receiver):
-	#find group - if doesnt exist , return False
-	grp_receiver_obj = Group.objects.all().filter(name=grp_receiver)
-	logging.debug('meow.sendMsgToGroup got grp name %s and found objs %s ' % (grp_receiver, grp_receiver_obj))
-	if len(grp_receiver_obj) != 1:
+  '''
+        JSON-RPC view : meow.sendMsgToGroup
+        
+        Returns True, if the currently authenticated user is successful in sending the message to all members of the group.
+
+	Inbound parameters: test string 'msg_body' & 'msg_subject'. text string 'msg_receiver' shld
+        be username of MEOW user. 'grp_receiver' should be the name of an existing group.
+
+	Requires authentication to call this function.
+  '''
+ 
+  #find group - if doesnt exist , return False
+  grp_receiver_obj = Group.objects.all().filter(name=grp_receiver)
+  logging.debug('meow.sendMsgToGroup got grp name %s and found objs %s ' % (grp_receiver, grp_receiver_obj))
+  if len(grp_receiver_obj) != 1:
+	return False
+  #ok - get all users
+  users_in_group=User.objects.all().filter(groups__name=grp_receiver)		
+  sent = 0
+  for u in users_in_group:
+	logging.debug( ' user in group %s' % u )
+	user_ok = send_message(request,msg_body,msg_subject,u.username)	
+	if user_ok != True:
 		return False
-	#ok - get all users
-	users_in_group=User.objects.all().filter(groups__name=grp_receiver)		
-	sent = 0
- 	for u in users_in_group:
-		logging.debug( ' user in group %s' % u )
-		user_ok = send_message(request,msg_body,msg_subject,u.username)	
-		if user_ok != True:
-			return False
-		else:
-			sent = sent + 1
-	return sent
+	else:
+		sent = sent + 1
+  return sent
 
 #
 # Threads
 #
 
 def get_parents(msgid, ancestor_list):
+        '''
+       	Internal function. Not available in JSON-RPC
+ 
+        Returns the given message 'msgid' , if its the top of the thread, and always its children, appended to the current 'ancestor_list'. 
+	Else If we have a parent, we call recursively, with the current list of all messages , and the id of our parent.
+	
+        '''
 	parents=Message.objects.filter(recipient_deleted_at__isnull=True, id=msgid)	
+	#this list should only ever be one since we are filtering by id
 	for p in parents:
 		children=Message.objects.filter(recipient_deleted_at__isnull=True, parent_msg=p)
 		for c in children:
@@ -263,11 +381,19 @@ def get_parents(msgid, ancestor_list):
 
 @jsonrpc_method('meow.getThread',authenticated=True)
 def get_thread(request,msg_id):
-   try:
+  '''
+        JSON-RPC view : meow.getThread
+        
+        Returns the current thread, starting at 'msg_id'. It returns all immediate children, and the parent messages.
+
+	Requires authentication to call this function.
+  '''
+ 
+  try:
 	   logging.debug('start meow.getThread with %s ' %  (msg_id))
 	   return get_parents(msg_id,[])
 
-   except:
+  except:
 	logging.error('meow.getThread got exception')
 	return  []
 

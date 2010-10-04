@@ -49,85 +49,123 @@
             
   <div class="section" id="meow-django-views-and-associated-json-rpc-end-points-and-testcase-class-and-test-methods">
 <h1>MEOW Django views and associated JSON-RPC end-points, and TestCase class and test methods<a class="headerlink" href="#meow-django-views-and-associated-json-rpc-end-points-and-testcase-class-and-test-methods" title="Permalink to this headline">¶</a></h1>
-<span class="target" id="module-meow.middleware.views"></span><p>MEOW
-Copyright 2010, Andy Nicholson
-Infinite Recursion Pty Ltd.
-Covered by the AGPLv3
-see <a class="reference external" href="http://www.gnu.org/licenses/agpl-3.0.html">http://www.gnu.org/licenses/agpl-3.0.html</a></p>
+<span class="target" id="module-meow.middleware.views"></span><p>MEOW</p>
+<p>Copyright 2010, Andy Nicholson</p>
+<p>Infinite Recursion Pty Ltd.</p>
+<p>Covered by the AGPLv3</p>
+<p>see <a class="reference external" href="http://www.gnu.org/licenses/agpl-3.0.html">http://www.gnu.org/licenses/agpl-3.0.html</a></p>
 <p>This file contains the MEOW JSON-RPC views.</p>
+<dl class="function">
+<dt id="meow.middleware.views.delete_msg">
+<tt class="descclassname">meow.middleware.views.</tt><tt class="descname">delete_msg</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.delete_msg" title="Permalink to this definition">¶</a></dt>
+<dd><p>JSON-RPC view : meow.deleteMsg</p>
+<dl class="docutils">
+<dt>Returns True, if the currently authenticated user is successfully deleted the given message id &#8216;msgid&#8217;.</dt>
+<dd>else False</dd>
+</dl>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
+
 <dl class="function">
 <dt id="meow.middleware.views.delete_user">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">delete_user</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.delete_user" title="Permalink to this definition">¶</a></dt>
 <dd><p>JSON-RPC view : meow.deactivate</p>
-<p>Returns True, if the currently authenticated user is successfully deleted.
-Requires authentication to call this function.</p>
+<p>Returns True, if the currently authenticated user is successfully deleted.</p>
+<p>Requires authentication to call this function.</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.get_parents">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">get_parents</tt><big>(</big><em>msgid</em>, <em>ancestor_list</em><big>)</big><a class="headerlink" href="#meow.middleware.views.get_parents" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Internal function. Not available in JSON-RPC</p>
+<p>Returns the given message &#8216;msgid&#8217; , if its the top of the thread, and always its children, appended to the current &#8216;ancestor_list&#8217;. 
+Else If we have a parent, we call recursively, with the current list of all messages , and the id of our parent.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.get_thread">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">get_thread</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.get_thread" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.getThread</p>
+<p>Returns the current thread, starting at &#8216;msg_id&#8217;. It returns all immediate children, and the parent messages.</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.join_group">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">join_group</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.join_group" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.joinGroup</p>
+<p>Returns True, if the currently authenticated user is successfully added to the named group, else False</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.leave_group">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">leave_group</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.leave_group" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="meow.middleware.views.list_delete_msg">
-<tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_delete_msg</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_delete_msg" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.leaveGroup</p>
+<p>Returns True, if the currently authenticated user is successfully removed from the named gruop, else False</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.list_groups">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_groups</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_groups" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.listGroups</p>
+<p>Returns an JSON encoded array of all group names</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.list_inbox_messages">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_inbox_messages</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_inbox_messages" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.inbox</p>
+<p>Returns an JSON encoded array of the user&#8217;s inbox.
+inbox format is [m.id,m.subject,m.body,m.sender.username,m.sent_at,m.read_at]</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.list_outbox_messages">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_outbox_messages</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_outbox_messages" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.outbox</p>
+<p>Returns an JSON encoded array of the user&#8217;s outbox.</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.list_trash_messages">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_trash_messages</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_trash_messages" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.trash</p>
+<p>Returns an JSON encoded array of the user&#8217;s trash</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.list_users">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">list_users</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.list_users" title="Permalink to this definition">¶</a></dt>
 <dd><p>JSON-RPC view : meow.listUsers</p>
-<p>Returns a JSON encoded list of usernames, emails, and IDs of all users
-Requires authentication to call this function.</p>
+<p>Returns a JSON encoded list of usernames, emails, and IDs of all users</p>
+<p>Requires authentication to call this function.</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.login_and_list_inbox_messages">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">login_and_list_inbox_messages</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.login_and_list_inbox_messages" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.login</p>
+<dl class="docutils">
+<dt>Returns:</dt>
+<dd>If login is successful it returns the equalivent of calling the JSON-RPC view : meow.inbox
+If login is not success, returns False</dd>
+</dl>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.ohce">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">ohce</tt><big>(</big><em>request</em>, <em>msg</em><big>)</big><a class="headerlink" href="#meow.middleware.views.ohce" title="Permalink to this definition">¶</a></dt>
 <dd><p>Test echo service. 
 JSON-RPC view : meow.echoService</p>
-<p>Returns a fixed string &#8216;ECHO &#8216; + the message passed in
-Doesnt require authentication</p>
+<p>Returns a fixed string &#8216;ECHO &#8216; + the message passed in</p>
+<p>Doesnt require authentication</p>
 </dd></dl>
 
 <dl class="function">
@@ -135,17 +173,38 @@ Doesnt require authentication</p>
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">register_user</tt><big>(</big><em>request</em>, <em>username</em>, <em>password</em>, <em>email</em><big>)</big><a class="headerlink" href="#meow.middleware.views.register_user" title="Permalink to this definition">¶</a></dt>
 <dd><p>JSON-RPC view : meow.registerUser</p>
 <p>Returns a JSON encoded array of the new username, email and ID</p>
+<p>Doesnt require authentication</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.send_message">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">send_message</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.send_message" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.sendMsg</p>
+<p>Returns True, if the currently authenticated user is successful in sending the message.</p>
+<p>Inbound parameters: test string &#8216;msg_body&#8217; &amp; &#8216;msg_subject&#8217;. text string &#8216;msg_receiver&#8217; shld
+be username of MEOW user.</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <dl class="function">
 <dt id="meow.middleware.views.send_message_to_group">
 <tt class="descclassname">meow.middleware.views.</tt><tt class="descname">send_message_to_group</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.send_message_to_group" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>JSON-RPC view : meow.sendMsgToGroup</p>
+<p>Returns True, if the currently authenticated user is successful in sending the message to all members of the group.</p>
+<p>Inbound parameters: test string &#8216;msg_body&#8217; &amp; &#8216;msg_subject&#8217;. text string &#8216;msg_receiver&#8217; shld
+be username of MEOW user. &#8216;grp_receiver&#8217; should be the name of an existing group.</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="meow.middleware.views.send_reply">
+<tt class="descclassname">meow.middleware.views.</tt><tt class="descname">send_reply</tt><big>(</big><em>request</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="headerlink" href="#meow.middleware.views.send_reply" title="Permalink to this definition">¶</a></dt>
+<dd><p>JSON-RPC view : meow.sendMsgReply</p>
+<p>Returns True, if the currently authenticated user is successful in sending the reply message.</p>
+<p>Inbound parameters: test string &#8216;msg_body&#8217; &amp; &#8216;msg_subject&#8217;. text string &#8216;msg_receiver&#8217; shld
+be username of MEOW user, &#8216;parent_id&#8217; shld be the msg id of an existing mesage.</p>
+<p>Requires authentication to call this function.</p>
+</dd></dl>
 
 <span class="target" id="module-meow.middleware.tests"></span><p>MEOW
 Copyright 2010, Andy Nicholson
