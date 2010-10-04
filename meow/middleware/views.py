@@ -199,7 +199,7 @@ def send_message(request,msg_body,msg_subject,msg_receiver):
 	return False
 
 @jsonrpc_method('meow.sendMsgReply',authenticated=True)
-def send_message(request,msg_body,msg_subject,msg_receiver,parent_id):
+def send_reply(request,msg_body,msg_subject,msg_receiver,parent_id):
    try:
 	   logging.debug('start meow.sendMsgReply with %s %s %s %d ' %  (msg_body,msg_subject,msg_receiver, parent_id))
 	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
@@ -236,7 +236,7 @@ def send_message_to_group(request,msg_body,msg_subject,grp_receiver):
 	sent = 0
  	for u in users_in_group:
 		logging.debug( ' user in group %s' % u )
-		user_ok = list_send_message(request,msg_body,msg_subject,u.username)	
+		user_ok = send_message(request,msg_body,msg_subject,u.username)	
 		if user_ok != True:
 			return False
 		else:
