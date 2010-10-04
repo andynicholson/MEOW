@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/250/trunk/Vendor/libidn
+END
+libidn.a
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/250/trunk/Vendor/libidn/libidn.a
+END
+stringprep.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/244/trunk/Vendor/libidn/stringprep.h
+END
+libidn-1.15.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/244/trunk/Vendor/libidn/libidn-1.15.tar.gz
+END
+idn-int.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/244/trunk/Vendor/libidn/idn-int.h
+END

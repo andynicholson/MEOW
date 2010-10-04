@@ -1,0 +1,51 @@
+TiPhoneXMPP
+v7
+r1
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/MainWindow.xib
+c000000004C98C3F60000000000002C6D
+t1285080054
+s11373
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/RootViewController.xib
+c000000004C98C3F60000000000004324
+t1285080054
+s17188
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app
+t2
+s0
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app/Contents/Info.plist
+t2
+s0
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+NiPhoneXMPP-Info.plist
+c000000004C98C3F6000000000000038D
+t1285080054
+s909
+
+CCompileXIB /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/MainWindow.xib
+r0
+
+CCompileXIB /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/RootViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app/Contents/Info.plist iPhoneXMPP-Info.plist
+r0
+
+CTouch /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug/iPhoneXMPP.app
+r0
+

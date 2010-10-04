@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/245/trunk/Xcode/iPhoneXMPP/Classes
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/245/trunk/Xcode/iPhoneXMPP/Classes/RootViewController.h
+END
+iPhoneXMPPAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/245/trunk/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.h
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/245/trunk/Xcode/iPhoneXMPP/Classes/RootViewController.m
+END
+iPhoneXMPPAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/245/trunk/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m
+END

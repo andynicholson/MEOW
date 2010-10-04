@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/253/trunk/Extensions/XEP-0045
+END
+XMPPMessage+XEP0045.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/253/trunk/Extensions/XEP-0045/XMPPMessage+XEP0045.h
+END
+XMPPRoomOccupant.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/241/trunk/Extensions/XEP-0045/XMPPRoomOccupant.h
+END
+XMPPMessage+XEP0045.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/253/trunk/Extensions/XEP-0045/XMPPMessage+XEP0045.m
+END
+XMPPRoom.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/241/trunk/Extensions/XEP-0045/XMPPRoom.h
+END
+XMPPRoomOccupant.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/241/trunk/Extensions/XEP-0045/XMPPRoomOccupant.m
+END
+XMPPRoom.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/252/trunk/Extensions/XEP-0045/XMPPRoom.m
+END

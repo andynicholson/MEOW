@@ -275,7 +275,7 @@
 	NSLog(@"Showing thread controller. nav controller %@" , self.navController);
 	MessageThreadViewController *threadViewController = [[MessageThreadViewController alloc] initWithNibName:@"MessageThreadViewController" bundle:nil];
 	[threadViewController setThreadString:@"Thread loading..."];
-	[threadViewController setNavController:[self navigationController]];
+	[threadViewController setNavController:[self navController]];
 	[threadViewController setMsgid:[msg msgid]];
 	
 	[self.navController pushViewController:threadViewController animated:YES];

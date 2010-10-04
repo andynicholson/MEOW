@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo
+END
+Message.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/Message.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/main.m
+END
+RootViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/RootViewController.xib
+END
+DDString.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/DDString.h
+END
+ServerlessDemo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/ServerlessDemo-Info.plist
+END
+StreamController.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/StreamController.h
+END
+Service.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/Service.h
+END
+ServerlessDemo_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/ServerlessDemo_Prefix.pch
+END
+DDString.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/DDString.m
+END
+StreamController.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/StreamController.m
+END
+Message.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/Message.h
+END
+Service.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/Service.m
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/245/trunk/Xcode/ServerlessDemo/MainWindow.xib
+END

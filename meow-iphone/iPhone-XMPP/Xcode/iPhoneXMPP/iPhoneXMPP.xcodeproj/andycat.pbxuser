@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iPhoneXMPPAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 458}}";
+			sepNavSelRange = "{389, 0}";
+			sepNavVisRange = "{0, 814}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 2600}}";
+			sepNavSelRange = "{892, 0}";
+			sepNavVisRange = "{1659, 1837}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iPhoneXMPP */ = {
+		activeExec = 0;
+		executables = (
+			450BB9841248FB990028F91E /* iPhoneXMPP */,
+		);
+	};
+	28A0AAE50D9B0CCF005BE974 /* iPhoneXMPP_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
+		};
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 458}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 2262}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4034, 875}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 450BB9841248FB990028F91E /* iPhoneXMPP */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iPhoneXMPP */;
+		codeSenseManager = 450BB9971248FBEA0028F91E /* Code sense */;
+		executables = (
+			450BB9841248FB990028F91E /* iPhoneXMPP */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					750,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					754,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306807577;
+			PBXWorkspaceStateSaveDate = 306807577;
+		};
+		perUserProjectItems = {
+			4502E7BA1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BA1249844900FCEA9A /* PBXTextBookmark */;
+			4502E7BB1249844900FCEA9A /* PBXBookmark */ = 4502E7BB1249844900FCEA9A /* PBXBookmark */;
+			4502E7BC1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BC1249844900FCEA9A /* PBXTextBookmark */;
+			4502E7BF1249844900FCEA9A /* PBXTextBookmark */ = 4502E7BF1249844900FCEA9A /* PBXTextBookmark */;
+			450BBB8B1249079C0028F91E /* PBXTextBookmark */ = 450BBB8B1249079C0028F91E /* PBXTextBookmark */;
+			450BBB8C1249079C0028F91E /* PBXTextBookmark */ = 450BBB8C1249079C0028F91E /* PBXTextBookmark */;
+			450BBBCF12490E460028F91E /* PBXTextBookmark */ = 450BBBCF12490E460028F91E /* PBXTextBookmark */;
+			450BBBD312490E460028F91E /* PBXTextBookmark */ = 450BBBD312490E460028F91E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 450BB9961248FBEA0028F91E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 365}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
+		};
+	};
+	4502E7BA1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 4034;
+	};
+	4502E7BB1249844900FCEA9A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DC84BBD012440A8E0055A459 /* XMPPMessage.m */;
+	};
+	4502E7BC1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC84BBD012440A8E0055A459 /* XMPPMessage.m */;
+		name = "XMPPMessage.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 0;
+	};
+	4502E7BF1249844900FCEA9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
+		name = "iPhoneXMPPAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1837;
+		vrLoc = 1659;
+	};
+	450BB9841248FB990028F91E /* iPhoneXMPP */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iPhoneXMPP;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	450BB9961248FBEA0028F91E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	450BB9971248FBEA0028F91E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	450BBB8B1249079C0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iPhoneXMPPAppDelegate.h */;
+		name = "iPhoneXMPPAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 0;
+	};
+	450BBB8C1249079C0028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	450BBBCF12490E460028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
+		name = "iPhoneXMPPAppDelegate.m: 78";
+		rLen = 0;
+		rLoc = 2251;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 1659;
+	};
+	450BBBD312490E460028F91E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iPhoneXMPPAppDelegate.m */;
+		name = "iPhoneXMPPAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 1659;
+	};
+	DC84BBD012440A8E0055A459 /* XMPPMessage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1150}";
+			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
+		};
+	};
+}

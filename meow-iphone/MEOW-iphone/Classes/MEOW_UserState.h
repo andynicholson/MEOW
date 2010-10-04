@@ -53,10 +53,14 @@
 -(NSArray *) privateUserMessages;
 -(NSArray *) groupUserMessages;
 
+//Starts XMPP initialisation
+-(void) kickOffXMPPInit;
+
 //access the singleton
 + (MEOW_UserState *)sharedMEOW_UserState;
 
 //Class method to cycle through a dictionary, adding messages into the shared instance
 + (void) processReturnedInbox:(NSArray *)resultdict;
+
 
 @end

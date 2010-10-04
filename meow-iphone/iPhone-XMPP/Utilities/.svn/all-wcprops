@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/242/trunk/Utilities
+END
+DDLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/242/trunk/Utilities/DDLog.h
+END
+RFSRVResolver.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/242/trunk/Utilities/RFSRVResolver.m
+END
+MulticastDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/242/trunk/Utilities/MulticastDelegate.h
+END
+LibIDN.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/242/trunk/Utilities/LibIDN.h
+END
+RFSRVResolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/242/trunk/Utilities/RFSRVResolver.h
+END
+MulticastDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/242/trunk/Utilities/MulticastDelegate.m
+END
+LibIDN.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/242/trunk/Utilities/LibIDN.m
+END

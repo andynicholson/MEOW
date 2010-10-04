@@ -10,6 +10,7 @@
 #import "MEOW_UserMessage.h"
 #import "MEOW_UserState.h"
 #import "MessageThreadViewController.h"
+#import "SendMessageViewController.h"
 
 @implementation MessagesToolBarViewController
 
@@ -45,14 +46,14 @@
 -(void) userWantsToWriteNewMessage {
 	
 	
-	/*
-	NSLog(@"Showing thread controller. nav controller %@" , self.navController);
-	MessageThreadViewController *detailViewController = [[MessageThreadViewController alloc] initWithNibName:@"MessageThreadViewController" bundle:nil];
-	// ...
-	// Pass the selected object to the new view controller.
-	[self.navController pushViewController:detailViewController animated:YES];
-	[detailViewController release];
-	*/
+	NSLog(@"Showing send message controller. nav controller %@" , self.navController);
+	SendMessageViewController *sendMsgViewController = [[SendMessageViewController alloc] initWithNibName:@"SendMessageViewController" bundle:nil];
+	[sendMsgViewController setNavController:[self navController]];
+	[sendMsgViewController setThreadId:0];
+	
+	[self.navController pushViewController:sendMsgViewController animated:YES];
+	[sendMsgViewController release];
+	
 	
 	
 	
@@ -133,7 +134,7 @@
 	
 	[mvc release];
 	[refreshTimer release];
-	[navController release];
+	//[navController release];
 }
 
 

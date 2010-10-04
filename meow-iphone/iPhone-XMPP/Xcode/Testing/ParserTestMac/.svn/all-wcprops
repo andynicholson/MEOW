@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac/main.m
+END
+ParserTestMacAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac/ParserTestMacAppDelegate.h
+END
+ParserTestMac-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac/ParserTestMac-Info.plist
+END
+ParserTestMac_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac/ParserTestMac_Prefix.pch
+END
+ParserTestMacAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/246/trunk/Xcode/Testing/ParserTestMac/ParserTestMacAppDelegate.m
+END

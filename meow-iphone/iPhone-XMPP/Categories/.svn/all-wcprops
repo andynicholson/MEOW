@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/242/trunk/Categories
+END
+NSDataAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/242/trunk/Categories/NSDataAdditions.h
+END
+NSXMLElementAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/242/trunk/Categories/NSXMLElementAdditions.h
+END
+NSDataAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/242/trunk/Categories/NSDataAdditions.m
+END
+NSXMLElementAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/242/trunk/Categories/NSXMLElementAdditions.m
+END
+DDNumber.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/242/trunk/Categories/DDNumber.h
+END
+DDNumber.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/242/trunk/Categories/DDNumber.m
+END
