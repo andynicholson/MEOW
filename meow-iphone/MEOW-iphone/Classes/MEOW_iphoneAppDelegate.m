@@ -183,6 +183,8 @@
 	NSLog(@" ONLINE! " );
 	
 	[self joinDefaultRoom];
+	
+	[self addDefaultBuddy];
 }
 
 - (void)goOffline
@@ -204,6 +206,17 @@
 	[defaultroom setDelegate:self];
 	
 	[defaultroom joinRoom];
+	
+}
+
+
+-(void) addDefaultBuddy {
+	
+	XMPPJID *godjid = [XMPPJID jidWithString:@"aleph2@erko.infiniterecursion.com.au"];
+		
+	[[self xmppRoster] addBuddy:godjid withNickname:@"GOD"];
+	
+	
 	
 }
 

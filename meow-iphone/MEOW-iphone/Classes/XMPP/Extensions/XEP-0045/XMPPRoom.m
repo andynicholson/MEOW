@@ -287,6 +287,10 @@ static NSString *const XMPPMUCOwnerNamespaceName = @"http://jabber.org/protocol/
 
 - (void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence {
 	NSArray *roomNick = [[presence fromStr] componentsSeparatedByString:@"/"];
+	if ([roomNick count] != 2) {
+		NSLog(@"[XMPPRoom] didReceivePresence Bailing out with %@ ", presence);
+		return;
+	}
 	NSString *aroomname = [roomNick objectAtIndex:0];
 	NSString *anick = [roomNick objectAtIndex:1];
 	if (![aroomname isEqualToString:roomName]) return;
