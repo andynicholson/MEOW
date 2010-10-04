@@ -1,12 +1,10 @@
-MEOW JSON-RPC methods
+MEOW Django views and associated JSON-RPC end-points, and TestCase class and test methods
 ======================
  
 .. automodule:: meow.middleware.views
 	:members:
-	:inherited-members:
 	:undoc-members:
 	
 .. automodule:: meow.middleware.tests
 	:members:
-	:inherited-members:
 	:undoc-members:

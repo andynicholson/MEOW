@@ -1,7 +1,12 @@
-# MEOW
-# Copyright 2010, Andy Nicholson
-# Infinite Recursion Pty Ltd.
-# AGPLv3
+''' MEOW
+ Copyright 2010, Andy Nicholson
+ Infinite Recursion Pty Ltd.
+ Covered by the AGPLv3
+ see http://www.gnu.org/licenses/agpl-3.0.html
+
+
+ This file contains the MEOW JSON-RPC views.
+'''
 
 from jsonrpc import jsonrpc_method
 from django.contrib.auth.models import User, Group
@@ -24,6 +29,12 @@ import logging
 
 @jsonrpc_method('meow.echoService(msg=String) -> String',safe=True)
 def ohce(request, msg):
+  ''' Test echo service. 
+      JSON-RPC view : meow.echoService
+
+      Returns a fixed string 'ECHO ' + the message passed in
+      Doesnt require authentication
+  '''
   return "ECHO %s" % msg
 
 #
@@ -31,12 +42,23 @@ def ohce(request, msg):
 #
 @jsonrpc_method('meow.registerUser')
 def register_user(request, username, password, email):
+  '''
+	JSON-RPC view : meow.registerUser
+
+	Returns a JSON encoded array of the new username, email and ID
+  '''
   u = User.objects.create_user(username, email , password)
   u.save()
   return [u.username, u.email, u.id]
 
 @jsonrpc_method('meow.listUsers',authenticated=True)
 def list_users(request):
+  '''
+	JSON-RPC view : meow.listUsers
+	
+	Returns a JSON encoded list of usernames, emails, and IDs of all users
+	Requires authentication to call this function.
+  '''
   users = User.objects.all()
   result = []
   for  user in users:
@@ -45,6 +67,12 @@ def list_users(request):
 
 @jsonrpc_method('meow.deactivate',authenticated=True)
 def delete_user(request):
+  '''
+        JSON-RPC view : meow.deactivate
+        
+        Returns True, if the currently authenticated user is successfully deleted.
+	Requires authentication to call this function.
+  '''
   request.user.delete()
   return True
 
@@ -150,7 +178,7 @@ def list_delete_msg(request, msgid):
  
 
 @jsonrpc_method('meow.sendMsg',authenticated=True)
-def list_send_message(request,msg_body,msg_subject,msg_receiver):
+def send_message(request,msg_body,msg_subject,msg_receiver):
    try:
 	   logging.debug('start meow.sendMsg with %s %s %s ' %  (msg_body,msg_subject,msg_receiver))
 	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
@@ -171,7 +199,7 @@ def list_send_message(request,msg_body,msg_subject,msg_receiver):
 	return False
 
 @jsonrpc_method('meow.sendMsgReply',authenticated=True)
-def list_send_message(request,msg_body,msg_subject,msg_receiver,parent_id):
+def send_message(request,msg_body,msg_subject,msg_receiver,parent_id):
    try:
 	   logging.debug('start meow.sendMsgReply with %s %s %s %d ' %  (msg_body,msg_subject,msg_receiver, parent_id))
 	   msg_receiver_user = User.objects.all().filter(username=msg_receiver)
@@ -197,7 +225,7 @@ def list_send_message(request,msg_body,msg_subject,msg_receiver,parent_id):
 
 
 @jsonrpc_method('meow.sendMsgToGroup',authenticated=True)
-def list_send_message_to_group(request,msg_body,msg_subject,grp_receiver):
+def send_message_to_group(request,msg_body,msg_subject,grp_receiver):
 	#find group - if doesnt exist , return False
 	grp_receiver_obj = Group.objects.all().filter(name=grp_receiver)
 	logging.debug('meow.sendMsgToGroup got grp name %s and found objs %s ' % (grp_receiver, grp_receiver_obj))
@@ -234,7 +262,7 @@ def get_parents(msgid, ancestor_list):
 	return ancestor_list
 
 @jsonrpc_method('meow.getThread',authenticated=True)
-def list_get_thread(request,msg_id):
+def get_thread(request,msg_id):
    try:
 	   logging.debug('start meow.getThread with %s ' %  (msg_id))
 	   return get_parents(msg_id,[])

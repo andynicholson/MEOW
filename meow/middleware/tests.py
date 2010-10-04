@@ -1,27 +1,18 @@
-"""
-This file demonstrates two different styles of tests (one doctest and one
-unittest). These will both pass when you run "manage.py test".
+""" MEOW
+ Copyright 2010, Andy Nicholson
+ Infinite Recursion Pty Ltd.
+ Covered by the AGPLv3
+ see http://www.gnu.org/licenses/agpl-3.0.html
+ 
+ This file contains the MEOW tests, running JSON-RPC tests via proxy object into the configured Django web service endpoint.
 
-Replace these with more appropriate tests for your application.
+ Run "manage.py test" from the top-level Django directory to run these tests
+
 """
 
 from django.test import TestCase
 from django_webtest import WebTest
 from jsonrpc.proxy import ServiceProxy
-
-class SimpleTest(TestCase):
-    def test_basic_addition(self):
-        """
-        Tests that 1 + 1 always equals 2.
-        """
-        self.failUnlessEqual(1 + 1, 2)
-
-__test__ = {"doctest": """
-Another way to test that 1 + 1 is equal to 2.
-
->>> 1 + 1 == 2
-True
-"""}
 
 # JSON RPC MEOW middle-ware tests
 #
