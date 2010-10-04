@@ -11,6 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   meow
+
 Indices and tables
 ==================
 
