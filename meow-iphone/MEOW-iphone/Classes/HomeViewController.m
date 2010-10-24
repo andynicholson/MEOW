@@ -85,6 +85,7 @@
 	if ( [[MEOW_UserState sharedMEOW_UserState] logged_in] ) {
 		
 		ContactsViewController *cvc = [[ContactsViewController alloc] initWithNibName:@"ContactsViewController" bundle:nil];
+		[cvc setNavController:self.navigationController];
 		[self.navigationController pushViewController:cvc animated:YES];
 		[cvc release];
 		

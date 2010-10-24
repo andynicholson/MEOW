@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 #import "XMPPRoom.h"
+#import "XMPPRoster.h"
 
 #define SERVICE_URL @"http://meow.infiniterecursion.com.au/json/"
 
@@ -22,7 +23,7 @@
 @class XMPPRosterCoreDataStorage;
 
 
-@interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate, XMPPRoomDelegate> {
+@interface MEOW_iphoneAppDelegate : NSObject <UIApplicationDelegate, XMPPRoomDelegate, XMPPRosterDelegate, UIAlertViewDelegate> {
     UIWindow *window;
     
 	IBOutlet UINavigationController*  myNavigationController;
@@ -42,6 +43,9 @@
 	//States for XMPP for next step in streamDidConnect
 	BOOL xmppStateIsLoginNext, xmppStateIsRegisterNext;
 	
+	//Last user to contact us
+	XMPPJID *xmpp_jid_last_contact;
+	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -50,6 +54,8 @@
 @property (nonatomic, readonly) XMPPStream *xmppStream;
 @property (nonatomic, readonly) XMPPRoster *xmppRoster;
 @property (nonatomic, readonly) XMPPRosterCoreDataStorage *xmppRosterStorage;
+@property (nonatomic, retain) XMPPJID *xmpp_jid_last_contact;
+
 
 -(void) xmppInit;
 -(void) registerXMPPWithUsername:(NSString *)init_username andPassword:(NSString *)init_password;
