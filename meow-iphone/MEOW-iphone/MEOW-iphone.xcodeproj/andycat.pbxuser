@@ -31,9 +31,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* RegisterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1545, 3965}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1545, 3991}}";
 			sepNavSelRange = "{1638, 0}";
-			sepNavVisRange = "{1535, 443}";
+			sepNavVisRange = "{1535, 488}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
@@ -244,6 +244,10 @@
 			454C224412742F99000CBF9E /* PBXTextBookmark */ = 454C224412742F99000CBF9E /* PBXTextBookmark */;
 			454C224512742F99000CBF9E /* PBXTextBookmark */ = 454C224512742F99000CBF9E /* PBXTextBookmark */;
 			454C224612742F99000CBF9E /* PBXTextBookmark */ = 454C224612742F99000CBF9E /* PBXTextBookmark */;
+			454C224D1274328D000CBF9E /* PBXTextBookmark */ = 454C224D1274328D000CBF9E /* PBXTextBookmark */;
+			454C224E1274328D000CBF9E /* PBXTextBookmark */ = 454C224E1274328D000CBF9E /* PBXTextBookmark */;
+			454C224F1274328D000CBF9E /* PBXTextBookmark */ = 454C224F1274328D000CBF9E /* PBXTextBookmark */;
+			454C22501274328D000CBF9E /* PBXTextBookmark */ = 454C22501274328D000CBF9E /* PBXTextBookmark */;
 			4596A27512498075009232DD = 4596A27512498075009232DD /* PBXTextBookmark */;
 			45B514A31272FBB4000FAE49 = 45B514A31272FBB4000FAE49 /* PBXTextBookmark */;
 			45B514AC1272FBB4000FAE49 = 45B514AC1272FBB4000FAE49 /* PBXTextBookmark */;
@@ -291,6 +295,12 @@
 		};
 	};
 	4502E7B61249836400FCEA9A /* XMPPRoster.xcdatamodel */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = wrapper.xcdatamodel;
+		name = XMPPRoster.xcdatamodel;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPRoster.xcdatamodel";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
@@ -557,7 +567,7 @@
 		ignoreCount = 0;
 		lineNumber = 77;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034053;
+		modificationTime = 309605064.27498;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -575,7 +585,7 @@
 		ignoreCount = 0;
 		lineNumber = 157;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034125;
+		modificationTime = 309605064.275074;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -603,7 +613,7 @@
 		ignoreCount = 0;
 		lineNumber = 77;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034806;
+		modificationTime = 309605064.276026;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -635,7 +645,7 @@
 		ignoreCount = 0;
 		lineNumber = 277;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034835;
+		modificationTime = 309605064.276064;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -687,7 +697,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034872;
+		modificationTime = 309605064.276124;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -705,7 +715,7 @@
 		ignoreCount = 0;
 		lineNumber = 70;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034902;
+		modificationTime = 309605064.276183;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -722,7 +732,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 257;
-		modificationTime = 309604248.580266;
+		modificationTime = 309605714.751856;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -739,7 +749,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 257;
-		modificationTime = 309604248.580326;
+		modificationTime = 309605714.751925;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -773,21 +783,13 @@
 		vrLen = 1809;
 		vrLoc = 2081;
 	};
-	450BB9D61248FD930028F91E /* NSStringAdditions.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 195}}";
-			sepNavSelRange = "{34, 0}";
-			sepNavVisRange = "{0, 253}";
-		};
-	};
-	450BB9ED1248FD940028F91E /* MulticastDelegate.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 5642}}";
-			sepNavSelRange = "{7931, 0}";
-			sepNavVisRange = "{7564, 534}";
-		};
-	};
 	450BB9EE1248FD940028F91E /* RFSRVResolver.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = RFSRVResolver.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/RFSRVResolver.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 871}}";
 			sepNavSelRange = "{0, 0}";
@@ -795,6 +797,12 @@
 		};
 	};
 	450BB9EF1248FD940028F91E /* RFSRVResolver.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = RFSRVResolver.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/RFSRVResolver.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 7098}}";
 			sepNavSelRange = "{2339, 30}";
@@ -802,14 +810,26 @@
 		};
 	};
 	450BB9F41248FD940028F91E /* XMPPStream.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPStream.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPStream.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 9230}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 8827}}";
 			sepNavSelRange = "{1604, 0}";
-			sepNavVisRange = "{9640, 2067}";
+			sepNavVisRange = "{24353, 2344}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
 	450BB9F51248FD940028F91E /* XMPPStream.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPStream.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPStream.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 34346}}";
 			sepNavSelRange = "{10287, 13}";
@@ -818,37 +838,25 @@
 		};
 	};
 	450BB9F61248FD940028F91E /* XMPPJID.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPJID.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPJID.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 455}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 527}";
 		};
 	};
-	450BB9F71248FD940028F91E /* XMPPJID.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 3965}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{5674, 943}";
-			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
-		};
-	};
-	450BB9F81248FD940028F91E /* XMPPElement.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 627}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 319}";
-			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
-		};
-	};
-	450BB9F91248FD940028F91E /* XMPPElement.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 2093}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1041, 1127}";
-			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
-		};
-	};
 	450BB9FB1248FD940028F91E /* XMPPIQ.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPIQ.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPIQ.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {912, 1638}}";
 			sepNavSelRange = "{0, 0}";
@@ -857,6 +865,12 @@
 		};
 	};
 	450BB9FC1248FD940028F91E /* XMPPMessage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPMessage.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPMessage.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{754, 0}";
@@ -865,6 +879,12 @@
 		};
 	};
 	450BB9FD1248FD940028F91E /* XMPPMessage.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPMessage.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPMessage.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 1443}}";
 			sepNavSelRange = "{106, 28}";
@@ -873,6 +893,12 @@
 		};
 	};
 	450BB9FE1248FD940028F91E /* XMPPPresence.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPPresence.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPPresence.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
@@ -880,6 +906,12 @@
 		};
 	};
 	450BB9FF1248FD940028F91E /* XMPPPresence.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPPresence.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPPresence.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 1053}}";
 			sepNavSelRange = "{0, 0}";
@@ -887,6 +919,12 @@
 		};
 	};
 	450BBA051248FD940028F91E /* XMPPRoster.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPRoster.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPRoster.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 1287}}";
 			sepNavSelRange = "{0, 0}";
@@ -894,6 +932,12 @@
 		};
 	};
 	450BBA061248FD940028F91E /* XMPPRoster.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPRoster.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPRoster.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1180, 5928}}";
 			sepNavSelRange = "{2610, 0}";
@@ -901,6 +945,12 @@
 		};
 	};
 	450BBA071248FD940028F91E /* XMPPUser.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPUser.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPUser.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
@@ -908,6 +958,12 @@
 		};
 	};
 	450BBA081248FD940028F91E /* XMPPResource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPResource.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPResource.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
@@ -915,20 +971,25 @@
 		};
 	};
 	450BBA0D1248FD940028F91E /* XMPPRosterCoreDataStorage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPRosterCoreDataStorage.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPRosterCoreDataStorage.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 760}";
 		};
 	};
-	450BBA0E1248FD940028F91E /* XMPPRosterCoreDataStorage.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1180, 4719}}";
-			sepNavSelRange = "{8640, 0}";
-			sepNavVisRange = "{8364, 547}";
-		};
-	};
 	450BBA0F1248FD940028F91E /* XMPPUserCoreDataStorage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPUserCoreDataStorage.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPUserCoreDataStorage.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 559}}";
 			sepNavSelRange = "{0, 0}";
@@ -936,6 +997,12 @@
 		};
 	};
 	450BBA101248FD940028F91E /* XMPPUserCoreDataStorage.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPUserCoreDataStorage.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPUserCoreDataStorage.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 4355}}";
 			sepNavSelRange = "{0, 0}";
@@ -943,6 +1010,12 @@
 		};
 	};
 	450BBA111248FD940028F91E /* XMPPResourceCoreDataStorage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPResourceCoreDataStorage.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPResourceCoreDataStorage.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
@@ -950,6 +1023,12 @@
 		};
 	};
 	450BBA121248FD940028F91E /* XMPPResourceCoreDataStorage.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPResourceCoreDataStorage.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/XMPPResourceCoreDataStorage.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {896, 2678}}";
 			sepNavSelRange = "{0, 0}";
@@ -1032,7 +1111,7 @@
 		ignoreCount = 0;
 		lineNumber = 140;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034755;
+		modificationTime = 309605064.275942;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1112,7 +1191,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.033827;
+		modificationTime = 309605064.27475;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1210,7 +1289,7 @@
 		ignoreCount = 0;
 		lineNumber = 428;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034985;
+		modificationTime = 309605064.276288;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1955,6 +2034,53 @@
 		vrLen = 1031;
 		vrLoc = 638;
 	};
+	454C224D1274328D000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 175";
+		rLen = 0;
+		rLoc = 4706;
+		rType = 0;
+		vrLen = 1540;
+		vrLoc = 4140;
+	};
+	454C224E1274328D000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 513";
+		rLen = 0;
+		rLoc = 14002;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 9510;
+	};
+	454C224F1274328D000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BBB6A1249059B0028F91E /* ContactsViewController.m */;
+		name = "ContactsViewController.m: 175";
+		rLen = 0;
+		rLoc = 5559;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3953;
+	};
+	454C22501274328D000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
+		name = "MEOW_UserState.m: 67";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 638;
+	};
+	454C22681274357B000CBF9E /* copying.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5290, 702}}";
+			sepNavSelRange = "{798, 0}";
+			sepNavVisRange = "{0, 2413}";
+		};
+	};
 	4575F6BD122FC4FE00723106 /* MEOW_UserState.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {912, 923}}";
@@ -1990,7 +2116,7 @@
 		ignoreCount = 0;
 		lineNumber = 141;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034614;
+		modificationTime = 309605064.275746;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2008,7 +2134,7 @@
 		ignoreCount = 0;
 		lineNumber = 245;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034651;
+		modificationTime = 309605064.275789;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2026,7 +2152,7 @@
 		ignoreCount = 0;
 		lineNumber = 219;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034702;
+		modificationTime = 309605064.275891;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2059,7 +2185,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034188;
+		modificationTime = 309605064.275187;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2077,7 +2203,7 @@
 		ignoreCount = 0;
 		lineNumber = 107;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034252;
+		modificationTime = 309605064.275274;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2230,7 +2356,7 @@
 		ignoreCount = 0;
 		lineNumber = 45;
 		location = "MEOW-iphone";
-		modificationTime = 309604152.034314;
+		modificationTime = 309605064.275364;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2242,6 +2368,12 @@
 		sourceTree = "<absolute>";
 	};
 	45D474E6124B38ED00CBEBF5 /* XMPPRoom.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPRoom.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/Extensions/XEP-0045/XMPPRoom.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 780}}";
 			sepNavSelRange = "{811, 0}";
@@ -2249,6 +2381,12 @@
 		};
 	};
 	45D474E7124B38ED00CBEBF5 /* XMPPRoom.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPRoom.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/Extensions/XEP-0045/XMPPRoom.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1181, 5759}}";
 			sepNavSelRange = "{0, 0}";
@@ -2257,6 +2395,12 @@
 		};
 	};
 	45D474E8124B38ED00CBEBF5 /* XMPPRoomOccupant.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPRoomOccupant.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/Extensions/XEP-0045/XMPPRoomOccupant.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
@@ -2264,6 +2408,12 @@
 		};
 	};
 	45D474E9124B38ED00CBEBF5 /* XMPPRoomOccupant.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = XMPPRoomOccupant.m;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/Extensions/XEP-0045/XMPPRoomOccupant.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 819}}";
 			sepNavSelRange = "{0, 0}";
@@ -2271,6 +2421,12 @@
 		};
 	};
 	45D474FE124B38ED00CBEBF5 /* XMPPCapsResourceCoreDataStorageObject.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = XMPPCapsResourceCoreDataStorageObject.h;
+		path = "/Users/andycat/src/MEOW/meow-iphone/MEOW-iphone/Classes/XMPP/Extensions/XEP-0115/XMPPCapsResourceCoreDataStorageObject.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 478}}";
 			sepNavSelRange = "{0, 0}";
