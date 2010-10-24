@@ -1,11 +1,36 @@
 #import "XMPPPing.h"
 #import "XMPP.h"
 
+#define DEFAULT_TIMEOUT 30.0 // seconds
+
 #define INTEGRATE_WITH_CAPABILITIES 1
 
 #if INTEGRATE_WITH_CAPABILITIES
   #import "XMPPCapabilities.h"
 #endif
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@interface XMPPPingInfo : NSObject
+{
+	NSDate *timeSent;
+	NSTimeInterval timeout;
+}
+
++ (XMPPPingInfo *)pingInfoWithTimeout:(NSTimeInterval)timeout;
+
+@property (nonatomic, readonly) NSDate *timeSent;
+@property (nonatomic, readonly) NSTimeInterval timeout;
+
+- (NSTimeInterval)rtt;
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 @implementation XMPPPing
 
@@ -13,27 +38,27 @@
 {
 	if ((self = [super initWithStream:aXmppStream]))
 	{
-		pingIDs = [[NSMutableArray alloc] initWithCapacity:5];
+		pingIDs = [[NSMutableDictionary alloc] initWithCapacity:5];
 		
-	#if INTEGRATE_WITH_CAPABILITIES
+	  #if INTEGRATE_WITH_CAPABILITIES
 		[xmppStream autoAddDelegate:self toModulesOfClass:[XMPPCapabilities class]];
-	#endif
+	  #endif
 	}
 	return self;
 }
 
 - (void)dealloc
 {
-#if INTEGRATE_WITH_CAPABILITIES
+  #if INTEGRATE_WITH_CAPABILITIES
 	[xmppStream removeAutoDelegate:self fromModulesOfClass:[XMPPCapabilities class]];
-#endif
+  #endif
 	
 	[pingIDs release];
 	
 	[super dealloc];
 }
 
-- (NSString *)generatePingID
+- (NSString *)generatePingIDWithTimeout:(NSTimeInterval)timeout
 {
 	// Generate unique ID for Ping packet
 	// It's important the ID be unique as the ID is the only thing that distinguishes a pong packet
@@ -41,11 +66,12 @@
 	NSString *pingID = [xmppStream generateUUID];
 	
 	// Add ping ID to list so we'll recognize it when we get a response
-	[pingIDs addObject:pingID];
+	[pingIDs setObject:[XMPPPingInfo pingInfoWithTimeout:timeout]
+	            forKey:pingID];
 	
 	// In case we never get a response, we want to remove the ping ID eventually,
 	// or we risk an ever increasing pingIDs array.
-	[NSTimer scheduledTimerWithTimeInterval:30.0
+	[NSTimer scheduledTimerWithTimeInterval:timeout
 									 target:self
 								   selector:@selector(removePingID:)
 								   userInfo:pingID
@@ -58,12 +84,26 @@
 {
 	NSString *pingID = (NSString *)[aTimer userInfo];
 	
-	[pingIDs removeObject:pingID];
+	XMPPPingInfo *pingInfo = [pingIDs objectForKey:pingID];
+	if (pingInfo)
+	{
+		[pingInfo retain];
+		[pingIDs removeObjectForKey:pingID];
+		
+		[multicastDelegate xmppPing:self didNotReceivePong:pingID dueToTimeout:[pingInfo timeout]];
+		
+		[pingInfo release];
+	}
 }
 
-- (void)sendPingToServer
+- (NSString *)sendPingToServer
 {
-	NSString *pingID = [self generatePingID];
+	return [self sendPingToServerWithTimeout:DEFAULT_TIMEOUT];
+}
+
+- (NSString *)sendPingToServerWithTimeout:(NSTimeInterval)timeout
+{
+	NSString *pingID = [self generatePingIDWithTimeout:timeout];
 	
 	// Send ping packet
 	// 
@@ -76,11 +116,18 @@
 	XMPPIQ *iq = [XMPPIQ iqWithType:@"get" to:nil elementID:pingID child:ping];
 	
 	[xmppStream sendElement:iq];
+	
+	return pingID;
 }
 
-- (void)sendPingToJID:(XMPPJID *)jid
+- (NSString *)sendPingToJID:(XMPPJID *)jid
 {
-	NSString *pingID = [self generatePingID];
+	return [self sendPingToJID:jid withTimeout:DEFAULT_TIMEOUT];
+}
+
+- (NSString *)sendPingToJID:(XMPPJID *)jid withTimeout:(NSTimeInterval)timeout
+{
+	NSString *pingID = [self generatePingIDWithTimeout:timeout];
 	
 	// Send ping element
 	// 
@@ -93,6 +140,8 @@
 	XMPPIQ *iq = [XMPPIQ iqWithType:@"get" to:jid elementID:pingID child:ping];
 	
 	[xmppStream sendElement:iq];
+	
+	return pingID;
 }
 
 - (BOOL)xmppStream:(XMPPStream *)sender didReceiveIQ:(XMPPIQ *)iq
@@ -107,12 +156,15 @@
 		
 		NSString *pingID = [iq elementID];
 		
-		NSUInteger pingIndex = [pingIDs indexOfObject:pingID];
-		if (pingIndex != NSNotFound)
+		XMPPPingInfo *pingInfo = [pingIDs objectForKey:pingID];
+		if (pingInfo)
 		{
-			[pingIDs removeObjectAtIndex:pingIndex];
+			[pingInfo retain];
+			[pingIDs removeObjectForKey:pingID];
 			
-			[multicastDelegate xmppPing:self didReceivePong:iq];
+			[multicastDelegate xmppPing:self didReceivePong:iq withRTT:[pingInfo rtt]];
+			
+			[pingInfo release];
 		}
 	}
 	else if ([type isEqualToString:@"get"])
@@ -155,5 +207,42 @@
 	[query addChild:feature];
 }
 #endif
+
+@end
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@implementation XMPPPingInfo
+
+@synthesize timeSent;
+@synthesize timeout;
+
+- (id)initWithTimeout:(NSTimeInterval)to
+{
+	if ((self = [super init]))
+	{
+		timeSent = [[NSDate alloc] init];
+		timeout = to;
+	}
+	return self;
+}
+
+- (void)dealloc
+{
+	[timeSent release];
+	[super dealloc];
+}
+
+- (NSTimeInterval)rtt
+{
+	return [timeSent timeIntervalSinceNow] * -1.0;
+}
+
++ (XMPPPingInfo *)pingInfoWithTimeout:(NSTimeInterval)timeout
+{
+	return [[[XMPPPingInfo alloc] initWithTimeout:timeout] autorelease];
+}
 
 @end

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 33
-/svn/!svn/ver/242/trunk/Utilities
+/svn/!svn/ver/264/trunk/Utilities
 END
 DDLog.h
 K 25
@@ -13,7 +13,7 @@ RFSRVResolver.m
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/242/trunk/Utilities/RFSRVResolver.m
+/svn/!svn/ver/264/trunk/Utilities/RFSRVResolver.m
 END
 MulticastDelegate.h
 K 25
@@ -31,7 +31,7 @@ RFSRVResolver.h
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/242/trunk/Utilities/RFSRVResolver.h
+/svn/!svn/ver/258/trunk/Utilities/RFSRVResolver.h
 END
 MulticastDelegate.m
 K 25

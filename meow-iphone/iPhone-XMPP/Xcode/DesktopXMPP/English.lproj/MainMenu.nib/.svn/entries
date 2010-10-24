@@ -1,14 +1,14 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Xcode/DesktopXMPP/English.lproj/MainMenu.nib
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-17T21:46:41.932409Z
-245
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-d94cedc1cb0f1e2e5b26d1cf7c77c32a
-2010-09-17T21:46:41.932409Z
-245
+2010-10-24T09:14:51.000000Z
+7c532412dcdf42e7dad195758e5aff4b
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 has-props
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-39976
+40132
 
 designable.nib
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-7f8148e6010602cc604a7272505ff0e8
-2010-09-17T21:46:41.932409Z
-245
+2010-10-24T09:14:51.000000Z
+c959fc0a2053c5f1d15835042ddcece4
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 
 
@@ -92,5 +92,5 @@ robbiehanson@deusty.com
 
 
 
-199874
+209564
 

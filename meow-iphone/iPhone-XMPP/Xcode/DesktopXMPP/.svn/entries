@@ -1,14 +1,14 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Xcode/DesktopXMPP
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-17T21:46:41.932409Z
-245
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 has-props
 
@@ -26,14 +26,14 @@ has-props
 
 69bd8580-3047-0410-960a-a116b6c96ec9
 
-XMPP.exp
+main.m
 file
 
 
 
 
 2010-09-21T14:40:54.000000Z
-60a7d5159f8dc1f6b7ffacb7ef63f68f
+728bc0d3a37e28bb5caeaa1577552018
 2010-09-17T21:26:50.746371Z
 242
 robbiehanson@deusty.com
@@ -58,7 +58,7 @@ robbiehanson@deusty.com
 
 
 
-536
+257
 
 Info-Mini.plist
 file
@@ -94,14 +94,14 @@ robbiehanson@deusty.com
 
 850
 
-main.m
+XMPP.exp
 file
 
 
 
 
 2010-09-21T14:40:54.000000Z
-728bc0d3a37e28bb5caeaa1577552018
+60a7d5159f8dc1f6b7ffacb7ef63f68f
 2010-09-17T21:26:50.746371Z
 242
 robbiehanson@deusty.com
@@ -126,7 +126,7 @@ robbiehanson@deusty.com
 
 
 
-257
+536
 
 Info-Framework.plist
 file
@@ -375,11 +375,11 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-1bc6f36f02783611060f344225c552c2
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-10-24T09:14:51.000000Z
+6b7652a70a95f853f815e6d8288c539d
+2010-09-26T23:32:14.173968Z
+254
+deusty
 
 
 
@@ -401,7 +401,7 @@ robbiehanson@deusty.com
 
 
 
-1118
+1160
 
 AppDelegate.m
 file
@@ -409,10 +409,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-e36e90d40709b803eda118635e61a7fa
-2010-09-17T21:26:50.746371Z
-242
+2010-10-24T09:14:51.000000Z
+e0c7e3f5f418c617051e7b3f52c6d472
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 
 
@@ -435,7 +435,7 @@ robbiehanson@deusty.com
 
 
 
-4239
+4518
 
 RosterController.h
 file
@@ -511,10 +511,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-0089dfe48516f99f4e0536b3c38c6713
-2010-09-17T21:26:50.746371Z
-242
+2010-10-24T09:14:51.000000Z
+223b7296a77ee10a71c713f1da5f56c8
+2010-09-27T22:33:38.084247Z
+258
 robbiehanson@deusty.com
 
 
@@ -537,7 +537,7 @@ robbiehanson@deusty.com
 
 
 
-14585
+14776
 
 English.lproj
 dir

@@ -1,14 +1,14 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Extensions
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-20T20:20:06.335149Z
-253
+2010-10-14T18:16:56.104872Z
+265
 eric.chamberlain
 
 
@@ -32,6 +32,9 @@ dir
 XEP-0115
 dir
 
+X-FACEBOOK-PLATFORM
+dir
+
 XEP-0045
 dir
 
@@ -48,5 +51,11 @@ XEP-0100
 dir
 
 XEP-0199
+dir
+
+XEP-0202
+dir
+
+XEP-0203
 dir
 

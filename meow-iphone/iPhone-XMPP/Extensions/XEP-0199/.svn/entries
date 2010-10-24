@@ -1,14 +1,14 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Extensions/XEP-0199
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-17T21:26:50.746371Z
-242
+2010-09-28T21:04:38.949368Z
+259
 robbiehanson@deusty.com
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-3e3d60dbee072270a3fc1028fe8adef0
-2010-09-17T21:26:50.746371Z
-242
+2010-10-24T09:14:50.000000Z
+886d50f739ae834f057d5c368799da5e
+2010-09-28T21:04:38.949368Z
+259
 robbiehanson@deusty.com
 
 
@@ -58,7 +58,7 @@ robbiehanson@deusty.com
 
 
 
-432
+1172
 
 XMPPPing.m
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2010-09-21T14:40:54.000000Z
-f7c43fb7170774aab135665eaaf03f86
-2010-09-17T21:26:50.746371Z
-242
+2010-10-24T09:14:50.000000Z
+01d9553cba8fe113449c2726402de001
+2010-09-28T21:04:38.949368Z
+259
 robbiehanson@deusty.com
 
 
@@ -92,5 +92,5 @@ robbiehanson@deusty.com
 
 
 
-3755
+6112
 

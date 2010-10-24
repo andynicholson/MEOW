@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/245/trunk/Xcode/DesktopXMPP
+/svn/!svn/ver/258/trunk/Xcode/DesktopXMPP
 END
-XMPP.exp
+main.m
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/XMPP.exp
+V 48
+/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/main.m
 END
 Info-Mini.plist
 K 25
@@ -15,11 +15,11 @@ svn:wc:ra_dav:version-url
 V 57
 /svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/Info-Mini.plist
 END
-main.m
+XMPP.exp
 K 25
 svn:wc:ra_dav:version-url
-V 48
-/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/main.m
+V 50
+/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/XMPP.exp
 END
 Info-Framework.plist
 K 25
@@ -67,13 +67,13 @@ AppDelegate.h
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/AppDelegate.h
+/svn/!svn/ver/254/trunk/Xcode/DesktopXMPP/AppDelegate.h
 END
 AppDelegate.m
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/AppDelegate.m
+/svn/!svn/ver/258/trunk/Xcode/DesktopXMPP/AppDelegate.m
 END
 RosterController.h
 K 25
@@ -91,7 +91,7 @@ RosterController.m
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/242/trunk/Xcode/DesktopXMPP/RosterController.m
+/svn/!svn/ver/258/trunk/Xcode/DesktopXMPP/RosterController.m
 END
 ChatController.m
 K 25
