@@ -282,8 +282,8 @@
 	NSXMLElement *presence = [NSXMLElement elementWithName:@"presence"];
 	[presence addAttributeWithName:@"type" stringValue:@"unavailable"];
 	
-	[[self xmppStream] sendElement:presence];
-	
+	[[self xmppStream] synchronouslySendElement:presence];
+	 
 	NSLog(@" OFFLINE! " );
 }
 

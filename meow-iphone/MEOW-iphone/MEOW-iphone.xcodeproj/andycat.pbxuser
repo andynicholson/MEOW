@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1391, 6682}}";
-			sepNavSelRange = "{14002, 0}";
-			sepNavVisRange = "{9510, 1390}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 6643}}";
+			sepNavSelRange = "{8126, 0}";
+			sepNavVisRange = "{6904, 1481}";
 			sepNavWindowFrame = "{{40, 0}, {1240, 778}}";
 		};
 	};
@@ -33,7 +33,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1545, 3991}}";
 			sepNavSelRange = "{1638, 0}";
-			sepNavVisRange = "{1535, 488}";
+			sepNavVisRange = "{1535, 443}";
 			sepNavWindowFrame = "{{41, 0}, {1239, 778}}";
 		};
 	};
@@ -248,6 +248,12 @@
 			454C224E1274328D000CBF9E /* PBXTextBookmark */ = 454C224E1274328D000CBF9E /* PBXTextBookmark */;
 			454C224F1274328D000CBF9E /* PBXTextBookmark */ = 454C224F1274328D000CBF9E /* PBXTextBookmark */;
 			454C22501274328D000CBF9E /* PBXTextBookmark */ = 454C22501274328D000CBF9E /* PBXTextBookmark */;
+			454C254912743880000CBF9E /* PBXTextBookmark */ = 454C254912743880000CBF9E /* PBXTextBookmark */;
+			454C254A12743880000CBF9E /* PBXTextBookmark */ = 454C254A12743880000CBF9E /* PBXTextBookmark */;
+			454C254B12743880000CBF9E /* PBXTextBookmark */ = 454C254B12743880000CBF9E /* PBXTextBookmark */;
+			454C254C12743880000CBF9E /* PBXTextBookmark */ = 454C254C12743880000CBF9E /* PBXTextBookmark */;
+			454C254D12743880000CBF9E /* PBXTextBookmark */ = 454C254D12743880000CBF9E /* PBXTextBookmark */;
+			454C254E12743880000CBF9E /* PBXTextBookmark */ = 454C254E12743880000CBF9E /* PBXTextBookmark */;
 			4596A27512498075009232DD = 4596A27512498075009232DD /* PBXTextBookmark */;
 			45B514A31272FBB4000FAE49 = 45B514A31272FBB4000FAE49 /* PBXTextBookmark */;
 			45B514AC1272FBB4000FAE49 = 45B514AC1272FBB4000FAE49 /* PBXTextBookmark */;
@@ -567,7 +573,7 @@
 		ignoreCount = 0;
 		lineNumber = 77;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.27498;
+		modificationTime = 309606880.863456;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -585,7 +591,7 @@
 		ignoreCount = 0;
 		lineNumber = 157;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275074;
+		modificationTime = 309606880.863538;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -594,7 +600,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 204";
 		rLen = 0;
-		rLoc = 8327;
+		rLoc = 8341;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 5168;
@@ -613,7 +619,7 @@
 		ignoreCount = 0;
 		lineNumber = 77;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.276026;
+		modificationTime = 309606880.864293;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -645,7 +651,7 @@
 		ignoreCount = 0;
 		lineNumber = 277;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.276064;
+		modificationTime = 309606880.864324;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -697,7 +703,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.276124;
+		modificationTime = 309606880.864359;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -715,7 +721,7 @@
 		ignoreCount = 0;
 		lineNumber = 70;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.276183;
+		modificationTime = 309606880.864391;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -732,9 +738,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 257;
-		modificationTime = 309605714.751856;
+		modificationTime = 309606880.864418;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 0;
 	};
 	450BB8E31248DE160028F91E /* SendMessageViewController.m:257 */ = {
 		isa = PBXFileBreakpoint;
@@ -749,9 +755,9 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 257;
-		modificationTime = 309605714.751925;
+		modificationTime = 309606880.864443;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 0;
 	};
 	450BB8FB1248E2880028F91E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1111,7 +1117,7 @@
 		ignoreCount = 0;
 		lineNumber = 140;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275942;
+		modificationTime = 309606880.864228;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1191,7 +1197,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.27475;
+		modificationTime = 309606880.863206;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1200,7 +1206,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 221";
 		rLen = 0;
-		rLoc = 8699;
+		rLoc = 8713;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 4494;
@@ -1220,7 +1226,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 221";
 		rLen = 0;
-		rLoc = 8708;
+		rLoc = 8722;
 		rType = 0;
 		vrLen = 1773;
 		vrLoc = 5776;
@@ -1240,7 +1246,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 221";
 		rLen = 0;
-		rLoc = 8699;
+		rLoc = 8713;
 		rType = 0;
 		vrLen = 1070;
 		vrLoc = 5746;
@@ -1260,7 +1266,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 221";
 		rLen = 0;
-		rLoc = 8708;
+		rLoc = 8722;
 		rType = 0;
 		vrLen = 1767;
 		vrLoc = 5776;
@@ -1289,7 +1295,7 @@
 		ignoreCount = 0;
 		lineNumber = 428;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.276288;
+		modificationTime = 309606880.864478;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -1499,7 +1505,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 332";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 8853;
@@ -1509,7 +1515,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 377";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 1275;
 		vrLoc = 9220;
@@ -1589,7 +1595,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 377";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 1275;
 		vrLoc = 9225;
@@ -1629,7 +1635,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 381";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 9189;
@@ -1699,7 +1705,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 338";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 9094;
@@ -1729,7 +1735,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 387";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 9322;
@@ -1769,7 +1775,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 332";
 		rLen = 0;
-		rLoc = 10679;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 915;
 		vrLoc = 9091;
@@ -1779,7 +1785,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 337";
 		rLen = 0;
-		rLoc = 10701;
+		rLoc = 10715;
 		rType = 0;
 		vrLen = 1412;
 		vrLoc = 7283;
@@ -1789,7 +1795,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 463";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 9190;
@@ -1819,7 +1825,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 351";
 		rLen = 0;
-		rLoc = 11189;
+		rLoc = 11203;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 9166;
@@ -1829,7 +1835,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 470";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1109;
 		vrLoc = 9171;
@@ -1869,7 +1875,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 475";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 9357;
@@ -1909,7 +1915,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 485";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 9307;
@@ -2009,7 +2015,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 513";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 9510;
@@ -2049,7 +2055,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 513";
 		rLen = 0;
-		rLoc = 14002;
+		rLoc = 14016;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 9510;
@@ -2078,8 +2084,89 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {5290, 702}}";
 			sepNavSelRange = "{798, 0}";
-			sepNavVisRange = "{0, 2413}";
+			sepNavVisRange = "{0, 2297}";
 		};
+	};
+	454C227B1274357B000CBF9E /* XMPPStream.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 9737}}";
+			sepNavSelRange = "{20383, 24}";
+			sepNavVisRange = "{18572, 2501}";
+		};
+	};
+	454C227C1274357B000CBF9E /* XMPPStream.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {912, 34840}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1604, 1068}";
+		};
+	};
+	454C228C1274357B000CBF9E /* XMPPRoom.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1180, 5382}}";
+			sepNavSelRange = "{9190, 0}";
+			sepNavVisRange = "{8751, 1129}";
+		};
+	};
+	454C254912743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 175";
+		rLen = 0;
+		rLoc = 4706;
+		rType = 0;
+		vrLen = 1540;
+		vrLoc = 4140;
+	};
+	454C254A12743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 454C22681274357B000CBF9E /* copying.txt */;
+		name = "copying.txt: 22";
+		rLen = 0;
+		rLoc = 798;
+		rType = 0;
+		vrLen = 2413;
+		vrLoc = 0;
+	};
+	454C254B12743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 454C22681274357B000CBF9E /* copying.txt */;
+		name = "copying.txt: 22";
+		rLen = 0;
+		rLoc = 798;
+		rType = 0;
+		vrLen = 2413;
+		vrLoc = 0;
+	};
+	454C254C12743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
+		name = "MEOW_iphoneAppDelegate.m: 513";
+		rLen = 0;
+		rLoc = 14016;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 9510;
+	};
+	454C254D12743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 450BBB6A1249059B0028F91E /* ContactsViewController.m */;
+		name = "ContactsViewController.m: 175";
+		rLen = 0;
+		rLoc = 5559;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3953;
+	};
+	454C254E12743880000CBF9E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4575F6BE122FC4FE00723106 /* MEOW_UserState.m */;
+		name = "MEOW_UserState.m: 67";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 638;
 	};
 	4575F6BD122FC4FE00723106 /* MEOW_UserState.h */ = {
 		uiCtxt = {
@@ -2090,7 +2177,7 @@
 	};
 	4575F6BE122FC4FE00723106 /* MEOW_UserState.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1181, 2626}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 2665}}";
 			sepNavSelRange = "{1155, 0}";
 			sepNavVisRange = "{638, 1031}";
 		};
@@ -2116,7 +2203,7 @@
 		ignoreCount = 0;
 		lineNumber = 141;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275746;
+		modificationTime = 309606880.864058;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2134,7 +2221,7 @@
 		ignoreCount = 0;
 		lineNumber = 245;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275789;
+		modificationTime = 309606880.864091;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2152,7 +2239,7 @@
 		ignoreCount = 0;
 		lineNumber = 219;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275891;
+		modificationTime = 309606880.864156;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2185,7 +2272,7 @@
 		ignoreCount = 0;
 		lineNumber = 97;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275187;
+		modificationTime = 309606880.863615;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2203,7 +2290,7 @@
 		ignoreCount = 0;
 		lineNumber = 107;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275274;
+		modificationTime = 309606880.86369;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -2283,7 +2370,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 219";
 		rLen = 1;
-		rLoc = 8631;
+		rLoc = 8645;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 1346;
@@ -2313,7 +2400,7 @@
 		fRef = 1D3623250D0F684500981E51 /* MEOW_iphoneAppDelegate.m */;
 		name = "MEOW_iphoneAppDelegate.m: 221";
 		rLen = 0;
-		rLoc = 8708;
+		rLoc = 8722;
 		rType = 0;
 		vrLen = 1710;
 		vrLoc = 5778;
@@ -2356,7 +2443,7 @@
 		ignoreCount = 0;
 		lineNumber = 45;
 		location = "MEOW-iphone";
-		modificationTime = 309605064.275364;
+		modificationTime = 309606880.863763;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
