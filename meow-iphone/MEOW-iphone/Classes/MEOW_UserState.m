@@ -55,6 +55,25 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(MEOW_UserState);
 	
 }
 
+-(void) xmppLogout {
+	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	
+	[delegate xmppLogout];
+	
+	
+	
+}
+
+-(void) registerXMPPWithUsername:(NSString *)init_username andPassword:(NSString *)init_password {
+	
+	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	
+	[delegate registerXMPPWithUsername:init_username andPassword:init_password];
+	
+	
+}
+
+
 +(void) processReturnedInbox:(NSArray *)resultdict {
 	
 	//cache inbox messages sent back.

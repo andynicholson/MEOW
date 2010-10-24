@@ -55,6 +55,10 @@
 
 //Starts XMPP initialisation
 -(void) kickOffXMPPInit;
+//registers user with XMPP server
+-(void) registerXMPPWithUsername:(NSString *)init_username andPassword:(NSString *)init_password;
+//Logout of the XMPP session
+-(void) xmppLogout;
 
 //access the singleton
 + (MEOW_UserState *)sharedMEOW_UserState;

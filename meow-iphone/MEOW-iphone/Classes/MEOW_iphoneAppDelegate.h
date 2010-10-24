@@ -37,7 +37,10 @@
 	BOOL allowSelfSignedCertificates;
 	BOOL allowSSLHostNameMismatch;
 	
-	BOOL isOpen;
+	//XMPP stream state isOpen
+	BOOL xmppStateIsOpen;
+	//States for XMPP for next step in streamDidConnect
+	BOOL xmppStateIsLoginNext, xmppStateIsRegisterNext;
 	
 }
 
@@ -49,6 +52,8 @@
 @property (nonatomic, readonly) XMPPRosterCoreDataStorage *xmppRosterStorage;
 
 -(void) xmppInit;
+-(void) registerXMPPWithUsername:(NSString *)init_username andPassword:(NSString *)init_password;
+-(void) xmppLogout;
 
 @end
 

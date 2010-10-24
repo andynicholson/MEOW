@@ -52,6 +52,9 @@
 		
 		[register_btn setEnabled:YES];
 		[register_btn setBackgroundColor:[UIColor whiteColor]];
+		
+		//Logout of the XMPP session.
+		[[MEOW_UserState sharedMEOW_UserState] xmppLogout];
 	}
 	
 }

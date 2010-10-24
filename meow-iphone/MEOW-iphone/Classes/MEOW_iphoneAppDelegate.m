@@ -49,45 +49,132 @@
 	//User starts logged off, obviously
 	[[MEOW_UserState sharedMEOW_UserState] setLogged_in:FALSE];
 	
+	xmppStateIsOpen = FALSE;
+	xmppStateIsLoginNext = FALSE;
+	xmppStateIsRegisterNext = FALSE;
+	
     return YES;
 }
 
--(void) xmppInit {
-	
+// This function is designed to register the user with the XMPP server
+// as such, it would be run *before* xmppInit
+// since we havent logged in yet. (we just registered with MEOW middleware)
+
+-(void) registerXMPPWithUsername:(NSString *)init_username andPassword:(NSString *)init_password;{
+		
 	xmppStream = [[XMPPStream alloc] init];
 	xmppRosterStorage = [[XMPPRosterCoreDataStorage alloc] init];
 	xmppRoster = [[XMPPRoster alloc] initWithStream:xmppStream rosterStorage:xmppRosterStorage];
-	
+		
 	[xmppStream addDelegate:self];
 	[xmppRoster addDelegate:self];
 	
 	[xmppRoster setAutoRoster:YES];
+		
+	//on stream connect, try to register with the XMPP server
+	xmppStateIsRegisterNext = TRUE;	
 	
-	// Replace me with the proper domain and port.
-	// The example below is setup for a typical google talk account.
-	//[xmppStream setHostName:@"talk.google.com"];
 	
-	[xmppStream setHostName:@"erko.infiniterecursion.com.au"];
+	//Our OpenFire XMPP server details, normally
+	// We can leave blank to force SRV record lookup.
+	[xmppStream setHostName:@""];
 	[xmppStream setHostPort:5222];
-	
-	// Replace me with the proper JID and password
-	NSString *userJID = [NSString stringWithFormat:@"%@@erko.infiniterecursion.com.au/MEOWiOS" , [MEOW_UserState sharedMEOW_UserState].username];
-	[xmppStream setMyJID:[XMPPJID jidWithString:userJID]];
-	password = [MEOW_UserState sharedMEOW_UserState].password;
-	
-	NSLog(@" Logging into XMPP with userJID %@ " , userJID);
+
+	NSString *userJID = [NSString stringWithFormat:@"%@@meow.infiniterecursion.com.au/MEOWiOS" , init_username];
+	[xmppStream setMyJID:[XMPPJID jidWithString:userJID]];	
+
+	password = init_password;
 	
 	// You may need to alter these settings depending on the server you're connecting to
 	allowSelfSignedCertificates = NO;
 	allowSSLHostNameMismatch = NO;
 	
-	// Uncomment me when the proper information has been entered above.
 	NSError *error = nil;
 	if (![xmppStream connect:&error])
 	{
-		NSLog(@"Error connecting: %@", error);
+		NSLog(@"Error connecting in registerXMPPWithUsername:andPassword:\nError is %@", error);
 	}
 	
+	}
+
+
+-(void) xmppInit {
+	
+	//possibly had register above called already
+	// or somebody may have logged out as one user, and then logged back in again.
+	if (xmppStream == nil) {
+		
+		xmppStream = [[XMPPStream alloc] init];
+		xmppRosterStorage = [[XMPPRosterCoreDataStorage alloc] init];
+		xmppRoster = [[XMPPRoster alloc] initWithStream:xmppStream rosterStorage:xmppRosterStorage];
+	
+		[xmppStream addDelegate:self];
+		[xmppRoster addDelegate:self];
+		
+		[xmppRoster setAutoRoster:YES];
+		
+	}
+	//On stream connect, try to auth
+	xmppStateIsLoginNext = TRUE;
+	
+	
+	// The example below is setup for a typical google talk account.
+	//[xmppStream setHostName:@"talk.google.com"];
+	
+	
+	
+	//Our OpenFire XMPP server details, normally
+	// We can leave blank to force SRV record lookup.
+	[xmppStream setHostName:@""];
+	[xmppStream setHostPort:5222];
+	
+	// Use specialised JIDs for our OpenFire XMPP server 
+	NSString *userJID = [NSString stringWithFormat:@"%@@meow.infiniterecursion.com.au/MEOWiOS" , [MEOW_UserState sharedMEOW_UserState].username];
+	[xmppStream setMyJID:[XMPPJID jidWithString:userJID]];
+	password = [MEOW_UserState sharedMEOW_UserState].password;
+	
+	NSLog(@" Logging into XMPP with userJID %@ , password %@" , userJID, password);
+	
+	// You may need to alter these settings depending on the server you're connecting to
+	allowSelfSignedCertificates = NO;
+	allowSSLHostNameMismatch = NO;
+	
+	// Check its not already connected before connecting.
+	// If it isnt connected, we try to connect, and login after the stream connected event
+	NSError *error = nil;
+	if (!xmppStateIsOpen && ![xmppStream connect:&error]) {
+		NSLog(@"Error connecting in xmppInit:\nError is %@", error);
+	}
+	// If its already connected, try to authenticate now.
+	if (xmppStateIsOpen) {
+		
+		NSLog(@"---------- Authenticating with XMPP Server : ----------");
+		if (![[self xmppStream] authenticateWithPassword:password error:&error])
+		{
+			NSLog(@"Error authenticating: %@", error);
+		}
+
+		
+	}
+	
+}
+
+
+
+-(void) xmppLogout {
+	
+	[self goOffline];
+	
+	[xmppStream removeDelegate:self];
+	[xmppRoster removeDelegate:self];
+	
+	[xmppStream disconnect];
+	[xmppStream release];
+	[xmppRoster release];
+	
+	xmppStream = nil;
+	
+	xmppStateIsOpen = FALSE;
 	
 }
 
@@ -163,6 +250,9 @@
 #pragma mark Custom
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+
 // It's easy to create XML elments to send and to read received XML elements.
 // You have the entire NSXMLElement and NSXMLNode API's.
 // 
@@ -201,7 +291,7 @@
 -(void) joinDefaultRoom {
 	
 	
-	XMPPRoom *defaultroom = [[XMPPRoom alloc] initWithStream:[self xmppStream] roomName:@"chatone@conference.erko.infiniterecursion.com.au" nickName:[MEOW_UserState sharedMEOW_UserState].username];
+	XMPPRoom *defaultroom = [[XMPPRoom alloc] initWithStream:[self xmppStream] roomName:@"chatone@conference.meow.infiniterecursion.com.au" nickName:[MEOW_UserState sharedMEOW_UserState].username];
 	
 	[defaultroom setDelegate:self];
 	
@@ -212,10 +302,17 @@
 
 -(void) addDefaultBuddy {
 	
-	XMPPJID *godjid = [XMPPJID jidWithString:@"aleph2@erko.infiniterecursion.com.au"];
+	XMPPJID *godjid = [XMPPJID jidWithString:@"aleph2@meow.infiniterecursion.com.au"];
 		
-	[[self xmppRoster] addBuddy:godjid withNickname:@"GOD"];
+	[[self xmppRoster] addBuddy:godjid withNickname:@"GOD-aleph2"];
 	
+	XMPPJID *god2jid = [XMPPJID jidWithString:@"intothemist@gmail.com/HOME"];
+	
+	[[self xmppRoster] addBuddy:god2jid withNickname:@"intothemist"];
+	
+	XMPPJID *god3jid = [XMPPJID jidWithString:@"zanny.b@gmail.com/HOME"];
+	
+	[[self xmppRoster] addBuddy:god3jid withNickname:@"noddle"];
 	
 	
 }
@@ -278,14 +375,28 @@
 {
 	NSLog(@"---------- xmppStreamDidConnect: ----------");
 	
-	isOpen = YES;
-	
+	xmppStateIsOpen = YES;
 	NSError *error = nil;
 	
-	if (![[self xmppStream] authenticateWithPassword:password error:&error])
-	{
-		NSLog(@"Error authenticating: %@", error);
+	if (xmppStateIsLoginNext) {
+		NSLog(@"---------- Authenticating with XMPP Server : ----------");
+		if (![[self xmppStream] authenticateWithPassword:password error:&error])
+		{
+			NSLog(@"Error authenticating: %@", error);
+		}
+		xmppStateIsLoginNext = FALSE;
 	}
+
+	if (xmppStateIsRegisterNext) {
+		
+		NSLog(@" Registering into XMPP with userJID %@ , password %@" , [[xmppStream myJID] full], password);
+		NSError *error2 = nil;
+		[xmppStream registerWithPassword:password error:&error2];
+	
+		xmppStateIsRegisterNext = FALSE;
+	}
+	
+	
 }
 
 - (void)xmppStreamDidAuthenticate:(XMPPStream *)sender
@@ -313,15 +424,39 @@
 {
 	NSLog(@"---------- xmppStream:didReceiveMessage: ---------- \n %@" , message);
 	
-	NSString *body = [[message elementForName:@"body"] stringValue];
-	NSString *from = [message fromStr];
 	
-	NSString *msg = [NSString stringWithFormat:@"%@ from %@", body, from];
+	NSString *type = [[message attributeForName:@"type"] stringValue];
 	
-	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
-	[alertview show];
-	[alertview release];
+	//could be broadcast message, with no "to"
+	if ([message isChatMessageWithBody] || [type length] == 0 ) {
+		NSString *body = [[message elementForName:@"body"] stringValue];
+		NSString *from = [message fromStr];
+		
+		NSString *msg = [NSString stringWithFormat:@"%@ from %@", body, from];
+		
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];
+		
+	}
+
+	if ([type isEqualToString:@"groupchat"]) {
+		NSString *subj = [[message elementForName:@"subject"] stringValue];
+		NSString *from = [message fromStr];
+		
+		NSString *msg = [NSString stringWithFormat:@"%@ from %@", subj, from];
+		
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[alertview show];
+		[alertview release];
+		
+	}
+	
+	
 }
+
+
+
 
 - (void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence
 {
@@ -338,7 +473,7 @@
 {
 	NSLog(@"---------- xmppStreamDidDisconnect: ----------");
 	
-	if (!isOpen)
+	if (!xmppStateIsOpen)
 	{
 		NSLog(@"Unable to connect to server. Check xmppStream.hostName");
 	}

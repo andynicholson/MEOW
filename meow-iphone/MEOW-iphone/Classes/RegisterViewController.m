@@ -61,6 +61,9 @@
 	NSString *message = @"Registration was a success!";				
 	
 	
+	//kick off the XMPP rego in the delegate!
+	[[MEOW_UserState sharedMEOW_UserState] registerXMPPWithUsername:[reg_username text] andPassword:[reg_password1 text]];
+	
 	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Success!" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:NULL];
 	[alertview show];
 	[alertview release];
