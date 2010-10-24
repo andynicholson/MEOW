@@ -10,6 +10,7 @@ import meow.middleware.views
 urlpatterns = patterns('',
     # Example:
     # (r'^meow/', include('meow.foo.urls')),
+    (r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'foo_index.html'}),
 
     url(r'^json/$', jsonrpc_site.dispatch, name='jsonrpc_mountpoint'),
 	(r'^json/(?P<method>[a-zA-Z0-9.-_]+)$', jsonrpc_site.dispatch),
