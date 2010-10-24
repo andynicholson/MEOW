@@ -263,6 +263,830 @@ c000000004C2E3E230000000000001C4C
 t1278098979
 s7244
 
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Categories/DDNumber.h
+c000000004C98C3F6000000000000028C
+t1285080054
+s652
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Categories/NSDataAdditions.h
+c000000004C98C3F600000000000000DA
+t1285080054
+s218
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Categories/NSXMLElementAdditions.h
+c000000004C98C3F6000000000000076B
+t1285080054
+s1899
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPElement.h
+c000000004CC3F90B0000000000000109
+t1287911691
+s265
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPIQ.h
+c000000004C98C3F700000000000008DD
+t1285080055
+s2269
+i<Foundation/Foundation.h>
+i"XMPPElement.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPJID.h
+c000000004CC3F90B0000000000000227
+t1287911691
+s551
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPMessage.h
+c000000004C98C3F70000000000000384
+t1285080055
+s900
+i<Foundation/Foundation.h>
+i"XMPPElement.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPModule.h
+c000000004C98C3F700000000000002AA
+t1285080055
+s682
+i<Foundation/Foundation.h>
+i"MulticastDelegate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPParser.h
+c000000004C98C3F70000000000000432
+t1285080055
+s1074
+i<Foundation/Foundation.h>
+i<libxml2/libxml/parser.h>
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPPresence.h
+c000000004C98C3F70000000000000367
+t1285080055
+s871
+i<Foundation/Foundation.h>
+i"XMPPElement.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPReconnect.h
+c000000004C98C3F70000000000001E96
+t1285080055
+s7830
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"MulticastDelegate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Core/XMPPStream.h
+c000000004CC3F90B0000000000007A91
+t1287911691
+s31377
+i<Foundation/Foundation.h>
+i"MulticastDelegate.h"
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPResource.h
+c000000004C98C3FA0000000000000106
+t1285080058
+s262
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPResourceCoreDataStorage.h
+c000000004C98C3FA000000000000040F
+t1285080058
+s1039
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPResource.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPRoster.h
+c000000004C98C3FA0000000000000A47
+t1285080058
+s2631
+i<Foundation/Foundation.h>
+i"MulticastDelegate.h"
+i"XMPPUser.h"
+i"XMPPResource.h"
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPRosterCoreDataStorage.h
+c000000004C98C3FA00000000000002F8
+t1285080058
+s760
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPRoster.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPRosterPrivate.h
+c000000004C98C3FA0000000000000133
+t1285080058
+s307
+i<Foundation/Foundation.h>
+i"XMPPRoster.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPUser.h
+c000000004C98C3FA0000000000000329
+t1285080058
+s809
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Roster/XMPPUserCoreDataStorage.h
+c000000004C98C3FA00000000000004DE
+t1285080058
+s1246
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPUser.h"
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Utilities/LibIDN.h
+c000000004C98C3F700000000000002F4
+t1285080055
+s756
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Utilities/MulticastDelegate.h
+c000000004C98C3F7000000000000034F
+t1285080055
+s847
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Utilities/RFSRVResolver.h
+c000000004CC3F90B00000000000007EF
+t1287911691
+s2031
+i<Foundation/Foundation.h>
+i<dns_sd.h>
+i"XMPPStream.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/AsyncSocket/AsyncSocket.h
+c000000004CC3F90B00000000000072B2
+t1287911691
+s29362
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/KissXML/DDXMLDocument.h
+c000000004C98C3FA0000000000000807
+t1285080058
+s2055
+i<Foundation/Foundation.h>
+i"DDXMLElement.h"
+i"DDXMLNode.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/KissXML/DDXMLElement.h
+c000000004C98C3FA00000000000006B0
+t1285080058
+s1712
+i<Foundation/Foundation.h>
+i"DDXMLNode.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/KissXML/DDXMLNode.h
+c000000004C98C3FA0000000000001392
+t1285080058
+s5010
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/KissXML/DDXMLPrivate.h
+c000000004C98C3FA000000000000098B
+t1285080058
+s2443
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/KissXML/NSStringAdditions.h
+c000000004C98C3FA00000000000000FD
+t1285080058
+s253
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Vendor/libidn/idn-int.h
+c000000004C98C3FA0000000000003877
+t1285080058
+s14455
+i<stdint.h>
+i<sys/types.h>
+i<limits.h>
+i<inttypes.h>
+i<sys/inttypes.h>
+i<sys/bitypes.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m
+c000000004C98C3F600000000000008B1
+t1285080054
+s2225
+i"DDNumber.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m
+c000000004C98C3F600000000000010F2
+t1285080054
+s4338
+i"NSDataAdditions.h"
+i<CommonCrypto/CommonDigest.h>
+i"SSCrypto.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.h
+c000000004C98C3F6000000000000076B
+t1285080054
+s1899
+i<Foundation/Foundation.h>
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m
+c000000004C98C3F600000000000019C5
+t1285080054
+s6597
+i"NSXMLElementAdditions.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPP.h
+c000000004CC3F90B00000000000000E2
+t1287911691
+s226
+i"XMPPJID.h"
+i"XMPPStream.h"
+i"XMPPElement.h"
+i"XMPPElement+Delay.h"
+i"XMPPIQ.h"
+i"XMPPMessage.h"
+i"XMPPPresence.h"
+i"XMPPReconnect.h"
+i"NSXMLElementAdditions.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m
+c000000004CC3F90B00000000000006DA
+t1287911691
+s1754
+i"XMPPElement.h"
+i"XMPPJID.h"
+i"NSXMLElementAdditions.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m
+c000000004C98C3F70000000000000BA9
+t1285080055
+s2985
+i"XMPPIQ.h"
+i"XMPPJID.h"
+i"NSXMLElementAdditions.h"
+i<objc/runtime.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m
+c000000004CC3F90B0000000000001C95
+t1287911691
+s7317
+i"XMPPJID.h"
+i"LibIDN.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m
+c000000004C98C3F70000000000000B78
+t1285080055
+s2936
+i"XMPPMessage.h"
+i"XMPPJID.h"
+i"NSXMLElementAdditions.h"
+i<objc/runtime.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m
+c000000004C98C3F7000000000000036D
+t1285080055
+s877
+i"XMPPModule.h"
+i"XMPPStream.h"
+i"MulticastDelegate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m
+c000000004C98C3F70000000000005517
+t1285080055
+s21783
+i"XMPPParser.h"
+i<libxml/parserInternals.h>
+i"DDXMLPrivate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m
+c000000004C98C3F70000000000000825
+t1285080055
+s2085
+i"XMPPPresence.h"
+i"NSXMLElementAdditions.h"
+i<objc/runtime.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m
+c000000004C98C3F70000000000002F7C
+t1285080055
+s12156
+i"XMPPReconnect.h"
+i"XMPPStream.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m
+c000000004CC3F90B00000000000138E2
+t1287911691
+s80098
+i"XMPPStream.h"
+i"AsyncSocket.h"
+i"MulticastDelegate.h"
+i"RFSRVResolver.h"
+i"XMPPParser.h"
+i"XMPPJID.h"
+i"XMPPIQ.h"
+i"XMPPMessage.h"
+i"XMPPPresence.h"
+i"XMPPModule.h"
+i"NSDataAdditions.h"
+i"NSXMLElementAdditions.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.h
+c000000004C98C3FA000000000000040F
+t1285080058
+s1039
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPResource.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m
+c000000004C98C3FA000000000000145D
+t1285080058
+s5213
+i"XMPP.h"
+i"XMPPRosterCoreDataStorage.h"
+i"XMPPUserCoreDataStorage.h"
+i"XMPPResourceCoreDataStorage.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m
+c000000004C98C3FA0000000000002FBB
+t1285080058
+s12219
+i"XMPPRoster.h"
+i"XMPP.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel
+c000000004C98C3FA00000000000000AA
+t1285080058
+s170
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.h
+c000000004C98C3FA00000000000002F8
+t1285080058
+s760
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPRoster.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m
+c000000004C98C3FA000000000000272E
+t1285080058
+s10030
+i"XMPPRosterCoreDataStorage.h"
+i"XMPPRosterPrivate.h"
+i"XMPPUserCoreDataStorage.h"
+i"XMPPResourceCoreDataStorage.h"
+i"XMPP.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.h
+c000000004C98C3FA00000000000004DE
+t1285080058
+s1246
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"XMPPUser.h"
+i"DDXML.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m
+c000000004C98C3FA00000000000022F5
+t1285080058
+s8949
+i"XMPP.h"
+i"XMPPRosterCoreDataStorage.h"
+i"XMPPUserCoreDataStorage.h"
+i"XMPPResourceCoreDataStorage.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m
+c000000004C98C3F7000000000000055B
+t1285080055
+s1371
+i"LibIDN.h"
+i"stringprep.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.h
+c000000004C98C3F7000000000000034F
+t1285080055
+s847
+i<Foundation/Foundation.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m
+c000000004C98C3F70000000000002E01
+t1285080055
+s11777
+i"MulticastDelegate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m
+c000000004CC3F90B000000000000398E
+t1287911691
+s14734
+i"RFSRVResolver.h"
+i<dns_util.h>
+i<stdlib.h>
+i"XMPPStream.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m
+c000000004CC3F90B000000000001C3CC
+t1287911691
+s115660
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXML.h
+c000000004C98C3FA000000000000073A
+t1285080058
+s1850
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m
+c000000004C98C3FA0000000000000C5C
+t1285080058
+s3164
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m
+c000000004C98C3FA00000000000042D0
+t1285080058
+s17104
+i"DDXMLElement.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m
+c000000004C98C3FA000000000000B885
+t1285080058
+s47237
+i"DDXMLNode.h"
+i"DDXMLElement.h"
+i"DDXMLDocument.h"
+i"NSStringAdditions.h"
+i"DDXMLPrivate.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m
+c000000004C98C3FA00000000000001DD
+t1285080058
+s477
+i"NSStringAdditions.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/libidn/libidn.a
+c000000004C98C3F9000000000013C63C
+t1285080057
+s1295932
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/libidn/stringprep.h
+c000000004C98C3F90000000000001EBB
+t1285080057
+s7867
+i<stddef.h>
+i<unistd.h>
+i"idn-int.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.h
+c000000004C98C3F600000000000000D4
+t1285080054
+s212
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m
+c000000004C98C3F6000000000000132D
+t1285080054
+s4909
+i"RootViewController.h"
+i"iPhoneXMPPAppDelegate.h"
+i"XMPP.h"
+i"XMPPRosterCoreDataStorage.h"
+i"XMPPUserCoreDataStorage.h"
+i"XMPPResourceCoreDataStorage.h"
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.h
+c000000004C98C3F6000000000000032E
+t1285080054
+s814
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m
+c000000004C98C5360000000000001700
+t1285080374
+s5888
+i"iPhoneXMPPAppDelegate.h"
+i"RootViewController.h"
+i"XMPP.h"
+i"XMPPRosterCoreDataStorage.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/MainWindow.xib
+c000000004C98C3F60000000000002C6D
+t1285080054
+s11373
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/RootViewController.xib
+c000000004C98C3F60000000000004324
+t1285080054
+s17188
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app
+t1285080132
+s408
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app.dSYM
+t1285080130
+s102
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/Info.plist
+t1285080118
+s738
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/MainWindow.nib
+t1285080119
+s1488
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/PkgInfo
+t1285080118
+s8
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/ResourceRules.plist
+t1285080118
+s485
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/RootViewController.nib
+t1285080119
+s979
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/XMPPRoster.mom
+t1285080122
+s4004
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP
+t1285080130
+s1063664
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/AsyncSocket.o
+t1285080124
+s191144
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDNumber.o
+t1285080124
+s11912
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLDocument.o
+t1285080123
+s15948
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLElement.o
+t1285080123
+s39916
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLNode.o
+t1285080124
+s77556
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/LibIDN.o
+t1285080124
+s9760
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/MulticastDelegate.o
+t1285080124
+s22244
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSDataAdditions.o
+t1285080124
+s12588
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSStringAdditions.o
+t1285080124
+s7448
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSXMLElementAdditions.o
+t1285080124
+s26128
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RFSRVResolver.o
+t1285080125
+s53884
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RootViewController.o
+t1285080123
+s64660
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPElement.o
+t1285080124
+s18456
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPIQ.o
+t1285080125
+s18644
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPJID.o
+t1285080125
+s24848
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPMessage.o
+t1285080125
+s16088
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPModule.o
+t1285080125
+s14812
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPParser.o
+t1285080125
+s35036
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPPresence.o
+t1285080125
+s15740
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPReconnect.o
+t1285080125
+s35612
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPResourceCoreDataStorage.o
+t1285080126
+s27616
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRoster-4DE91619ECB58770.o
+t1285080126
+s36328
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRosterCoreDataStorage.o
+t1285080126
+s43092
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPStream.o
+t1285080126
+s150384
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPUserCoreDataStorage.o
+t1285080126
+s35384
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPP
+t1285080127
+s531748
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPP.LinkFileList
+c000000004C98C4360000000000000EDE
+t1285080118
+s3806
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPPAppDelegate.o
+t1285080123
+s68744
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/main.o
+t1285080122
+s6456
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/AsyncSocket.o
+t1285080128
+s182952
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDNumber.o
+t1285080128
+s11772
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLDocument.o
+t1285080127
+s15836
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLElement.o
+t1285080127
+s38632
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLNode.o
+t1285080128
+s75284
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/LibIDN.o
+t1285080128
+s9636
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/MulticastDelegate.o
+t1285080128
+s21796
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSDataAdditions.o
+t1285080128
+s12384
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSStringAdditions.o
+t1285080128
+s7420
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSXMLElementAdditions.o
+t1285080128
+s25684
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RFSRVResolver.o
+t1285080128
+s52800
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RootViewController.o
+t1285080127
+s64352
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPElement.o
+t1285080128
+s18212
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPIQ.o
+t1285080128
+s18516
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPJID.o
+t1285080128
+s24364
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPMessage.o
+t1285080129
+s15904
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPModule.o
+t1285080129
+s14712
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPParser.o
+t1285080129
+s34400
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPPresence.o
+t1285080129
+s15576
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPReconnect.o
+t1285080129
+s34872
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPResourceCoreDataStorage.o
+t1285080129
+s27264
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRoster-4DE91619ECB58770.o
+t1285080129
+s35692
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRosterCoreDataStorage.o
+t1285080130
+s42664
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPStream.o
+t1285080130
+s145836
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPUserCoreDataStorage.o
+t1285080130
+s34940
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP
+t1285080130
+s510500
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP.LinkFileList
+c000000004C98C4360000000000000EDE
+t1285080118
+s3806
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPPAppDelegate.o
+t1285080126
+s68404
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/main.o
+t1285080126
+s6440
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/iPhoneXMPP_Prefix.pch
+c000000004C98C3F60000000000000146
+t1285080054
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/main.m
+c000000004C98C3F6000000000000016D
+t1285080054
+s365
+i<UIKit/UIKit.h>
+
 N/Users/andycat/src/iPhone-XMPP/Categories/DDNumber.h
 c000000004C98C3F6000000000000028C
 t1285080054
@@ -1106,6 +1930,14 @@ N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/Shared
 t2
 s0
 
+N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-axlyzsfqssdqiebrxenwdkgysmtl/iPhoneXMPP_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-ewnwysdaygpzqzbrpwsqedwdyjfd/iPhoneXMPP_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch.gch
 t1285080121
 s9852464
@@ -1127,6 +1959,9 @@ xCodeSign
 x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app
 lSLF07#2@44"CodeSign build/Debug-iphoneos/iPhoneXMPP.app306772931#306772932#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app8645996576#695"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Noa Peer (593895L9XW)" --resource-rules=/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/ResourceRules.plist --entitlements /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP.xcent /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/AsyncSocket.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/AsyncSocket.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772923.304634
 e306772924.465747
@@ -1139,6 +1974,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m306772923#306772924#0(0"0(0#0#86"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m8703495968#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/AsyncSocket.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDNumber.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDNumber.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.225634
@@ -1153,6 +1991,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m306772924#306772924#0(0"0(0#0#75"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m8704359168#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDNumber.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLDocument.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLDocument.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772923.309971
 e306772923.428825
@@ -1165,6 +2006,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m306772923#306772923#0(0"0(0#0#84"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m8701452576#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLDocument.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLElement.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLElement.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772923.428956
@@ -1179,6 +2023,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m306772923#306772923#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m8701179712#2012"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLElement.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLNode.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLNode.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772923.693600
 e306772924.106481
@@ -1191,6 +2038,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m306772923#306772924#0(0"0(0#0#80"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m8700848640#2006"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/DDXMLNode.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/LibIDN.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/LibIDN.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.465871
@@ -1205,6 +2055,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m306772924#306772924#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m8700623680#1995"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/LibIDN.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/MulticastDelegate.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/MulticastDelegate.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.604685
 e306772924.739436
@@ -1217,6 +2070,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m306772924#306772924#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m8700845856#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/MulticastDelegate.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSDataAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSDataAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.314731
@@ -1231,6 +2087,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m306772924#306772924#0(0"0(0#0#82"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m8701731168#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSDataAdditions.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSStringAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSStringAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.106857
 e306772924.225511
@@ -1243,6 +2102,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m306772924#306772924#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m8700595616#2022"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSStringAdditions.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSXMLElementAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSXMLElementAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.449264
@@ -1257,6 +2119,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m306772924#306772924#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m8700726336#2026"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/NSXMLElementAdditions.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RFSRVResolver.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RFSRVResolver.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.625232
 e306772925.200016
@@ -1269,6 +2134,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m306772924#306772925#0(0"0(0#0#79"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m8700604288#2009"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RFSRVResolver.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RootViewController.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RootViewController.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772922.953014
@@ -1283,6 +2151,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m306772922#306772923#0(0"0(0#0#76"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m8700792544#2011"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/RootViewController.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPElement.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPElement.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.739566
 e306772924.970484
@@ -1295,6 +2166,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m306772924#306772925#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m8700567968#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPElement.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPIQ.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPIQ.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772924.970604
@@ -1309,6 +2183,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m306772924#306772925#0(0"0(0#0#67"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m8700142048#1990"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPIQ.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPJID.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPJID.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.188646
 e306772925.423169
@@ -1321,6 +2198,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m306772925#306772925#0(0"0(0#0#68"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m8704669152#1992"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPJID.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPMessage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPMessage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.200368
@@ -1335,6 +2215,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m306772925#306772925#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m8703639168#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPMessage.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPModule.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPModule.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.373445
 e306772925.504834
@@ -1347,6 +2230,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m306772925#306772925#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m8702574144#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPModule.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPParser.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPParser.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.423293
@@ -1361,6 +2247,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m306772925#306772925#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m8704140320#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPParser.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPPresence.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPPresence.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.504953
 e306772925.632500
@@ -1373,6 +2262,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m306772925#306772925#0(0"0(0#0#73"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m8700639648#2002"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPPresence.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPReconnect.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPReconnect.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.630793
@@ -1387,6 +2279,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m306772925#306772925#0(0"0(0#0#74"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m8699505472#2004"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPReconnect.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPResourceCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPResourceCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.847609
 e306772926.037441
@@ -1399,6 +2294,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m306772925#306772926#0(0"0(0#0#90"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m8702101312#2034"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPResourceCoreDataStorage.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRoster-4DE91619ECB58770.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRoster-4DE91619ECB58770.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772926.037562
@@ -1413,6 +2311,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m306772926#306772926#0(0"0(0#0#73"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m8700624128#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRoster-4DE91619ECB58770.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRosterCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRosterCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772926.256606
 e306772926.531253
@@ -1425,6 +2326,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m306772926#306772926#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m8702760096#2030"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPRosterCoreDataStorage.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPStream.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPStream.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772925.632656
@@ -1439,6 +2343,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m306772925#306772926#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m8661734176#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPStream.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPUserCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPUserCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772926.371361
 e306772926.699120
@@ -1451,6 +2358,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m306772926#306772926#0(0"0(0#0#86"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m8700386944#2026"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/XMPPUserCoreDataStorage.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPPAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPPAppDelegate.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772922.814685
@@ -1465,6 +2375,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m306772922#306772923#0(0"0(0#0#79"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m8704042272#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPPAppDelegate.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/main.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/main.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s306772922.717294
 e306772922.814538
@@ -1477,6 +2390,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m306772922#306772922#0(0"0(0#0#54"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m8688252736#1975"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv6 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/AsyncSocket.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/AsyncSocket.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772927.123695
@@ -1491,6 +2407,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m306772927#306772928#0(0"0(0#0#86"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m8700638656#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/AsyncSocket/AsyncSocket.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/AsyncSocket.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDNumber.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDNumber.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.115155
 e306772928.215313
@@ -1503,6 +2422,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m306772928#306772928#0(0"0(0#0#75"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m8700709760#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/DDNumber.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDNumber.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLDocument.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLDocument.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772927.269978
@@ -1517,6 +2439,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m306772927#306772927#0(0"0(0#0#84"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m8688782464#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLDocument.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLDocument.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLElement.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLElement.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772927.397147
 e306772927.616388
@@ -1529,6 +2454,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m306772927#306772927#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m8669322816#2012"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLElement.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLElement.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLNode.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLNode.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772927.616517
@@ -1543,6 +2471,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m306772927#306772928#0(0"0(0#0#80"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m8702948096#2006"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/DDXMLNode.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/DDXMLNode.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/LibIDN.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/LibIDN.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.369871
 e306772928.467138
@@ -1555,6 +2486,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m306772928#306772928#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m8704997376#1995"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/LibIDN.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/LibIDN.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/MulticastDelegate.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/MulticastDelegate.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.467250
@@ -1569,6 +2503,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@91"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m306772928#306772928#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m8701329472#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/MulticastDelegate.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/MulticastDelegate.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSDataAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSDataAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.215455
 e306772928.369752
@@ -1581,6 +2518,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m306772928#306772928#0(0"0(0#0#82"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m8700239872#2014"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSDataAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSDataAdditions.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSStringAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSStringAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.091059
@@ -1595,6 +2535,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m306772928#306772928#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m8701158112#2022"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/KissXML/NSStringAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSStringAdditions.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSXMLElementAdditions.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSXMLElementAdditions.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.243185
 e306772928.466609
@@ -1607,6 +2550,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m306772928#306772928#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m8699181696#2026"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Categories/NSXMLElementAdditions.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/NSXMLElementAdditions.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RFSRVResolver.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RFSRVResolver.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.468573
@@ -1621,6 +2567,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m306772928#306772928#0(0"0(0#0#79"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m8700925152#2009"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Utilities/RFSRVResolver.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RFSRVResolver.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RootViewController.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RootViewController.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772926.901749
 e306772927.123567
@@ -1633,6 +2582,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m306772926#306772927#0(0"0(0#0#76"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m8702674528#2011"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/RootViewController.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPElement.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPElement.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.606912
@@ -1647,6 +2599,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m306772928#306772928#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m8687558368#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPElement.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPElement.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPIQ.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPIQ.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.757705
 e306772928.909914
@@ -1659,6 +2614,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m306772928#306772928#0(0"0(0#0#67"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m8703173024#1990"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPIQ.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPIQ.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPJID.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPJID.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.802326
@@ -1673,6 +2631,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m306772928#306772928#0(0"0(0#0#68"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m8701542368#1992"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPJID.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPJID.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPMessage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPMessage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.910051
 e306772929.054277
@@ -1685,6 +2646,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@80"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m306772928#306772929#0(0"0(0#0#72"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m8701010144#2000"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPMessage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPMessage.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPModule.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPModule.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772928.952005
@@ -1699,6 +2663,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m306772928#306772929#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m8700082240#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPModule.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPModule.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPParser.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPParser.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.054410
 e306772929.289829
@@ -1711,6 +2678,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m306772929#306772929#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m8699464928#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPParser.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPParser.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPPresence.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPPresence.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.095849
@@ -1725,6 +2695,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m306772929#306772929#0(0"0(0#0#73"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m8666056512#2002"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPPresence.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPPresence.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPReconnect.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPReconnect.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.242517
 e306772929.444711
@@ -1737,6 +2710,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@82"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m306772929#306772929#0(0"0(0#0#74"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m8703821024#2004"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPReconnect.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPReconnect.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPResourceCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPResourceCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.444838
@@ -1751,6 +2727,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@98"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m306772929#306772929#0(0"0(0#0#90"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m8700709312#2034"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPResourceCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPResourceCoreDataStorage.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRoster-4DE91619ECB58770.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRoster-4DE91619ECB58770.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.635879
 e306772929.894459
@@ -1763,6 +2742,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@81"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m306772929#306772929#0(0"0(0#0#73"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m8685308160#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRoster-4DE91619ECB58770.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRosterCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRosterCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.894601
@@ -1777,6 +2759,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@96"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m306772929#306772930#0(0"0(0#0#88"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m8703454720#2030"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRosterCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPRosterCoreDataStorage.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPStream.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPStream.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772929.289952
 e306772930.058672
@@ -1789,6 +2774,9 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m306772929#306772930#0(0"0(0#0#71"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m8703335392#1998"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Core/XMPPStream.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPStream.o0#
+
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPUserCoreDataStorage.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPUserCoreDataStorage.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772930.059004
@@ -1803,6 +2791,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@94"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m306772930#306772930#0(0"0(0#0#86"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m8700083616#2026"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPUserCoreDataStorage.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/XMPPUserCoreDataStorage.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPPAppDelegate.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPPAppDelegate.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772926.612626
 e306772926.901411
@@ -1816,6 +2807,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m306772926#306772926#0(0"0(0#0#79"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m8699972608#2017"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/Classes/iPhoneXMPPAppDelegate.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPPAppDelegate.o0#
 
+CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/main.o /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/main.o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s306772926.531383
 e306772926.612497
@@ -1828,6 +2822,12 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m306772926#306772926#0(0"0(0#0#54"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m8643791680#1975"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -include /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/main.m -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/MainWindow.xib
+r0
+
+CCompileXIB /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/RootViewController.xib
+r0
 
 CCompileXIB /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/MainWindow.xib
 s306772918.788727
@@ -1854,6 +2854,9 @@ xbuild/Debug-iphoneos/iPhoneXMPP.app/ResourceRules.plist
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist306772918#306772918#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist5423551314508738560#501"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app0#
 
+CCreateUniversalBinary /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP normal "armv6 armv7"
+r0
+
 CCreateUniversalBinary /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP normal "armv6 armv7"
 s306772930.714001
 e306772930.853171
@@ -1864,6 +2867,9 @@ xnormal
 xarmv6 armv7
 lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP normal "armv6 armv7"306772930#306772930#0(0"0(0#0#59"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/armv6 armv78678246752#578"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPP /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP -output /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP0#
 
+CDataModelCompile /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/XMPPRoster.mom /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel
+r0
+
 CDataModelCompile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/XMPPRoster.mom /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel
 s306772922.716106
 e306772922.952872
@@ -1873,6 +2879,9 @@ x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP
 x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel
 lSLF07#2@91"Compile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel306772922#306772922#0(0"0(0#0#83"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel8699348928#390"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Roster/XMPPRoster.xcdatamodel /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/XMPPRoster.mom0#
 
+CGenerateDSYMFile /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app.dSYM /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP
+r0
+
 CGenerateDSYMFile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app.dSYM /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP
 s306772930.853306
 e306772931.043130
@@ -1881,6 +2890,12 @@ xGenerateDSYMFile
 x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app.dSYM
 x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP
 lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/iPhoneXMPP.app.dSYM build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP306772930#306772931#0(0"0(0#0#94"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP8703389376#398"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/iPhoneXMPP -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app.dSYM0#
+
+CLd /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPP normal armv6
+r0
+
+CLd /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP normal armv7
+r0
 
 CLd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv6/iPhoneXMPP normal armv6
 s306772926.699235
@@ -1901,6 +2916,9 @@ x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-ip
 xnormal
 xarmv7
 lSLF07#2@139"Link /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP306772930#306772930#0(0"0(0#0#0"8691739776#1086"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -L/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/../../Vendor/libidn -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -filelist /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP.LinkFileList -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -framework CFNetwork -framework SystemConfiguration -framework CoreData -lresolv -lidn -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/Objects-normal/armv7/iPhoneXMPP0#
+
+CProcessInfoPlistFile /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/Info.plist iPhoneXMPP-Info.plist
+r0
 
 CProcessInfoPlistFile /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app/Info.plist iPhoneXMPP-Info.plist
 s306772918.746641
@@ -1928,6 +2946,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@32"Precompile iPhoneXMPP_Prefix.pch306772919#306772922#0(0"0(0#0#69"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/iPhoneXMPP_Prefix.pch8703077088#1861"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-generated-files.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-own-target-headers.hmap -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-all-target-headers.hmap -iquote /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP-project-headers.hmap -F/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources/armv7 -I/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/DerivedSources -c /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/iPhoneXMPP_Prefix.pch -o /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-auoocuidvzsqoldumtmanmrejqej/iPhoneXMPP_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-axlkoswuqetsaoexmcltjrodkjaa/iPhoneXMPP_Prefix.pch.gch iPhoneXMPP_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-axlyzsfqssdqiebrxenwdkgysmtl/iPhoneXMPP_Prefix.pch.gch iPhoneXMPP_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-ewnwysdaygpzqzbrpwsqedwdyjfd/iPhoneXMPP_Prefix.pch.gch iPhoneXMPP_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CProcessPCH /var/folders/FZ/FZJDPIftEt0Yg9XdTJVg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneXMPP_Prefix-gtasmojrsmxaszabudstrngcumif/iPhoneXMPP_Prefix.pch.gch iPhoneXMPP_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -1960,6 +2984,9 @@ xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
 x/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP.xcent
 lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP.xcent306772931#306772931#0(0"0(0#0#119"/Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP.xcent8689279296#459"    cd /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/iPhoneXMPP.build/Debug-iphoneos/iPhoneXMPP.build/iPhoneXMPP.xcent0#
+
+CTouch /Users/andycat/src/MEOW/meow-iphone/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app
+r0
 
 CTouch /Users/andycat/src/iPhone-XMPP/Xcode/iPhoneXMPP/build/Debug-iphoneos/iPhoneXMPP.app
 s306772931.069136

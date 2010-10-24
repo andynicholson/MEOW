@@ -1,7 +1,7 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Xcode/ServerlessDemo
 http://xmppframework.googlecode.com/svn
 
@@ -25,40 +25,6 @@ has-props
 
 
 69bd8580-3047-0410-960a-a116b6c96ec9
-
-main.m
-file
-
-
-
-
-2010-09-21T14:40:54.000000Z
-df1c603f35acdfbbed9ff8053f5433d5
-2010-09-17T21:46:41.932409Z
-245
-robbiehanson@deusty.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-371
 
 Message.m
 file
@@ -94,14 +60,14 @@ has-props
 
 661
 
-StreamController.h
+main.m
 file
 
 
 
 
 2010-09-21T14:40:54.000000Z
-28aa722eb1f9c92b933cff8128983d7a
+df1c603f35acdfbbed9ff8053f5433d5
 2010-09-17T21:46:41.932409Z
 245
 robbiehanson@deusty.com
@@ -126,7 +92,7 @@ has-props
 
 
 
-356
+371
 
 ServerlessDemo-Info.plist
 file
@@ -162,6 +128,43 @@ has-props
 
 909
 
+StreamController.h
+file
+
+
+
+
+2010-09-21T14:40:54.000000Z
+28aa722eb1f9c92b933cff8128983d7a
+2010-09-17T21:46:41.932409Z
+245
+robbiehanson@deusty.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+356
+
+ServerlessDemo.xcdatamodel
+dir
+
 Service.h
 file
 
@@ -195,9 +198,6 @@ has-props
 
 
 1360
-
-ServerlessDemo.xcdatamodel
-dir
 
 ServerlessDemo_Prefix.pch
 file
@@ -301,6 +301,9 @@ has-props
 
 3198
 
+Classes
+dir
+
 MainWindow.xib
 file
 
@@ -334,9 +337,6 @@ has-props
 
 
 11614
-
-Classes
-dir
 
 ServerlessDemo.xcodeproj
 dir

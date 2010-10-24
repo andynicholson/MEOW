@@ -1,15 +1,15 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Vendor/AsyncSocket
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-09-26T23:54:43.054111Z
+255
+deusty
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2010-09-21T14:40:58.000000Z
-a047073f4f74502e1f801fe584700121
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-10-24T09:14:51.000000Z
+1abf09fc6ce369662705580ae7d1ee78
+2010-09-26T23:54:43.054111Z
+255
+deusty
 
 
 
@@ -58,7 +58,7 @@ robbiehanson@deusty.com
 
 
 
-111937
+115660
 
 AsyncSocket.h
 file
@@ -66,11 +66,11 @@ file
 
 
 
-2010-09-21T14:40:58.000000Z
-40c69b0b4872134fb5ac6dbfb045b316
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-10-24T09:14:51.000000Z
+7e7887a61894ea6c91becb828b788976
+2010-09-26T23:54:43.054111Z
+255
+deusty
 
 
 
@@ -92,5 +92,5 @@ robbiehanson@deusty.com
 
 
 
-29263
+29362
 

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 28
-/svn/!svn/ver/251/trunk/Core
+/svn/!svn/ver/265/trunk/Core
 END
 XMPPMessage.h
 K 25
@@ -9,29 +9,29 @@ svn:wc:ra_dav:version-url
 V 42
 /svn/!svn/ver/242/trunk/Core/XMPPMessage.h
 END
-XMPPReconnect.m
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/!svn/ver/242/trunk/Core/XMPPReconnect.m
-END
 XMPPModule.h
 K 25
 svn:wc:ra_dav:version-url
 V 41
 /svn/!svn/ver/242/trunk/Core/XMPPModule.h
 END
-XMPPMessage.m
+XMPPReconnect.m
 K 25
 svn:wc:ra_dav:version-url
-V 42
-/svn/!svn/ver/242/trunk/Core/XMPPMessage.m
+V 44
+/svn/!svn/ver/242/trunk/Core/XMPPReconnect.m
 END
 XMPPElement.h
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/242/trunk/Core/XMPPElement.h
+/svn/!svn/ver/259/trunk/Core/XMPPElement.h
+END
+XMPPMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/242/trunk/Core/XMPPMessage.m
 END
 XMPPModule.m
 K 25
@@ -43,7 +43,7 @@ XMPPStream.h
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/251/trunk/Core/XMPPStream.h
+/svn/!svn/ver/265/trunk/Core/XMPPStream.h
 END
 XMPPParser.h
 K 25
@@ -55,13 +55,13 @@ XMPPElement.m
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/242/trunk/Core/XMPPElement.m
+/svn/!svn/ver/259/trunk/Core/XMPPElement.m
 END
 XMPPStream.m
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/251/trunk/Core/XMPPStream.m
+/svn/!svn/ver/265/trunk/Core/XMPPStream.m
 END
 XMPPParser.m
 K 25
@@ -79,13 +79,7 @@ XMPPJID.h
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/svn/!svn/ver/242/trunk/Core/XMPPJID.h
-END
-XMPPPresence.m
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/!svn/ver/242/trunk/Core/XMPPPresence.m
+/svn/!svn/ver/262/trunk/Core/XMPPJID.h
 END
 XMPPIQ.h
 K 25
@@ -93,11 +87,17 @@ svn:wc:ra_dav:version-url
 V 37
 /svn/!svn/ver/242/trunk/Core/XMPPIQ.h
 END
+XMPPPresence.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/242/trunk/Core/XMPPPresence.m
+END
 XMPPJID.m
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/svn/!svn/ver/242/trunk/Core/XMPPJID.m
+/svn/!svn/ver/262/trunk/Core/XMPPJID.m
 END
 XMPPIQ.m
 K 25
@@ -109,7 +109,7 @@ XMPP.h
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/!svn/ver/242/trunk/Core/XMPP.h
+/svn/!svn/ver/261/trunk/Core/XMPP.h
 END
 XMPPReconnect.h
 K 25

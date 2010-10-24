@@ -1,7 +1,7 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Roster
 http://xmppframework.googlecode.com/svn
 
@@ -94,40 +94,6 @@ robbiehanson@deusty.com
 
 262
 
-XMPPRosterMemoryStorage.h
-file
-
-
-
-
-2010-09-21T14:40:58.000000Z
-7fd2ee5ab7852a661091b2226403ba6d
-2010-09-17T21:44:39.183191Z
-243
-robbiehanson@deusty.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1212
-
 XMPPUserMemoryStorage.h
 file
 
@@ -162,14 +128,14 @@ robbiehanson@deusty.com
 
 660
 
-XMPPRosterMemoryStorage.m
+XMPPRosterMemoryStorage.h
 file
 
 
 
 
 2010-09-21T14:40:58.000000Z
-ab991843d148219ad596a7c5f6129a07
+7fd2ee5ab7852a661091b2226403ba6d
 2010-09-17T21:44:39.183191Z
 243
 robbiehanson@deusty.com
@@ -194,7 +160,7 @@ robbiehanson@deusty.com
 
 
 
-7389
+1212
 
 XMPPUserMemoryStorage.m
 file
@@ -230,6 +196,40 @@ robbiehanson@deusty.com
 
 9750
 
+XMPPRosterMemoryStorage.m
+file
+
+
+
+
+2010-09-21T14:40:58.000000Z
+ab991843d148219ad596a7c5f6129a07
+2010-09-17T21:44:39.183191Z
+243
+robbiehanson@deusty.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7389
+
 XMPPResourceMemoryStorage.h
 file
 
@@ -264,40 +264,6 @@ robbiehanson@deusty.com
 
 396
 
-XMPPUserCoreDataStorage.h
-file
-
-
-
-
-2010-09-21T14:40:58.000000Z
-dd2606c3e2fde2f8e765aec5be7483ea
-2010-09-17T21:44:39.183191Z
-243
-robbiehanson@deusty.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1246
-
 XMPPRosterCoreDataStorage.h
 file
 
@@ -331,6 +297,40 @@ robbiehanson@deusty.com
 
 
 760
+
+XMPPUserCoreDataStorage.h
+file
+
+
+
+
+2010-09-21T14:40:58.000000Z
+dd2606c3e2fde2f8e765aec5be7483ea
+2010-09-17T21:44:39.183191Z
+243
+robbiehanson@deusty.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1246
 
 XMPPRosterPrivate.h
 file
@@ -400,40 +400,6 @@ robbiehanson@deusty.com
 
 4438
 
-XMPPRosterCoreDataStorage.m
-file
-
-
-
-
-2010-09-21T14:40:58.000000Z
-ccc2e1c1de73b613566606ebdc9470ac
-2010-09-17T21:44:39.183191Z
-243
-robbiehanson@deusty.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10030
-
 XMPPUserCoreDataStorage.m
 file
 
@@ -467,6 +433,40 @@ robbiehanson@deusty.com
 
 
 8949
+
+XMPPRosterCoreDataStorage.m
+file
+
+
+
+
+2010-09-21T14:40:58.000000Z
+ccc2e1c1de73b613566606ebdc9470ac
+2010-09-17T21:44:39.183191Z
+243
+robbiehanson@deusty.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10030
 
 XMPPRoster.xcdatamodel
 dir

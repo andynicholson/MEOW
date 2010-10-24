@@ -1,14 +1,14 @@
 10
 
 dir
-253
+265
 http://xmppframework.googlecode.com/svn/trunk/Core
 http://xmppframework.googlecode.com/svn
 
 
 
-2010-09-20T19:56:57.563592Z
-251
+2010-10-14T18:16:56.104872Z
+265
 eric.chamberlain
 
 
@@ -60,40 +60,6 @@ robbiehanson@deusty.com
 
 900
 
-XMPPReconnect.m
-file
-
-
-
-
-2010-09-21T14:40:55.000000Z
-c48fd2df01f48482cc8262458d1ae76a
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12156
-
 XMPPModule.h
 file
 
@@ -128,6 +94,74 @@ robbiehanson@deusty.com
 
 682
 
+XMPPReconnect.m
+file
+
+
+
+
+2010-09-21T14:40:55.000000Z
+c48fd2df01f48482cc8262458d1ae76a
+2010-09-17T21:26:50.746371Z
+242
+robbiehanson@deusty.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12156
+
+XMPPElement.h
+file
+
+
+
+
+2010-10-24T09:14:51.000000Z
+4d9927fe36d9e2a156918e570d886918
+2010-09-28T21:04:38.949368Z
+259
+robbiehanson@deusty.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+265
+
 XMPPMessage.m
 file
 
@@ -161,40 +195,6 @@ robbiehanson@deusty.com
 
 
 2936
-
-XMPPElement.h
-file
-
-
-
-
-2010-09-21T14:40:55.000000Z
-ecabe8e5a2c90bdf6e2b533b0b52d634
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-319
 
 XMPPModule.m
 file
@@ -236,10 +236,10 @@ file
 
 
 
-2010-09-21T14:40:55.000000Z
-86a919eedf6a05545ae1d2ec3ddba9d2
-2010-09-20T19:56:57.563592Z
-251
+2010-10-24T09:14:51.000000Z
+acb70b0c04dfa7479796cbafde6b0953
+2010-10-14T18:16:56.104872Z
+265
 eric.chamberlain
 
 
@@ -262,7 +262,7 @@ eric.chamberlain
 
 
 
-28363
+31377
 
 XMPPParser.h
 file
@@ -304,10 +304,10 @@ file
 
 
 
-2010-09-21T14:40:55.000000Z
-408377174ce2847b32effe8e1f52bd12
-2010-09-17T21:26:50.746371Z
-242
+2010-10-24T09:14:51.000000Z
+2b79f3547de5b75b58e57cedf3e89625
+2010-09-28T21:04:38.949368Z
+259
 robbiehanson@deusty.com
 
 
@@ -330,7 +330,7 @@ robbiehanson@deusty.com
 
 
 
-3770
+1754
 
 XMPPStream.m
 file
@@ -338,10 +338,10 @@ file
 
 
 
-2010-09-21T14:40:55.000000Z
-2a2f5010380c9a692ef5abeac7c904d8
-2010-09-20T19:56:57.563592Z
-251
+2010-10-24T09:14:51.000000Z
+1e6798a4d7cfeb63d22b447617248951
+2010-10-14T18:16:56.104872Z
+265
 eric.chamberlain
 
 
@@ -364,7 +364,7 @@ eric.chamberlain
 
 
 
-78847
+80098
 
 XMPPParser.m
 file
@@ -440,11 +440,11 @@ file
 
 
 
-2010-09-21T14:40:55.000000Z
-d2130e8a3feaca62a75e31c0c75314d1
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-10-24T09:14:51.000000Z
+ff1a2c9b7975d826391cfc1ec051d6d3
+2010-09-30T02:46:59.041600Z
+262
+deusty
 
 
 
@@ -466,41 +466,7 @@ robbiehanson@deusty.com
 
 
 
-527
-
-XMPPPresence.m
-file
-
-
-
-
-2010-09-21T14:40:55.000000Z
-a9ee5e1eacd1e13abdc808b2c7a4e97d
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2085
+551
 
 XMPPIQ.h
 file
@@ -536,14 +502,14 @@ robbiehanson@deusty.com
 
 2269
 
-XMPPJID.m
+XMPPPresence.m
 file
 
 
 
 
 2010-09-21T14:40:55.000000Z
-fa2745eb22926eb8883ade621a64e6aa
+a9ee5e1eacd1e13abdc808b2c7a4e97d
 2010-09-17T21:26:50.746371Z
 242
 robbiehanson@deusty.com
@@ -568,7 +534,41 @@ robbiehanson@deusty.com
 
 
 
-7134
+2085
+
+XMPPJID.m
+file
+
+
+
+
+2010-10-24T09:14:51.000000Z
+92adc626e4e472a391f3da403d3d436c
+2010-09-30T02:46:59.041600Z
+262
+deusty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7317
 
 XMPPIQ.m
 file
@@ -610,11 +610,11 @@ file
 
 
 
-2010-09-21T14:40:55.000000Z
-abcc7f85f01c34df06bcb90a4dd5eb65
-2010-09-17T21:26:50.746371Z
-242
-robbiehanson@deusty.com
+2010-10-24T09:14:51.000000Z
+ce52c8e79d1b93e38691954efdac09eb
+2010-09-29T17:26:29.053812Z
+261
+eric.chamberlain
 
 
 
@@ -636,7 +636,7 @@ robbiehanson@deusty.com
 
 
 
-196
+226
 
 XMPPReconnect.h
 file

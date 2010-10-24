@@ -38,6 +38,7 @@ typedef SCNetworkConnectionFlags SCNetworkReachabilityFlags;
 		xmppCapabilities.autoFetchNonHashedCapabilities = NO;
 		
 		xmppPing = [[XMPPPing alloc] initWithStream:xmppStream];
+		xmppTime = [[XMPPTime alloc] initWithStream:xmppStream];
 		
 		turnSockets = [[NSMutableArray alloc] init];
 	}
@@ -49,6 +50,8 @@ typedef SCNetworkConnectionFlags SCNetworkReachabilityFlags;
 	[xmppStream addDelegate:self];
 	[xmppReconnect addDelegate:self];
 	[xmppCapabilities addDelegate:self];
+	[xmppPing addDelegate:self];
+	[xmppTime addDelegate:self];
 	
 	[rosterController displaySignInSheet];
 }
@@ -112,8 +115,15 @@ typedef SCNetworkConnectionFlags SCNetworkReachabilityFlags;
 #pragma mark Auto Reconnect
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+- (void)xmppStream:(XMPPStream *)sender didReceiveError:(id)error
+{
+	NSLog(@"xmppStream:didReceiveError: %@", error);
+}
+
 - (void)xmppStreamDidDisconnect:(XMPPStream *)sender
 {
+	NSLog(@"xmppStreamDidDisconnect:");
+	
 	// If we weren't using auto reconnect, we could take this opportunity to display the sign in sheet.
 }
 
