@@ -1,5 +1,19 @@
+//
+//  ContactsViewController.m
+//  MEOW-iphone
+//
+//  Created by andycat on 24/10/10.
+//  Copyright 2010 Infinite Recursion Pty Ltd. All rights reserved.
+//
+//  Taken from xmpp-framework example
+//
+
+//MEOW imports
 #import "ContactsViewController.h"
+#import "SendMessageViewController.h"
 #import "MEOW_iphoneAppDelegate.h"
+
+//XMPP imports
 
 #import "XMPP.h"
 #import "XMPPRosterCoreDataStorage.h"
@@ -9,6 +23,8 @@
 #import "SafeFetchedResultsController.h"
 
 @implementation ContactsViewController
+
+@synthesize navController;
 
 - (void)viewDidLoad
 {
@@ -166,20 +182,31 @@
 	
 	XMPPUserCoreDataStorage *user = [[self fetchedResultsController] objectAtIndexPath:indexPath];
 	
+	[self doContactMessagingToXMPPUser:user];
 	
-	NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
-	[body setStringValue:@"Hi!"];
+}
+
+
+
 	
-	NSXMLElement *message = [NSXMLElement elementWithName:@"message"];
-    [message addAttributeWithName:@"type" stringValue:@"chat"];
-	[message addAttributeWithName:@"to" stringValue:[user.jid full]];
+-(void) doContactMessagingToXMPPUser:(XMPPUserCoreDataStorage *)xmppuser {
 	
-	[message addChild:body];
+	NSLog(@"Do contact messaging to xmpp user %@  " , xmppuser );
 	
+	NSLog(@"Showing send message controller. nav controller %@" , self.navController);
+	SendMessageViewController *sendMsgViewController = [[SendMessageViewController alloc] initWithNibName:@"SendMessageViewController" bundle:nil];
+	[sendMsgViewController setNavController:[self navController]];
 	
-	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	//set the recipient 
+	[sendMsgViewController setInitialRecipient:[[xmppuser jid] user]];
+	//set the thread ID
+	[sendMsgViewController setThreadId:0];
+	//set the xmpp user core data storage
+	[sendMsgViewController setXmpp_recipient:xmppuser];
 	
-	[delegate.xmppStream sendElement:message];
+	[self.navController pushViewController:sendMsgViewController animated:YES];
+	[sendMsgViewController release];
+	
 	
 	
 }

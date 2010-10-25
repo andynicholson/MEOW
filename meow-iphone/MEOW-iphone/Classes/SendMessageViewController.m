@@ -12,12 +12,15 @@
 #import "DKDeferred+JSON.h"
 #import "MEOW_iphoneAppDelegate.h"
 
+#import "XMPPUserCoreDataStorage.h"
+
 @implementation SendMessageViewController
 
 @synthesize recipient, subject, message, navController;
 @synthesize scrollView;
 @synthesize threadId;
 @synthesize initialRecipient;
+@synthesize xmpp_recipient;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -42,6 +45,8 @@
 		[[self recipient] setText:initialRecipient];
 	}
 
+	
+	
 	// register for keyboard notifications
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(keyboardWillShow:) 
@@ -167,11 +172,39 @@
 	
 }
 
+-(void) sendXMPPmessage:(NSString *)strmessage toXMPPUser:(XMPPUserCoreDataStorage *)user {
+	
+	NSLog(@"Send the message via XMPP!");
+	
+	NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
+	[body setStringValue:strmessage];
+	
+	NSXMLElement *xmppmessage = [NSXMLElement elementWithName:@"message"];
+    [xmppmessage addAttributeWithName:@"type" stringValue:@"chat"];
+	[xmppmessage addAttributeWithName:@"to" stringValue:[user.jid full]];
+	
+	[xmppmessage addChild:body];
+	
+	
+	MEOW_iphoneAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	
+	[delegate.xmppStream sendElement:xmppmessage];
+	
+	
+	
+}
+
 
 -(void) doSendMessage:(NSString *)msgtitle withBody:(NSString *)body toRecipient:(NSString *) recipientstr {
 	NSLog(@" send Message Called! ");
 	
 	if ([self threadId] == 0) {
+		
+		//This is the AVAILABLE section 
+		//delivery via XMPP 
+		if ([[xmpp_recipient sectionNum] intValue] == 0) {
+			[self sendXMPPmessage:[NSString stringWithFormat:@"%@ %@", msgtitle, body] toXMPPUser:xmpp_recipient];
+		}
 		
 		id dk = [DKDeferred jsonService:SERVICE_URL name:@"meow"];
 		DKDeferred* dk2 = [dk sendMsg:array_([MEOW_UserState sharedMEOW_UserState].username, [MEOW_UserState sharedMEOW_UserState].password, body, msgtitle, recipientstr)];

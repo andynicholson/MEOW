@@ -8,12 +8,14 @@
 
 
 #import "MEOW_iphoneAppDelegate.h"
-#import "HomeViewController.h"
 #import "MEOW_UserState.h"
+#import "HomeViewController.h"
+#import "SendMessageViewController.h"
 
 
 #import "XMPP.h"
 #import "XMPPRoom.h"
+#import "XMPPUser.h"
 #import "XMPPRosterCoreDataStorage.h"
 
 #import <CFNetwork/CFNetwork.h>
@@ -30,6 +32,7 @@
 @synthesize xmppRosterStorage;
 
 
+@synthesize xmpp_jid_last_contact;
 
 
 #pragma mark -
@@ -238,7 +241,7 @@
 	[xmppRoster release];
 	
 	[password release];
-	
+	[xmpp_jid_last_contact release];
 	
 	
     [window release];
@@ -432,30 +435,60 @@
 		NSString *body = [[message elementForName:@"body"] stringValue];
 		NSString *from = [message fromStr];
 		
-		NSString *msg = [NSString stringWithFormat:@"%@ from %@", body, from];
+		XMPPJID *fromjid = [XMPPJID jidWithString:from];
 		
-		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+		[self setXmpp_jid_last_contact:fromjid];
+		
+		NSString *msg = [NSString stringWithFormat:@"%@", body];
+		
+		NSString *title = [NSString stringWithFormat:@"New message from %@", [fromjid user]];
+		
+		
+		
+		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:title message:msg delegate:self cancelButtonTitle:@"OK" otherButtonTitles:@"Reply",nil];
 		[alertview show];
 		[alertview release];
 		
-	}
-
-	if ([type isEqualToString:@"groupchat"]) {
-		NSString *subj = [[message elementForName:@"subject"] stringValue];
-		NSString *from = [message fromStr];
-		
-		NSString *msg = [NSString stringWithFormat:@"%@ from %@", subj, from];
-		
-		UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
-		[alertview show];
-		[alertview release];
 		
 	}
 	
 	
 }
 
-
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+	
+	NSLog(@" alertView button clicked , button  index %d", buttonIndex);
+	
+	if (buttonIndex != 0) {
+		
+		//user wants to reply
+		NSLog(@"Do reply to XMPP messaging to xmpp user %@  " , xmpp_jid_last_contact );
+			
+		NSLog(@"Showing send message controller. nav controller %@" , self.myNavigationController);
+		SendMessageViewController *sendMsgViewController = [[SendMessageViewController alloc] initWithNibName:@"SendMessageViewController" bundle:nil];
+		[sendMsgViewController setNavController:self.myNavigationController];
+			
+		//set the recipient 
+		[sendMsgViewController setInitialRecipient:[xmpp_jid_last_contact user]];
+		//set the thread ID
+		[sendMsgViewController setThreadId:0];
+		
+		//Find the XMPPUserCoreDataStorage object 
+		
+		//XMPPUser *target_user = [[xmppRoster xmppRosterStorage] userForJID:xmpp_jid_last_contact];
+		
+		XMPPUserCoreDataStorage *target_user = [[xmppRoster xmppRosterStorage] userForJID:xmpp_jid_last_contact];
+		
+		//set the xmpp user core data storage
+		[sendMsgViewController setXmpp_recipient:target_user];
+			
+		[self.myNavigationController pushViewController:sendMsgViewController animated:YES];
+		[sendMsgViewController release];
+		
+		
+	}
+	
+}
 
 
 - (void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence
@@ -481,6 +514,10 @@
 
 //XMPPRoom delegate methods
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark XMPPRoom Delegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 - (void)xmppRoom:(XMPPRoom *)room didCreate:(BOOL)success {
 	 
 	 
@@ -500,6 +537,13 @@
 - (void)xmppRoom:(XMPPRoom *)room didReceiveMessage:(NSString *)message fromNick:(NSString *)nick {
 	
 	NSLog(@"RECV room  %@  message %@ from nick %@ ", [room roomName], message, nick);
+	
+	
+	NSString *msg = [NSString stringWithFormat:@"%@ from %@ in room %@", message, nick, [room roomName]];
+	
+	UIAlertView * alertview = [[UIAlertView alloc] initWithTitle:@"Message" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:NULL];
+	[alertview show];
+	[alertview release];
 }
 
 - (void)xmppRoom:(XMPPRoom *)room didChangeOccupants:(NSDictionary *)occupants {
@@ -507,6 +551,18 @@
 	
 }
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark XMPPRoster Delegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)xmppRoster:(XMPPRoster *)sender didReceiveBuddyRequest:(XMPPPresence *)presence {
+	
+	NSLog(@"auto subscribing to subscribe request from JID %@ ", [presence from]);
+	
+	//automatically add buddy
+	[sender acceptBuddyRequest:[presence from]];
+	
+}
 
 
 @end

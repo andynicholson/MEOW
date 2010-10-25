@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "XMPPUserCoreDataStorage.h"
 
 @interface SendMessageViewController : UIViewController {
 
@@ -22,6 +22,7 @@
 	int threadId;
 	NSString *initialRecipient;
 	
+	XMPPUserCoreDataStorage *xmpp_recipient;
 }
 
 @property (nonatomic, retain) UINavigationController *navController;
@@ -29,6 +30,7 @@
 @property (nonatomic, retain) UITextView *message;
 @property (nonatomic, retain) NSString *initialRecipient;
 @property (nonatomic, assign) int threadId;
+@property (nonatomic, retain) XMPPUserCoreDataStorage *xmpp_recipient;
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 

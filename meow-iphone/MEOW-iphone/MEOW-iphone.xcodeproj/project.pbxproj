@@ -32,7 +32,6 @@
 		454C24091274357C000CBF9E /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C22631274357B000CBF9E /* DDNumber.m */; };
 		454C240A1274357C000CBF9E /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C22651274357B000CBF9E /* NSDataAdditions.m */; };
 		454C240B1274357C000CBF9E /* NSXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C22671274357B000CBF9E /* NSXMLElementAdditions.m */; };
-		454C240C1274357C000CBF9E /* copying.txt in Resources */ = {isa = PBXBuildFile; fileRef = 454C22681274357B000CBF9E /* copying.txt */; };
 		454C240D1274357C000CBF9E /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C226C1274357B000CBF9E /* XMPPElement.m */; };
 		454C240E1274357C000CBF9E /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C226E1274357B000CBF9E /* XMPPIQ.m */; };
 		454C240F1274357C000CBF9E /* XMPPJID.m in Sources */ = {isa = PBXBuildFile; fileRef = 454C22701274357B000CBF9E /* XMPPJID.m */; };
@@ -150,7 +149,6 @@
 		454C22651274357B000CBF9E /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		454C22661274357B000CBF9E /* NSXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSXMLElementAdditions.h; sourceTree = "<group>"; };
 		454C22671274357B000CBF9E /* NSXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSXMLElementAdditions.m; sourceTree = "<group>"; };
-		454C22681274357B000CBF9E /* copying.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copying.txt; sourceTree = "<group>"; };
 		454C226A1274357B000CBF9E /* XMPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPP.h; sourceTree = "<group>"; };
 		454C226B1274357B000CBF9E /* XMPPElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPElement.h; sourceTree = "<group>"; };
 		454C226C1274357B000CBF9E /* XMPPElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPElement.m; sourceTree = "<group>"; };
@@ -372,7 +370,6 @@
 			isa = PBXGroup;
 			children = (
 				454C22611274357B000CBF9E /* Categories */,
-				454C22681274357B000CBF9E /* copying.txt */,
 				454C22691274357B000CBF9E /* Core */,
 				454C227D1274357B000CBF9E /* Extensions */,
 				454C22AE1274357B000CBF9E /* Roster */,
@@ -745,7 +742,6 @@
 				450BB7F61248AC0A0028F91E /* MessageThreadViewController.xib in Resources */,
 				450BB89C1248D6690028F91E /* SendMessageViewController.xib in Resources */,
 				450BBB78124906690028F91E /* ContactsViewController.xib in Resources */,
-				454C240C1274357C000CBF9E /* copying.txt in Resources */,
 				454C24391274357C000CBF9E /* libidn-1.15.tar.gz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
