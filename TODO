@@ -1,0 +1,3 @@
+add in modules we use as GIT submodules
+	ie django-json-rpc for meow
+	ie DeferredKit  for meow-iphone
